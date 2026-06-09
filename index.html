@@ -1,366 +1,263 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BarberAI | Sistema operativo para barberías</title>
-
-    <link rel="icon" type="image/webp" href="img/captura1.png.webp">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Simplexity · BarberAI para barberías</title>
+  <meta name="description" content="BarberAI by Simplexity ayuda a barberías a ordenar citas, cola, ventas, servicios, barberos, precios por sucursal, inventario, clientes y atención por WhatsApp." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
 </head>
-
 <body>
-
-<header id="inicio">
-    <div class="logo-container">
-        <img src="img/captura1.png.webp" alt="BarberAI" id="company-logo">
+  <nav class="navbar">
+    <div class="container nav-content">
+      <a href="#inicio" class="brand" aria-label="Simplexity inicio">
+        <span class="brand-icon">S</span>
+        <span>Simplexity</span>
+      </a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú">☰</button>
+      <div class="nav-links" id="navLinks">
+        <a href="#problema">Problema</a>
+        <a href="#beneficios">Beneficios</a>
+        <a href="#modulos">Módulos</a>
+        <a href="#funciona">Cómo funciona</a>
+        <a href="#solicitudes">Solicitudes</a>
+        <a href="#contacto">Contacto</a>
+      </div>
     </div>
+  </nav>
 
-    <h1>BarberAI</h1>
-
-    <p class="subtitle">
-        Sistema web para barberías que centraliza citas, cola de atención, ventas,
-        inventario, barberos, servicios y sucursales desde una sola plataforma.
-    </p>
-
-    <div class="hero-cta">
-        <a href="#contacto" class="cta-btn cta-primary">Solicitar información</a>
-        <a href="#sistema" class="cta-btn cta-secondary">Conocer el sistema</a>
+  <header id="inicio" class="hero">
+    <div class="hero-overlay"></div>
+    <div class="container hero-grid">
+      <div class="hero-copy">
+        <div class="tag"><span></span> Solución inteligente para barberías</div>
+        <h1>Controla tu barbería con <em>BarberAI.</em></h1>
+        <p>
+          BarberAI, desarrollado por Simplexity, ayuda a barberías modernas a ordenar citas, clientes en cola, ventas,
+          servicios, barberos, precios, inventario y comunicación por WhatsApp desde una plataforma clara y profesional.
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#contacto">Agenda una demo</a>
+          <a class="btn btn-outline" href="#solicitudes">Solicitar cita</a>
+        </div>
+        <div class="hero-proof">
+          <div><strong>16</strong><span>Módulos operativos</span></div>
+          <div><strong>24/7</strong><span>Atención por chatbot</span></div>
+          <div><strong>1</strong><span>Panel centralizado</span></div>
+        </div>
+      </div>
+      <div class="hero-panel" aria-label="Vista resumida de BarberAI">
+        <div class="panel-top">
+          <span></span><span></span><span></span>
+          <strong>Panel BarberAI</strong>
+        </div>
+        <div class="metric-row">
+          <div class="metric"><span>Citas hoy</span><strong>12</strong></div>
+          <div class="metric"><span>En cola</span><strong>4</strong></div>
+          <div class="metric"><span>Ventas</span><strong>L 2,450</strong></div>
+        </div>
+        <div class="fake-table">
+          <div><b>Cliente</b><b>Servicio</b><b>Estado</b></div>
+          <div><span>José Ramírez</span><span>Corte</span><em>Confirmada</em></div>
+          <div><span>Ana López</span><span>Corte + Barba</span><em>En cola</em></div>
+          <div><span>Carlos Mejía</span><span>Look Express</span><em>Completada</em></div>
+        </div>
+      </div>
     </div>
-</header>
+  </header>
 
-<main>
-
-    <section class="intro">
-        <h2>Control completo para barberías modernas</h2>
-
-        <p>
-            BarberAI ayuda a las barberías a trabajar con más orden, menos errores
-            y mejor visibilidad de la operación diaria. La plataforma reúne en un solo
-            lugar la agenda, la cola de clientes, las ventas, el inventario y la gestión
-            del equipo.
-        </p>
+  <main>
+    <section id="problema" class="section section-light">
+      <div class="container two-columns">
+        <div>
+          <span class="eyebrow">01 · Problema</span>
+          <h2>Muchas barberías crecen, pero siguen operando con desorden.</h2>
+          <p>
+            Cuando las citas se manejan por mensajes sueltos, la cola no tiene orden, las ventas no se registran
+            y el inventario se revisa tarde, la barbería pierde tiempo, dinero y clientes.
+          </p>
+        </div>
+        <div class="problem-card">
+          <h3>Lo que BarberAI busca resolver</h3>
+          <ul>
+            <li>Citas olvidadas o mal registradas.</li>
+            <li>Clientes esperando sin control de turno.</li>
+            <li>Ventas sin historial claro.</li>
+            <li>Servicios y precios desactualizados.</li>
+            <li>Inventario bajo sin alerta a tiempo.</li>
+          </ul>
+        </div>
+      </div>
     </section>
 
-    <section class="problem-solution-section">
-        <h2>Una operación más clara y eficiente</h2>
-
-        <div class="problem-solution-grid">
-            <div class="problem-card">
-                <h3 class="card-title">El reto operativo</h3>
-                <p>
-                    Muchas barberías manejan sus citas, turnos, ventas e inventario
-                    en diferentes canales. Esto puede provocar confusión, tiempos de espera
-                    innecesarios, registros incompletos y poca claridad sobre el rendimiento
-                    del negocio.
-                </p>
-            </div>
-
-            <div class="solution-card">
-                <h3 class="card-title">La solución BarberAI</h3>
-                <p>
-                    BarberAI permite centralizar la información clave de la barbería
-                    en una plataforma web diseñada para ordenar la atención al cliente,
-                    mejorar el control administrativo y facilitar la toma de decisiones.
-                </p>
-            </div>
+    <section id="beneficios" class="section">
+      <div class="container">
+        <span class="eyebrow">02 · Beneficios</span>
+        <h2 class="section-title">Una solución creada para simplificar la operación diaria de una barbería.</h2>
+        <div class="cards-grid">
+          <article class="card"><span>01</span><h3>Más orden</h3><p>Centraliza citas, cola, clientes y servicios para que el equipo trabaje con información clara.</p></article>
+          <article class="card"><span>02</span><h3>Más ventas</h3><p>Registra productos, apartados y cobros para tener control de ingresos y oportunidades.</p></article>
+          <article class="card"><span>03</span><h3>Mejor atención</h3><p>El cliente recibe respuestas, confirmaciones y avisos sin depender de mensajes manuales.</p></article>
+          <article class="card"><span>04</span><h3>Control gerencial</h3><p>El dueño puede revisar métricas, inventario, reclamos, clientes y desempeño en un solo lugar.</p></article>
         </div>
+      </div>
     </section>
 
-    <section id="sistema" class="services">
-        <h2>Módulos principales</h2>
-
-        <div class="service-grid">
-            <div class="service-item">
-                <h4>Agenda de citas</h4>
-                <p>
-                    Registro de citas por cliente, fecha, hora, servicio y barbero asignado.
-                    Facilita la planificación diaria y reduce choques de horario.
-                </p>
-            </div>
-
-            <div class="service-item">
-                <h4>Cola de atención</h4>
-                <p>
-                    Organización de clientes que llegan sin cita. Permite mantener un orden
-                    claro de atención y mejorar la experiencia en sala de espera.
-                </p>
-            </div>
-
-            <div class="service-item">
-                <h4>Ventas y cobros</h4>
-                <p>
-                    Control de servicios realizados, productos vendidos y pagos registrados
-                    durante el día de trabajo.
-                </p>
-            </div>
-
-            <div class="service-item">
-                <h4>Inventario</h4>
-                <p>
-                    Administración de productos, existencias, entradas, salidas y alertas
-                    para mantener un mejor control de insumos.
-                </p>
-            </div>
-
-            <div class="service-item">
-                <h4>Barberos y servicios</h4>
-                <p>
-                    Gestión del equipo de trabajo, disponibilidad, servicios asignados,
-                    precios y rendimiento operativo.
-                </p>
-            </div>
-
-            <div class="service-item">
-                <h4>Sucursales</h4>
-                <p>
-                    Control para barberías con una o varias ubicaciones, permitiendo revisar
-                    la operación de manera centralizada.
-                </p>
-            </div>
-        </div>
+    <section id="modulos" class="section section-dark">
+      <div class="container">
+        <span class="eyebrow light">03 · Módulos BarberAI</span>
+        <h2 class="section-title light">Haz clic en cada módulo para ver su ventana explicativa.</h2>
+        <p class="section-copy light">Estas ventanas no usan capturas. Están programadas con contenido propio para explicar cada parte del sistema de BarberAI.</p>
+        <div class="module-grid" id="moduleGrid"></div>
+      </div>
     </section>
 
-    <section class="featured-products">
-        <h2>Panel de administración</h2>
-
-        <div class="product-showcase">
-            <div class="product-card-preview">
-                <div class="product-header">
-                    <h4>Vista operativa BarberAI</h4>
-                    <span class="product-badge">Sistema web</span>
-                </div>
-
-                <p class="product-description">
-                    El panel de BarberAI permite consultar información importante de la barbería
-                    en tiempo real: citas programadas, clientes en espera, ventas registradas,
-                    productos disponibles y actividad del equipo.
-                </p>
-
-                <div class="product-preview-benefits">
-                    <div class="preview-benefit">
-                        <span>Citas programadas</span>
-                    </div>
-
-                    <div class="preview-benefit">
-                        <span>Clientes en atención</span>
-                    </div>
-
-                    <div class="preview-benefit">
-                        <span>Ventas del día</span>
-                    </div>
-
-                    <div class="preview-benefit">
-                        <span>Inventario disponible</span>
-                    </div>
-                </div>
-
-                <div class="product-cta-preview">
-                    <p>
-                        <strong>Objetivo:</strong> ofrecer a la barbería una herramienta clara
-                        para controlar su operación diaria y mejorar la atención al cliente.
-                    </p>
-                    <p>
-                        BarberAI está pensado para crecer junto con el negocio y adaptarse
-                        a sus procesos internos.
-                    </p>
-                </div>
-            </div>
+    <section id="funciona" class="section section-light">
+      <div class="container">
+        <span class="eyebrow">04 · Cómo funciona</span>
+        <h2 class="section-title">BarberAI acompaña el flujo real de una barbería.</h2>
+        <div class="steps">
+          <div class="step"><span>1</span><h3>El cliente escribe o agenda</h3><p>La barbería recibe solicitudes de cita, consultas de servicios o clientes walk-in.</p></div>
+          <div class="step"><span>2</span><h3>El sistema ordena</h3><p>BarberAI organiza citas, cola, barberos, servicios, precios y disponibilidad.</p></div>
+          <div class="step"><span>3</span><h3>El equipo atiende</h3><p>Los barberos y administradores trabajan con una vista clara de lo que ocurre.</p></div>
+          <div class="step"><span>4</span><h3>El dueño mide</h3><p>La gerencia revisa ventas, clientes, inventario, reclamos y analíticas para decidir mejor.</p></div>
         </div>
+      </div>
     </section>
 
-    <section class="benefits-section">
-        <h2>Beneficios para la barbería</h2>
-
-        <div class="benefits-grid">
-            <div class="benefit-card">
-                <div class="benefit-icon">01</div>
-                <h3 class="benefit-title">Más organización</h3>
-                <p class="benefit-description">
-                    La información de clientes, citas y servicios se mantiene ordenada
-                    en una misma plataforma.
-                </p>
-            </div>
-
-            <div class="benefit-card">
-                <div class="benefit-icon">02</div>
-                <h3 class="benefit-title">Mejor atención</h3>
-                <p class="benefit-description">
-                    El equipo puede saber quién sigue, qué servicio solicitó y qué barbero
-                    debe atenderlo.
-                </p>
-            </div>
-
-            <div class="benefit-card">
-                <div class="benefit-icon">03</div>
-                <h3 class="benefit-title">Control del negocio</h3>
-                <p class="benefit-description">
-                    Ventas, inventario, servicios y actividad diaria pueden revisarse
-                    desde una sola vista.
-                </p>
-            </div>
+    <section id="solicitudes" class="section appointment-section">
+      <div class="container appointment-grid">
+        <div>
+          <span class="eyebrow">05 · Solicitudes de citas</span>
+          <h2 class="section-title">Crea solicitudes de cita de forma rápida y profesional.</h2>
+          <p class="section-copy">
+            Esta sección simula cómo una barbería puede captar solicitudes de cita desde la landing. El formulario prepara un mensaje estructurado para WhatsApp con el servicio, la fecha y la hora preferida del cliente.
+          </p>
+          <div class="request-features">
+            <div class="request-item"><strong>Servicio</strong><span>Selecciona corte, barba o combo.</span></div>
+            <div class="request-item"><strong>Fecha y hora</strong><span>El cliente propone el mejor horario.</span></div>
+            <div class="request-item"><strong>Mensaje listo</strong><span>Se envía por WhatsApp en un formato profesional.</span></div>
+          </div>
         </div>
-    </section>
-
-    <section class="industries">
-        <h2>Áreas de uso</h2>
-
-        <div class="industry-grid">
-            <div class="industry-item">
-                <div class="industry-icon">01</div>
-                <h4>Recepción</h4>
-                <p>
-                    Registro de citas, ingreso de clientes a la cola y confirmación de horarios.
-                </p>
+        <form class="appointment-form" id="appointmentForm">
+          <div class="form-row">
+            <div>
+              <label>Nombre completo</label>
+              <input type="text" id="apptName" placeholder="Tu nombre" required>
             </div>
-
-            <div class="industry-item">
-                <div class="industry-icon">02</div>
-                <h4>Equipo de barberos</h4>
-                <p>
-                    Consulta de servicios asignados, clientes pendientes y disponibilidad.
-                </p>
+            <div>
+              <label>WhatsApp</label>
+              <input type="tel" id="apptPhone" placeholder="Tu número" required>
             </div>
-
-            <div class="industry-item">
-                <div class="industry-icon">03</div>
-                <h4>Administración</h4>
-                <p>
-                    Revisión de ventas, productos, inventario, sucursales y rendimiento general.
-                </p>
+          </div>
+          <div class="form-row">
+            <div>
+              <label>Servicio</label>
+              <select id="apptService" required>
+                <option value="">Selecciona un servicio</option>
+                <option>Corte de cabello</option>
+                <option>Corte y barba</option>
+                <option>Arreglo de barba</option>
+                <option>Look Express</option>
+                <option>Servicio VIP</option>
+              </select>
             </div>
-        </div>
-    </section>
-
-    <section class="product-details">
-        <h2>Funciones disponibles</h2>
-
-        <div class="features-grid">
-            <div class="feature-category">
-                <h5>Operación diaria</h5>
-                <ul>
-                    <li><strong>Citas:</strong> registro por cliente, fecha, hora y servicio.</li>
-                    <li><strong>Cola:</strong> control de turnos para clientes sin reserva.</li>
-                    <li><strong>Servicios:</strong> catálogo de cortes, barba y tratamientos.</li>
-                    <li><strong>Barberos:</strong> asignación de atención y disponibilidad.</li>
-                </ul>
+            <div>
+              <label>Barbero preferido</label>
+              <input type="text" id="apptBarber" placeholder="Opcional">
             </div>
-
-            <div class="feature-category">
-                <h5>Administración</h5>
-                <ul>
-                    <li><strong>Ventas:</strong> seguimiento de pagos y servicios realizados.</li>
-                    <li><strong>Inventario:</strong> control de productos, entradas y salidas.</li>
-                    <li><strong>Sucursales:</strong> organización de varias ubicaciones.</li>
-                    <li><strong>Reportes:</strong> lectura general de la operación del negocio.</li>
-                </ul>
+          </div>
+          <div class="form-row">
+            <div>
+              <label>Fecha deseada</label>
+              <input type="date" id="apptDate" required>
             </div>
-        </div>
-
-        <div class="product-requirements">
-            <h5>Enfoque del sistema</h5>
-
-            <div class="requirements-list">
-                <span class="req-item">Gestión de citas</span>
-                <span class="req-item">Control de cola</span>
-                <span class="req-item">Ventas</span>
-                <span class="req-item">Inventario</span>
-                <span class="req-item">Administración</span>
+            <div>
+              <label>Hora deseada</label>
+              <input type="time" id="apptTime" required>
             </div>
-        </div>
-    </section>
-
-    <section class="testimonials">
-        <h2>Resultados esperados</h2>
-
-        <div class="testimonial-grid">
-            <div class="testimonial-item">
-                <p class="quote">
-                    “Una barbería organizada puede atender mejor, reducir errores y tener
-                    mayor claridad sobre su operación diaria.”
-                </p>
-                <p class="author">BarberAI</p>
-            </div>
-
-            <div class="testimonial-item">
-                <p class="quote">
-                    “Centralizar citas, ventas e inventario permite que el negocio tome
-                    decisiones con información más clara.”
-                </p>
-                <p class="author">BarberAI</p>
-            </div>
-        </div>
-    </section>
-
-    <section class="contact-form-area" id="contacto">
-        <h3>Solicitar información</h3>
-
-        <p>
-            Completa los datos para conocer cómo BarberAI puede adaptarse a la operación
-            de tu barbería.
-        </p>
-
-        <form class="contact-form">
-            <div class="form-group">
-                <label>Nombre de la barbería</label>
-                <input type="text" placeholder="Ej. Barbería Central">
-            </div>
-
-            <div class="form-group">
-                <label>Nombre del encargado</label>
-                <input type="text" placeholder="Nombre completo">
-            </div>
-
-            <div class="form-group">
-                <label>Correo electrónico</label>
-                <input type="email" placeholder="correo@barberia.com">
-            </div>
-
-            <div class="form-group">
-                <label>WhatsApp</label>
-                <input type="tel" placeholder="+504 0000-0000">
-            </div>
-
-            <div class="form-group full-width">
-                <label>Mensaje</label>
-                <textarea placeholder="Cuéntanos qué necesita controlar tu barbería"></textarea>
-            </div>
-
-            <div class="form-group full-width">
-                <button type="button" class="submit-button" onclick="fakeSubmit()">Enviar solicitud</button>
-            </div>
+          </div>
+          <label>Notas adicionales</label>
+          <textarea id="apptNotes" rows="4" placeholder="Ejemplo: primera visita, quiero confirmar disponibilidad, etc."></textarea>
+          <button class="btn btn-primary full" type="submit">Solicitar cita por WhatsApp</button>
         </form>
+      </div>
     </section>
 
-    <section class="cta-section">
-        <h2>Ordena la operación de tu barbería</h2>
-
-        <p>
-            BarberAI reúne las herramientas principales para administrar mejor
-            la atención, las ventas y el control interno.
-        </p>
-
-        <a href="#contacto" class="cta-button">Solicitar información</a>
+    <section id="contacto" class="section contact-section">
+      <div class="container contact-grid">
+        <div>
+          <span class="eyebrow light">06 · Contacto</span>
+          <h2>Agenda una demo de BarberAI.</h2>
+          <p>Cuéntanos qué parte de tu barbería quieres ordenar primero: citas, cola, ventas, inventario, atención por WhatsApp o gestión completa.</p>
+          <div class="contact-info">
+            <p><strong>WhatsApp:</strong> +506 6220 7848</p>
+            <p><strong>Email:</strong> info@simplexityla.com</p>
+            <p><strong>Desarrollado por:</strong> Simplexity</p>
+          </div>
+        </div>
+        <form class="contact-form" id="contactForm">
+          <label>Nombre completo</label>
+          <input type="text" id="name" placeholder="Tu nombre" required>
+          <label>Barbería / Empresa</label>
+          <input type="text" id="company" placeholder="Nombre de tu barbería">
+          <label>Teléfono</label>
+          <input type="tel" id="phone" placeholder="Tu WhatsApp">
+          <label>Mensaje</label>
+          <textarea id="message" rows="4" placeholder="Quiero una demo de BarberAI para ordenar mi barbería..." required></textarea>
+          <button class="btn btn-primary full" type="submit">Enviar por WhatsApp</button>
+        </form>
+      </div>
     </section>
+  </main>
 
-</main>
+  <footer class="footer">
+    <div class="container footer-content">
+      <strong>Simplexity</strong>
+      <span>BarberAI para barberías · Citas · Cola · Ventas · Inventario · WhatsApp</span>
+    </div>
+  </footer>
 
-<footer>
-    <p><strong>BarberAI</strong> · Sistema web para barberías</p>
-    <p>Control operativo para citas, ventas, inventario y administración.</p>
-</footer>
+  <a class="whatsapp-float" href="https://wa.me/50662207848?text=Hola%20Simplexity,%20quiero%20informaci%C3%B3n%20sobre%20BarberAI" target="_blank" aria-label="WhatsApp Simplexity">
+    <svg viewBox="0 0 32 32" aria-hidden="true">
+      <path fill="currentColor" d="M19.11 17.27c-.27-.14-1.6-.79-1.84-.88-.25-.09-.43-.14-.61.14-.18.27-.7.88-.86 1.06-.16.18-.31.2-.58.07-.27-.14-1.12-.41-2.13-1.3-.79-.7-1.32-1.56-1.48-1.83-.16-.27-.02-.41.12-.55.12-.12.27-.31.41-.47.14-.16.18-.27.27-.45.09-.18.05-.34-.02-.48-.07-.14-.61-1.47-.84-2.02-.22-.53-.45-.46-.61-.47l-.52-.01c-.18 0-.48.07-.73.34s-.95.93-.95 2.28.98 2.65 1.12 2.83c.14.18 1.92 2.93 4.65 4.11.65.28 1.15.44 1.54.57.65.21 1.24.18 1.71.11.52-.08 1.6-.65 1.83-1.28.23-.63.23-1.16.16-1.28-.07-.11-.25-.18-.52-.32Z"/>
+      <path fill="currentColor" d="M16 3.2c-7.07 0-12.8 5.73-12.8 12.8 0 2.26.59 4.47 1.71 6.42L3.2 28.8l6.55-1.69A12.74 12.74 0 0 0 16 28.8c7.07 0 12.8-5.73 12.8-12.8S23.07 3.2 16 3.2Zm0 23.35c-1.93 0-3.82-.52-5.47-1.51l-.39-.23-3.89 1 1.04-3.79-.25-.39a10.47 10.47 0 0 1-1.61-5.62c0-5.78 4.7-10.48 10.48-10.48s10.48 4.7 10.48 10.48S21.78 26.55 16 26.55Z"/>
+    </svg>
+  </a>
 
-<a 
-    href="https://wa.me/50492157819?text=Hola%2C%20quiero%20informaci%C3%B3n%20sobre%20BarberAI"
-    class="whatsapp-direct-fab"
-    target="_blank"
-    rel="noopener noreferrer">
-    WhatsApp
-</a>
+  <button class="chat-button" id="chatButton" aria-label="Abrir chatbot">
+    <svg viewBox="0 0 32 32" aria-hidden="true">
+      <path fill="currentColor" d="M8 9.5A5.5 5.5 0 0 1 13.5 4h5A5.5 5.5 0 0 1 24 9.5v6A5.5 5.5 0 0 1 18.5 21H14l-4.5 4v-4A5.5 5.5 0 0 1 4 15.5v-1A5 5 0 0 1 8 9.5Zm4.5 2.75a1.25 1.25 0 1 0 0 2.5 1.25 1.25 0 0 0 0-2.5Zm4 0a1.25 1.25 0 1 0 0 2.5 1.25 1.25 0 0 0 0-2.5Zm4 0a1.25 1.25 0 1 0 0 2.5 1.25 1.25 0 0 0 0-2.5Z"/>
+      <path fill="currentColor" d="M23.8 4.5h1.1l.29-.9.29.9h1.1l-.89.64.34 1.04-.84-.62-.84.62.34-1.04-.89-.64Z"/>
+    </svg>
+  </button>
+  <div class="chat-window" id="chatWindow" aria-hidden="true">
+    <div class="chat-header">
+      <div><strong>Asistente BarberAI</strong><span>Responde dudas generales</span></div>
+      <button id="closeChat">×</button>
+    </div>
+    <div class="chat-messages" id="chatMessages">
+      <div class="bot-msg">Hola, soy el asistente de BarberAI. Pregúntame sobre citas, cola, ventas, servicios, barberos, inventario, WhatsApp o demo.</div>
+    </div>
+    <form class="chat-form" id="chatForm">
+      <input id="chatInput" type="text" placeholder="Escribe tu pregunta..." autocomplete="off">
+      <button type="submit">Enviar</button>
+    </form>
+  </div>
 
-<a href="#contacto" class="whatsapp-fab">💬</a>
+  <div class="modal" id="moduleModal" aria-hidden="true">
+    <div class="modal-card">
+      <button class="modal-close" id="modalClose">×</button>
+      <span class="modal-kicker" id="modalKicker">Módulo</span>
+      <h3 id="modalTitle">Título</h3>
+      <p id="modalText">Texto</p>
+      <div class="modal-box" id="modalBox"></div>
+    </div>
+  </div>
 
-<script src="JavaScript.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
