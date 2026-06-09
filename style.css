@@ -1,29 +1,1409 @@
 body {
-  font-family: Montserrat, Arial, sans-serif;
-  margin: 0;
-  background: #f5f7fb;
-  color: #111;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa; /* Light neutral background */
+    color: #343a40; /* Darker text for readability */
+    line-height: 1.7;
+    font-size: 16px;
 }
 
-.hero {
-  background: #05006b;
-  color: white;
-  text-align: center;
-  padding: 60px 20px;
+@keyframes animatedGradient {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
 }
 
-.btn {
-  display: inline-block;
-  background: #00e5ff;
-  color: #05006b;
-  padding: 12px 20px;
-  text-decoration: none;
-  border-radius: 8px;
-  font-weight: bold;
+header {
+    background: linear-gradient(120deg, #003DA0, #0052D4, #0064FA, #4385F7, #0064FA, #0052D4, #003DA0);
+    background-size: 300% 300%; /* Increase size for smoother animation */
+    color: #ffffff;
+    padding: 3rem 1rem 2rem 1rem;
+    text-align: center;
+    border-bottom: 5px solid #002A7F; /* Even darker, more solid base */
+    animation: animatedGradient 18s ease infinite; /* Apply animation */
+    position: relative; /* For pseudo-elements if we add them later */
+}
+
+.logo-container {
+    margin-bottom: 1rem; /* Increased margin */
+}
+
+#company-logo {
+    max-height: 80px; /* Adjusted size */
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1.25rem; /* Increased spacing */
+    border-radius: 6px; /* Soften corners of the logo's actual background */
+    /* border: 1px solid rgba(255, 255, 255, 0.3); */ /* Optional: very subtle border */
+    /* background-color: transparent; */ /* Removed, assuming logo has its own bg */
+    /* padding: 0; */ /* Removed */
+    box-shadow: 0 4px 10px rgba(0, 20, 80, 0.15); /* Refined shadow for better lift */
+}
+
+header h1 {
+    margin: 0 0 0.75rem 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: #ffffff;
+    text-shadow: 0 0 8px rgba(200, 220, 255, 0.5), 0 0 12px rgba(200, 220, 255, 0.3); /* Brillo azulado */
+}
+
+header .subtitle {
+    font-size: 1.25rem; /* Increased size */
+    font-weight: 400; /* Was 400, can be 300 for lighter feel if font supports */
+    margin: 0 auto 1.5rem auto; /* Adjusted bottom margin for more space before main content */
+    color: #d0e0ff; /* Lighter, softer blueish white */
+    max-width: 750px;
+    line-height: 1.5;
+}
+
+main {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 2.5rem 1.5rem; /* Increased padding */
 }
 
 section {
-  padding: 40px 20px;
-  max-width: 900px;
-  margin: auto;
+    padding: 3rem 1.5rem; /* Increased padding */
+    margin-bottom: 2.5rem; /* Increased margin */
+    background-color: #ffffff;
+    border-radius: 12px; /* More rounded corners for sections */
+    box-shadow: 0 6px 25px rgba(0,0,0,0.09); /* Slightly enhanced shadow */
+}
+
+section h2, section h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #0052D4; /* Primary blue for headings */
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+section h2 {
+    font-size: 2.2rem;
+}
+
+section h3 {
+    font-size: 1.8rem;
+}
+
+.intro {
+    background: linear-gradient(135deg, #ffffff 0%, #f7f9fc 100%);
+    padding: 3.5rem 2rem;
+    text-align: center;
+    border-radius: 12px;
+    margin-top: -1.5rem;
+    position: relative;
+    z-index: 10;
+    box-shadow: 0 0 25px rgba(0, 82, 212, 0.15), 0 4px 15px rgba(0,0,0,0.07); /* Sombra principal + brillo azulado */
+    border: 1px solid rgba(0, 82, 212, 0.1); /* Borde sutil con tinte azul */
+}
+
+.intro h2 {
+    font-size: 2.8rem;
+    font-family: 'Montserrat', sans-serif;
+    color: #0041a8;
+    margin-bottom: 1.5rem;
+    line-height: 1.3;
+    text-shadow: 0px 1px 2px rgba(0, 61, 168, 0.1);
+}
+
+.intro p {
+    font-size: 1.15rem; /* Slightly larger paragraph text for intro */
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #34495e; /* Softer dark color */
+    line-height: 1.7;
+}
+
+.feature-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+.feature-item {
+    background-color: #f8f9fa; /* Slightly off-white cards */
+    padding: 1.5rem;
+    border-radius: 10px; /* Consistent rounded corners for all cards */
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+}
+
+.feature-item:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.12);
+}
+
+.feature-item .icon {
+    font-size: 2.5rem; /* Make icons larger */
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #4364F7; /* Icon color */
+}
+
+.feature-item h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.3rem;
+    color: #0041a8; /* Darker blue for feature titles */
+    margin-bottom: 0.75rem; /* Increased margin */
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center title and icon */
+}
+
+.feature-item h4 .fas {
+    margin-right: 0.5rem;
+    font-size: 1.5rem; /* Adjust icon size within feature title */
+}
+
+.feature-item p {
+    font-size: 0.95rem;
+    color: #495057;
+}
+
+.cta-section {
+    background-color: #0052D4; /* Primary blue background */
+    color: #ffffff;
+    text-align: center;
+}
+
+.cta-section h2 {
+    color: #ffffff;
+}
+
+.cta-section p {
+    font-size: 1.1rem;
+    margin-bottom: 1.5rem;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #ffffff;
+    color: #0052D4; /* Button text color (primary blue) */
+    padding: 0.8rem 1.8rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 700;
+    text-decoration: none;
+    border-radius: 50px; /* Pill shape */
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.cta-button:hover {
+    background-color: #f0f0f0; /* Lighter background on hover */
+    color: #0041a8; /* Darker blue on hover */
+    transform: translateY(-3px);
+}
+
+footer {
+    text-align: center;
+    padding: 2rem 1rem;
+    background-color: #343a40; /* Dark footer */
+    color: #f8f9fa; /* Light text on dark background */
+    margin-top: 2rem;
+}
+
+footer p {
+    margin: 0.3rem 0;
+    font-size: 0.9rem;
+}
+
+footer strong {
+    color: #6FB1FC; /* Accent color for brand name in footer */
+}
+
+footer a {
+    color: #a0cfff; /* Lighter blue for links */
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.social-icons {
+    margin: 1rem 0;
+}
+
+.social-icons a {
+    color: #f8f9fa;
+    font-size: 1.5rem;
+    margin: 0 0.5rem;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #6FB1FC; /* Accent color on hover */
+    transform: scale(1.1);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2.2rem;
+    }
+    header .subtitle {
+        font-size: 1rem;
+    }
+    section h2 {
+        font-size: 1.8rem;
+    }
+    section h3 {
+        font-size: 1.5rem;
+    }
+    .feature-grid {
+        grid-template-columns: 1fr; /* Stack features on smaller screens */
+    }
+    .testimonial-item::before {
+        left: 1rem; /* Adjust quote icon position for smaller screens */
+        top: 0.5rem;
+        font-size: 2rem;
+    }
+
+    .testimonial-item {
+        padding-left: 2.5rem; /* Add padding to make space for quote icon */
+    }
+}
+
+/* Industries Section Styling */
+.industries {
+    background-color: #eef4f8; /* Slightly different background for variation */
+}
+
+.industry-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+.industry-item {
+    background-color: #ffffff;
+    padding: 2rem 1.5rem;
+    border-radius: 10px; /* Consistent rounded corners for all cards */
+    text-align: center;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.industry-item:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.12);
+}
+
+.industry-item .industry-icon {
+    font-size: 3rem;
+    color: #0052D4;
+    margin-bottom: 1rem;
+    display: block;
+}
+
+.industry-item h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.25rem;
+    color: #0041a8;
+    margin-bottom: 0.5rem;
+}
+
+.industry-item p {
+    font-size: 0.9rem;
+    color: #495057;
+    line-height: 1.5;
+}
+
+/* Testimonials Section Styling */
+.testimonials {
+    padding-bottom: 3rem; /* More space at the bottom */
+}
+
+.testimonial-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.testimonial-item {
+    background-color: #f8f9fa;
+    padding: 2rem;
+    border-radius: 10px; /* Consistent rounded corners for all cards */
+    border-left: 6px solid #0052D4;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.06); /* Testimonials can have a slightly lighter shadow */
+    position: relative;
+}
+
+.testimonial-item::before {
+    content: '\f10d'; /* Font Awesome quote-left icon */
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    position: absolute;
+    top: 1rem;
+    left: -25px; /* Position outside the main box a bit */
+    font-size: 2.5rem;
+    color: #6FB1FC;
+    opacity: 0.15; /* Make quote icon a bit more subtle */
+}
+
+.testimonial-item p.quote {
+    font-size: 1rem;
+    font-style: italic;
+    color: #343a40;
+    margin-bottom: 1rem;
+    line-height: 1.6;
+}
+
+.testimonial-item p.author {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #0041a8;
+    text-align: right;
+}
+
+/* CTA Button Icon */
+.cta-button .fas {
+    margin-right: 0.5em;
+}
+
+.icon-gradient {
+    background: linear-gradient(to right, #4364F7, #6FB1FC);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+/* Services Section Styling */
+.services {
+    /* No specific background, uses main section default or can be set if needed */
+    padding-top: 2rem; /* Adjust padding as needed */
+}
+
+.service-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+.service-item {
+    background-color: #ffffff; /* White cards for services */
+    padding: 2rem 1.5rem;
+    border-radius: 10px; /* Consistent rounded corners for all cards */
+    text-align: left; /* Align text to left for service descriptions */
+    box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-top: 4px solid #0052D4; /* Accent border on top */
+}
+
+.service-item:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.12);
+}
+
+.service-item h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.3rem;
+    color: #0041a8;
+    margin-bottom: 0.75rem;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */ /* Removed for left alignment */
+}
+
+.service-item h4 .fas {
+    margin-right: 0.75rem; /* Space between icon and title */
+    font-size: 1.6rem; /* Icon size */
+}
+
+.service-item p {
+    font-size: 0.95rem;
+    color: #495057;
+    line-height: 1.6;
+}
+
+.service-item p strong {
+    color: #0052D4; /* Highlight key info like delivery times */
+    font-weight: 700;
+}
+
+/* Featured Products Section Styling */
+.featured-products {
+    background: linear-gradient(135deg, #f8fafe 0%, #e8f2ff 100%); /* Light blue gradient */
+    margin-bottom: 3rem;
+}
+
+.product-showcase {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.product-card-preview {
+    background: linear-gradient(135deg, #ffffff 0%, #f0f7ff 100%);
+    padding: 2.5rem;
+    border-radius: 12px;
+    box-shadow: 0 6px 25px rgba(0, 82, 212, 0.12);
+    border: 1px solid rgba(0, 82, 212, 0.08);
+    text-align: center;
+}
+
+.product-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+    flex-wrap: wrap;
+}
+
+.product-header h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.2rem;
+    color: #0041a8;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.product-header h4 .fas {
+    color: #0052D4;
+    font-size: 2rem;
+}
+
+.product-badge {
+    background: linear-gradient(135deg, #28a745, #20c997);
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    box-shadow: 0 2px 8px rgba(40, 167, 69, 0.3);
+}
+
+.product-description {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    color: #495057;
+    max-width: 700px;
+    margin: 0 auto 2rem auto;
+}
+
+.product-preview-benefits {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.preview-benefit {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 1rem;
+    background-color: rgba(0, 82, 212, 0.05);
+    border-radius: 8px;
+    border-left: 3px solid #0052D4;
+}
+
+.preview-benefit i {
+    color: #0052D4;
+    font-size: 1.2rem;
+    width: 20px;
+    text-align: center;
+}
+
+.preview-benefit span {
+    font-weight: 600;
+    color: #0041a8;
+    font-size: 0.95rem;
+}
+
+.product-cta-preview {
+    border-top: 1px solid rgba(0, 82, 212, 0.1);
+    padding-top: 2rem;
+    margin-top: 2rem;
+}
+
+.product-cta-preview p {
+    margin-bottom: 1rem;
+    color: #495057;
+}
+
+.product-cta-preview p:first-child {
+    font-size: 1.1rem;
+    color: #0041a8;
+}
+
+.product-details {
+    background-color: #ffffff;
+    border-radius: 12px;
+    padding: 2.5rem;
+    box-shadow: 0 6px 25px rgba(0,0,0,0.08);
+}
+
+.features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 2rem;
+    margin-bottom: 2.5rem;
+}
+
+.feature-category {
+    background-color: #f8f9fa;
+    padding: 1.5rem;
+    border-radius: 10px;
+    border-left: 4px solid #0052D4;
+}
+
+.feature-category h5 {
+    font-family: 'Montserrat', sans-serif;
+    color: #0041a8;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.feature-category h5 .fas {
+    color: #0052D4;
+}
+
+.feature-category ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.feature-category ul li {
+    padding: 0.5rem 0;
+    border-bottom: 1px solid rgba(0, 82, 212, 0.1);
+    font-size: 0.95rem;
+    line-height: 1.5;
+}
+
+.feature-category ul li:last-child {
+    border-bottom: none;
+}
+
+.feature-category ul li strong {
+    color: #0052D4;
+}
+
+/* Tech Stack Tags */
+.tech-stack {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.tech-tag {
+    background: linear-gradient(135deg, #0052D4, #4364F7);
+    color: white;
+    padding: 0.4rem 0.8rem;
+    border-radius: 15px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    box-shadow: 0 2px 8px rgba(0, 82, 212, 0.2);
+}
+
+/* Tax Types */
+.tax-types {
+    display: grid;
+    gap: 0.75rem;
+}
+
+.tax-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.75rem;
+    background-color: #ffffff;
+    border-radius: 8px;
+    border: 1px solid rgba(0, 82, 212, 0.1);
+}
+
+.tax-rate {
+    font-weight: 700;
+    color: #0052D4;
+    font-size: 0.95rem;
+}
+
+.tax-desc {
+    font-size: 0.9rem;
+    color: #6c757d;
+}
+
+/* User Defaults */
+.user-defaults {
+    display: grid;
+    gap: 0.75rem;
+}
+
+.user-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.75rem;
+    background-color: #ffffff;
+    border-radius: 8px;
+    border: 1px solid rgba(0, 82, 212, 0.1);
+}
+
+.user-role {
+    font-weight: 700;
+    color: #0052D4;
+}
+
+.user-creds {
+    font-family: 'Courier New', monospace;
+    font-size: 0.85rem;
+    color: #6c757d;
+    background-color: #f8f9fa;
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+}
+
+/* Product Requirements */
+.product-requirements {
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    border-left: 4px solid #ffc107;
+}
+
+.product-requirements h5 {
+    font-family: 'Montserrat', sans-serif;
+    color: #0041a8;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.requirements-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+}
+
+.req-item {
+    background-color: #fff3cd;
+    color: #856404;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    border: 1px solid #ffeaa7;
+}
+
+/* Deployment Info */
+.deployment-info {
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    border-left: 4px solid #17a2b8;
+}
+
+.deployment-info h5 {
+    font-family: 'Montserrat', sans-serif;
+    color: #0041a8;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.deploy-options {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+}
+
+.deploy-option {
+    background-color: #ffffff;
+    padding: 1.25rem;
+    border-radius: 8px;
+    border: 1px solid rgba(23, 162, 184, 0.2);
+}
+
+.deploy-option h6 {
+    color: #17a2b8;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+}
+
+.deploy-option p {
+    color: #6c757d;
+    font-size: 0.9rem;
+    margin: 0;
+    line-height: 1.5;
+}
+
+/* Product CTA */
+.product-cta {
+    text-align: center;
+    padding: 2rem;
+    background: linear-gradient(135deg, #0052D4, #4364F7);
+    border-radius: 12px;
+    color: white;
+}
+
+.product-cta h5 {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+}
+
+.product-cta p {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+    opacity: 0.9;
+    line-height: 1.6;
+}
+
+.cta-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.btn-primary, .btn-secondary {
+    padding: 0.75rem 1.5rem;
+    border-radius: 25px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.btn-primary {
+    background-color: #ffffff;
+    color: #0052D4;
+    border: 2px solid #ffffff;
+}
+
+.btn-primary:hover {
+    background-color: #f8f9fa;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(255, 255, 255, 0.3);
+}
+
+.btn-secondary {
+    background-color: transparent;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+}
+
+.btn-secondary:hover {
+    background-color: #ffffff;
+    color: #0052D4;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(255, 255, 255, 0.3);
+}
+
+/* Responsive adjustments for featured products */
+@media (max-width: 768px) {
+    .product-header {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .product-header h4 {
+        font-size: 1.8rem;
+    }
+    
+    .features-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .tax-item, .user-item {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.5rem;
+    }
+    
+    .cta-buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .btn-primary, .btn-secondary {
+        width: 100%;
+        max-width: 250px;
+        justify-content: center;
+    }
+}
+
+/* Industries Section Styling */
+.industries {
+    background-color: #eef4f8; /* Slightly different background for variation */
+}
+
+.industry-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+.industry-item {
+    background-color: #ffffff;
+    padding: 2rem 1.5rem;
+    border-radius: 10px; /* Consistent rounded corners for all cards */
+    text-align: center;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.industry-item:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.12);
+}
+
+.industry-item .industry-icon {
+    font-size: 3rem;
+    color: #0052D4;
+    margin-bottom: 1rem;
+    display: block;
+}
+
+.industry-item h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.25rem;
+    color: #0041a8;
+    margin-bottom: 0.5rem;
+}
+
+.industry-item p {
+    font-size: 0.9rem;
+    color: #495057;
+    line-height: 1.5;
+}
+
+/* Contact Form Area Styling */
+.contact-form-area {
+    background-color: #eef4f8; /* Light background for contrast */
+}
+
+.contact-form-area h3 {
+    margin-bottom: 0.5rem; /* Tighter margin for form title */
+}
+
+.contact-form-area p {
+    text-align: center;
+    margin-bottom: 2rem;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contact-form {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two columns for most fields */
+    gap: 1.5rem;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 2.5rem;
+    border-radius: 10px;
+    box-shadow: 0 6px 25px rgba(0,0,0,0.09);
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group.full-width {
+    grid-column: 1 / -1; /* Make textarea and button span both columns */
+}
+
+.form-group label {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 0.9rem;
+    color: #343a40;
+    margin-bottom: 0.5rem;
+}
+
+.form-group input,
+.form-group textarea,
+.form-group select {
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid #ced4da;
+    border-radius: 6px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    box-sizing: border-box; /* Important for width calculation */
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.form-group input:focus,
+.form-group textarea:focus,
+.form-group select:focus {
+    border-color: #0052D4;
+    box-shadow: 0 0 0 0.2rem rgba(0,82,212,0.25);
+    outline: none;
+}
+
+.submit-button {
+    background-color: #0052D4;
+    color: white;
+    padding: 0.9rem 2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 700;
+    text-decoration: none;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    display: block;
+    width: fit-content;
+    margin: 1rem auto 0 auto; /* Center button */
+}
+
+.submit-button:hover {
+    background-color: #0041a8; /* Darker blue */
+    transform: translateY(-3px);
+}
+
+/* WhatsApp FAB Styling */
+.whatsapp-fab {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    background-color: #e2e2e2; /* WhatsApp Green */
+    color: white;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    z-index: 1000;
+}
+
+.whatsapp-fab:hover {
+    transform: scale(1.1);
+    background-color: #1DAE54; /* Darker WhatsApp Green */
+}
+
+.whatsapp-icon-footer .fab.fa-whatsapp {
+    color: #25D366;
+    font-size: 1.2em; /* Make it slightly larger than other social icons if desired */
+    vertical-align: middle;
+}
+
+/* Responsive adjustments for form */
+@media (max-width: 768px) {
+    .contact-form {
+        grid-template-columns: 1fr; /* Single column for form fields on smaller screens */
+        padding: 1.5rem;
+    }
+    .form-group.full-width {
+        /* Already full width, no change needed */
+    }
+}
+
+/* ... existing responsive adjustments ... */
+
+/* Product Page Styles */
+.product-hero-section {
+    background: linear-gradient(135deg, #0052D4 0%, #4364F7 50%, #65C7F7 100%);
+    color: white;
+    padding: 4rem 2rem;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.product-hero-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 20"><defs><radialGradient id="a" cx="50%" cy="50%" r="50%"><stop offset="0%" stop-color="rgba(255,255,255,.1)"/><stop offset="100%" stop-color="rgba(255,255,255,0)"/></radialGradient></defs><circle cx="10" cy="10" r="10" fill="url(%23a)"/><circle cx="30" cy="5" r="5" fill="url(%23a)"/><circle cx="60" cy="15" r="8" fill="url(%23a)"/><circle cx="80" cy="8" r="6" fill="url(%23a)"/></svg>') repeat;
+    opacity: 0.1;
+    animation: float 20s ease-in-out infinite;
+}
+
+@keyframes float {
+    0%, 100% { transform: translateY(0px); }
+    50% { transform: translateY(-20px); }
+}
+
+.hero-content {
+    position: relative;
+    z-index: 2;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.hero-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+}
+
+.hero-subtitle {
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+    opacity: 0.95;
+    line-height: 1.6;
+}
+
+.hero-cta {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+}
+
+.cta-btn {
+    padding: 1rem 2rem;
+    border-radius: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 1.1rem;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.cta-primary {
+    background-color: #ffffff;
+    color: #0052D4;
+    border: 2px solid #ffffff;
+}
+
+.cta-primary:hover {
+    background-color: #f8f9fa;
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(255, 255, 255, 0.4);
+}
+
+.cta-secondary {
+    background-color: transparent;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+}
+
+.cta-secondary:hover {
+    background-color: #ffffff;
+    color: #0052D4;
+    transform: translateY(-3px);
+}
+
+.benefits-section {
+    padding: 4rem 2rem;
+    background-color: #f8fafe;
+}
+
+.benefits-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.benefit-card {
+    background: white;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 8px 30px rgba(0,0,0,0.1);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-top: 4px solid #0052D4;
+}
+
+.benefit-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 40px rgba(0,0,0,0.15);
+}
+
+.benefit-icon {
+    font-size: 3rem;
+    color: #0052D4;
+    margin-bottom: 1rem;
+}
+
+.benefit-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.4rem;
+    color: #0041a8;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+.benefit-description {
+    color: #495057;
+    line-height: 1.6;
+    font-size: 1rem;
+}
+
+.problem-solution-section {
+    padding: 4rem 2rem;
+    background: linear-gradient(135deg, #ffffff 0%, #f0f7ff 100%);
+}
+
+.problem-solution-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    align-items: start;
+}
+
+.problem-card, .solution-card {
+    padding: 2.5rem;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+.problem-card {
+    background: linear-gradient(135deg, #ff6b6b, #ee5a52);
+    color: white;
+}
+
+.solution-card {
+    background: linear-gradient(135deg, #51cf66, #40c057);
+    color: white;
+}
+
+.card-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.roi-section {
+    padding: 4rem 2rem;
+    background-color: #0052D4;
+    color: white;
+    text-align: center;
+}
+
+.roi-stats {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+    max-width: 800px;
+    margin: 2rem auto;
+}
+
+.stat-item {
+    padding: 1.5rem;
+}
+
+.stat-number {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    font-weight: 700;
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.stat-label {
+    font-size: 1.1rem;
+    opacity: 0.9;
+}
+
+nav a.active {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+    color: white !important;
+}
+
+@media (max-width: 768px) {
+    .hero-title {
+        font-size: 2.2rem;
+    }
+    
+    .problem-solution-grid {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+    
+    .hero-cta {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .cta-btn {
+        width: 100%;
+        max-width: 280px;
+        justify-content: center;
+    }
+} 
+.tab-content {
+    display: none;
+}
+
+.tab-content.active {
+    display: block;
+}
+
+.tab-btn.active {
+    background-color: #0052D4;
+    color: #ffffff;
+    border: 2px solid #0052D4;
+}
+
+.chat-box {
+    display: none;
+    position: fixed;
+    right: 25px;
+    bottom: 95px;
+    width: 340px;
+    background: #ffffff;
+    border-radius: 14px;
+    box-shadow: 0 8px 30px rgba(0,0,0,0.2);
+    overflow: hidden;
+    z-index: 1001;
+}
+
+.chat-box.active {
+    display: block;
+}
+
+.chat-header {
+    background: linear-gradient(135deg, #0052D4, #4364F7);
+    color: white;
+    padding: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.chat-header button {
+    background: transparent;
+    border: none;
+    color: white;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
+.chat-body {
+    padding: 1rem;
+    height: 240px;
+    overflow-y: auto;
+    background: #f8f9fa;
+}
+
+.chat-body p {
+    background: white;
+    padding: 0.75rem;
+    border-radius: 8px;
+    margin-bottom: 0.75rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.chat-input {
+    display: flex;
+    border-top: 1px solid #e0e0e0;
+}
+
+.chat-input input {
+    flex: 1;
+    border: none;
+    padding: 0.9rem;
+    outline: none;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.chat-input button {
+    border: none;
+    background: #0052D4;
+    color: white;
+    padding: 0 1rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .whatsapp-direct-fab {
+        left: 15px;
+        bottom: 25px;
+}
+}
+/* Botón directo de WhatsApp a la izquierda */
+.whatsapp-direct-fab {
+    position: fixed;
+    left: 25px;
+    bottom: 25px;
+    background-color: #25D366;
+    color: #ffffff;
+    padding: 0.95rem 1.5rem;
+    border-radius: 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.95rem;
+    font-weight: 700;
+    text-decoration: none;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.22);
+    transition: all 0.3s ease;
+    z-index: 1000;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.whatsapp-direct-fab::before {
+    font-size: 1.1rem;
+}
+
+.whatsapp-direct-fab:hover {
+    background-color: #1DAE54;
+    color: #ffffff;
+    transform: translateY(-4px);
+    box-shadow: 0 10px 25px rgba(37, 211, 102, 0.35);
+}
+
+/* En celular se mantiene abajo a la izquierda */
+@media (max-width: 768px) {
+    .whatsapp-direct-fab {
+        left: 15px;
+        bottom: 25px;
+        padding: 0.8rem 1.1rem;
+        font-size: 0.85rem;
+    }
 }
