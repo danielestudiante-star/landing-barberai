@@ -1,0 +1,1 @@
+Carpeta landing-BARBERAI actualizada. Usa index.html y la imagen en assets/img/simplexity-logo.png. Abre index.html en el navegador.
