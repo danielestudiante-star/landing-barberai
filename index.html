@@ -1527,6 +1527,97 @@
 
         const palabrasSeguridad = ['contraseña', 'credenciales', 'usuario', 'password', 'clave'];
 
+        // Base de conocimiento del agente Q&A. Esta version esta filtrada desde el manual de usuario:
+        // no incluye credenciales, accesos internos, roles administrativos, CAI/SAR, logs, auditoria,
+        // monitoreo, permisos ni configuraciones sensibles.
+        // Para agregar nuevas preguntas: cree un nuevo objeto con `keywords` y `answer`, o sume
+        // palabras equivalentes al arreglo `keywords` de un tema existente.
+        const knowledgeBase = [
+            {
+                keywords: ['hola', 'buenas', 'saludos', 'que tal', 'ayuda'],
+                answer: 'Hola, soy el agente Q&A de BarberAI. Puedo explicarte que es BarberAI y como funcionan citas, cola walk-in, ventas, apartados, inventario, servicios, barberos, precios por sucursal, reservas online, sitio publico, Lili, horarios y ubicacion.'
+            },
+            {
+                keywords: ['que es barberai', 'para que sirve barberai', 'barberai', 'sistema', 'software', 'plataforma'],
+                answer: 'BarberAI es una plataforma para administrar barberias. Ayuda a organizar citas, cola de clientes, ventas, apartados, inventario, servicios, barberos, precios por sucursal y reservas online desde un solo lugar.'
+            },
+            {
+                keywords: ['citas', 'cita', 'agenda', 'agendar cita', 'reservar cita', 'turno con hora', 'horarios disponibles'],
+                answer: 'Las citas en BarberAI se organizan por servicio, fecha, hora, cliente y barbero. El sistema permite ver la agenda del dia, crear nuevas citas, confirmar, iniciar, completar, cancelar o marcar cuando un cliente no llego. Tambien ayuda a evitar cruces de horario y mantiene la informacion en un solo panel. Si quieres agendar o pedir una demo, puedes usar el boton de WhatsApp.'
+            },
+            {
+                keywords: ['cola walk in', 'walk in', 'cola', 'sin cita', 'orden de llegada', 'llegada', 'espera', 'ticket'],
+                answer: 'La cola walk-in es para clientes que llegan sin cita y pasan por orden de llegada. BarberAI permite anotarlos, asignarles un ticket, ver su posicion, estimar la espera, llamarlos cuando sea su turno y completar la atencion con el barbero disponible.'
+            },
+            {
+                keywords: ['ventas', 'venta', 'punto de venta', 'pos', 'cobros', 'cobrar', 'productos vendidos', 'ingresos'],
+                answer: 'El modulo de ventas sirve para registrar cobros de servicios y productos. La barberia puede armar un carrito, elegir metodo de pago, controlar lo vendido y ver mejor los ingresos del dia sin depender de notas sueltas.'
+            },
+            {
+                keywords: ['apartados', 'apartado', 'reservar producto', 'producto apartado', 'recoger producto'],
+                answer: 'Los apartados permiten reservar productos para que el cliente los recoja despues. BarberAI registra el apartado, conserva la referencia de venta y permite marcarlo como pagado cuando el cliente lo retira.'
+            },
+            {
+                keywords: ['inventario', 'stock', 'existencias', 'productos', 'producto', 'stock bajo', 'reponer'],
+                answer: 'El inventario ayuda a controlar productos de venta o uso interno, como geles, ceras, shampoos o aceites. Permite revisar existencias, detectar stock bajo y relacionar los productos con las ventas.'
+            },
+            {
+                keywords: ['servicios', 'servicio', 'catalogo', 'corte', 'barba', 'cejas', 'facial', 'combo'],
+                answer: 'El catalogo de servicios organiza lo que ofrece la barberia: cortes, barba, cejas, faciales, tintes o combos. Cada servicio puede tener duracion y precio para usarlo en citas, reservas y ventas.'
+            },
+            {
+                keywords: ['barberos', 'barbero', 'equipo', 'personal', 'quien atiende', 'asignar barbero'],
+                answer: 'BarberAI ayuda a organizar los barberos de la barberia: quien atiende, que servicios realiza y como se asigna a citas o turnos de cola. Esto facilita saber quien atiende a cada cliente durante el dia.'
+            },
+            {
+                keywords: ['precios por sucursal', 'precios', 'precio', 'tarifas', 'cuanto cuesta', 'costo por sucursal'],
+                answer: 'BarberAI permite manejar precios por servicio y por sucursal. Esto es util cuando una barberia tiene varias ubicaciones, promociones o listas de precios diferentes.'
+            },
+            {
+                keywords: ['reservas online', 'reservar online', 'reserva en linea', 'reservas en linea', 'web reservas'],
+                answer: 'Las reservas online permiten que un cliente entre al sitio publico, vea los servicios y solicite una cita desde el navegador. La barberia recibe la informacion para ordenar la agenda y dar seguimiento.'
+            },
+            {
+                keywords: ['sitio publico', 'pagina publica', 'web publica', 'clientes desde navegador', 'pagina web'],
+                answer: 'El sitio publico es la pagina que ven los clientes. Desde ahi pueden conocer servicios y hacer reservas online sin entrar al panel interno de la barberia.'
+            },
+            {
+                keywords: ['lili', 'asistente lili', 'asistente ia', 'whatsapp', 'bot de whatsapp', 'que hace lili'],
+                answer: 'Lili es el asistente de BarberAI por WhatsApp. Atiende preguntas de clientes, muestra servicios, ayuda a agendar citas, anota personas en la cola walk-in, recibe solicitudes y envia avisos utiles como confirmaciones, recordatorios y llamados de turno.'
+            },
+            {
+                keywords: ['horarios', 'horario', 'hora disponible', 'disponibilidad', 'abierto', 'cerrado'],
+                answer: 'BarberAI ayuda a trabajar con horarios disponibles para citas y con el estado operativo de cada sucursal. Asi el equipo puede saber cuando hay espacios libres y ordenar mejor la atencion del dia.'
+            },
+            {
+                keywords: ['ubicacion', 'ubicaciones', 'sucursal', 'sucursales', 'local', 'locales', 'direccion'],
+                answer: 'BarberAI puede manejar una o varias sucursales. Cada ubicacion puede tener su propia operacion, servicios, precios y disponibilidad para que la informacion no quede mezclada.'
+            },
+            {
+                keywords: ['operacion basica', 'como funciona', 'flujo diario', 'dia a dia', 'barberia con barberai'],
+                answer: 'La operacion basica con BarberAI es simple: el equipo revisa la agenda, atiende citas programadas, anota clientes sin cita en la cola walk-in, registra ventas y apartados, controla inventario y consulta el resumen del dia para tomar mejores decisiones.'
+            },
+            {
+                keywords: ['preguntas frecuentes', 'faq', 'cliente tarde', 'cancelar cita', 'reprogramar', 'no llego'],
+                answer: 'En preguntas frecuentes, BarberAI contempla casos como clientes que llegan tarde, cambios de cita, cancelaciones, productos sin stock o turnos sin cita. En general, el sistema ayuda a registrar lo que paso y mantener el flujo de atencion ordenado.'
+            },
+            {
+                keywords: ['demo', 'pedir demo', 'probar', 'contacto', 'contactar', 'quiero agendar', 'agendar demo', 'informacion comercial'],
+                answer: 'Para pedir una demo o agendar una conversacion sobre BarberAI, usa el formulario de contacto o el boton flotante de WhatsApp. Por WhatsApp pueden orientarte sobre citas, cola, ventas, inventario y como aplicaria BarberAI en tu barberia.'
+            }
+        ];
+
+        const sensitiveResponse = 'Lo siento, no tengo acceso a información administrativa o sensible del sistema.';
+        const sensitiveKeywords = [
+            'usuario de prueba', 'usuarios de prueba', 'contrasena', 'contraseña', 'password',
+            'credencial', 'credenciales', 'admin', 'administrador', 'acceso interno',
+            'accesos internos', 'rol administrativo', 'roles administrativos', 'permiso',
+            'permisos', 'logs', 'log', 'base de datos', 'database', 'configuracion interna',
+            'configuraciones internas', 'seguridad', 'cai', 'facturacion fiscal', 'sar',
+            'monitoreo de conversaciones', 'monitor de chat', 'alertas de sentimiento',
+            'sentimiento', 'auditoria', 'datos de auditoria', 'configuraciones de administrador'
+        ];
+
         function addMessage(text, type) {
             const msg = document.createElement('div');
             msg.className = 'chat-msg ' + type;
@@ -1581,6 +1672,53 @@
             }
 
             return 'Buena pregunta. En general, BarberAI ayuda a ordenar una barbería desde un solo panel: citas, cola de clientes, ventas, servicios, barberos, precios por sucursal, inventario y sucursales. Si me dices qué parte te interesa, te lo explico más directo.';
+        }
+
+        function getTokens(texto) {
+            return limpiarTexto(texto).split(' ').filter(token => token.length > 2);
+        }
+
+        function isSensitiveQuestion(texto) {
+            return sensitiveKeywords.some(keyword => texto.includes(limpiarTexto(keyword)));
+        }
+
+        function scoreKnowledgeItem(texto, item) {
+            const userTokens = new Set(getTokens(texto));
+
+            return item.keywords.reduce((score, keyword) => {
+                const cleanKeyword = limpiarTexto(keyword);
+                const keywordTokens = getTokens(keyword);
+                const sharedTokens = keywordTokens.filter(token => userTokens.has(token)).length;
+
+                if (texto.includes(cleanKeyword)) return score + 6 + keywordTokens.length;
+                if (sharedTokens === keywordTokens.length && keywordTokens.length > 0) return score + 4;
+                if (sharedTokens > 0) return score + sharedTokens;
+                return score;
+            }, 0);
+        }
+
+        // La busqueda limpia la pregunta, bloquea temas sensibles y puntua coincidencias por frases
+        // completas y palabras clave. Asi reconoce preguntas parecidas sin depender de texto exacto.
+        function responderBarberAI(pregunta) {
+            const texto = limpiarTexto(pregunta);
+
+            if (isSensitiveQuestion(texto)) {
+                return sensitiveResponse;
+            }
+
+            if (texto.length < 4) {
+                return 'Te leo. Escribeme un poco mas para ayudarte mejor. Puedes preguntarme por citas, cola walk-in, ventas, inventario, servicios, barberos, precios, reservas online, Lili, horarios o ubicacion.';
+            }
+
+            const bestMatch = knowledgeBase
+                .map(item => ({ item, score: scoreKnowledgeItem(texto, item) }))
+                .sort((a, b) => b.score - a.score)[0];
+
+            if (bestMatch && bestMatch.score >= 2) {
+                return bestMatch.item.answer;
+            }
+
+            return 'No tengo una respuesta exacta para esa pregunta. Puedo ayudarte con temas de BarberAI como citas, cola walk-in, ventas, apartados, inventario, servicios, barberos, precios por sucursal, reservas online, sitio publico, Lili, horarios y ubicacion. Si quieres agendar una demo, usa el boton de WhatsApp.';
         }
 
         function enviarPregunta() {
