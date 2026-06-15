@@ -2,28 +2,50 @@
 
 ## Cliente ideal
 
-El cliente ideal de BarberAI son barberias, salones o estudios con 2 o mas sillas, barberos o estilistas, que hoy gestionan su agenda por WhatsApp, llamadas, mensajes directos en redes sociales o de forma manual.
+BarberAI es para barberias, salones o estudios con 2 o mas sillas/barberos, agenda por WhatsApp o manual, redes activas y necesidad clara de ordenar citas, mensajes, cobros, inventario o varias sucursales.
 
-Estos negocios suelen tener redes sociales activas y reciben consultas frecuentes sobre horarios, precios, servicios disponibles y disponibilidad de citas. El valor principal de BarberAI esta en ayudarles a ordenar la atencion al cliente, responder mas rapido y reducir la friccion al momento de agendar.
+El mejor cliente no solo quiere una pagina bonita: quiere perder menos citas, responder mas rapido, controlar mejor a sus barberos y ver que pasa en el negocio sin depender de notas sueltas.
 
-## Problemas principales
+## Senales de buen cliente
 
-- Citas perdidas por falta de confirmacion o seguimiento.
-- Clientes que no llegan y dejan espacios vacios en la agenda.
-- Agenda desordenada entre WhatsApp, llamadas, redes sociales y notas manuales.
-- Dificultad para controlar disponibilidad de barberos o sillas.
-- Falta de claridad sobre servicios, precios y horarios cuando el negocio esta ocupado.
-- Poco control sobre cobros, rendimiento de barberos o flujo diario de clientes.
+- Tiene 2 o mas sillas, barberos, estilistas o estaciones.
+- Agenda por WhatsApp, llamadas, mensajes de Facebook/Instagram o libreta.
+- Publica contenido reciente y recibe preguntas por citas, precios u horarios.
+- Tiene no-shows, citas traslapadas o clientes esperando sin orden.
+- Maneja cobros, ventas de productos o inventario.
+- Tiene varias sucursales o planes de crecer.
+- El dueno o encargado puede decidir y responder rapido.
 
-## Prioridad alta
+## Problemas que BarberAI resuelve
 
-Dar prioridad alta a barberias, salones o estudios con varias sucursales, alto movimiento diario, varios barberos activos o una base visible de clientes en redes sociales. Estos negocios tienen mas dolor operativo y mayor capacidad de pagar por una solucion que ordene citas, respuestas y seguimiento.
+- Agenda desordenada entre WhatsApp, redes y llamadas.
+- Citas cruzadas o sin confirmacion.
+- No-shows que dejan espacios vacios.
+- Falta de control sobre barberos, turnos y disponibilidad.
+- Preguntas repetidas sobre horarios, precios, servicios y ubicacion.
+- Cobros y ventas sin registro claro.
+- Inventario de productos sin seguimiento.
+- Poca visibilidad de sucursales, clientes, reclamos y resultados.
 
-## Senales de buen prospecto
+## Negocios que NO son prioridad
 
-- Publica contenido reciente en Facebook, Instagram o TikTok.
-- Recibe comentarios o mensajes de clientes preguntando por citas, precios u horarios.
-- Muestra varios barberos, estaciones de trabajo o sucursales.
-- Usa WhatsApp como canal principal de contacto.
-- Tiene promociones, servicios recurrentes o alta rotacion de clientes.
-- Responde lento o de forma inconsistente a consultas publicas.
+- Barberias de una sola silla sin dolor claro de agenda.
+- Negocios sin redes, sin WhatsApp publico y sin volumen visible.
+- Locales que no aceptan citas o trabajan solo por orden de llegada sin problema operativo.
+- Prospectos sin decisor accesible.
+- Negocios que solo buscan diseno grafico y no una solucion de operacion/ventas.
+
+## Como identificar prospecto A
+
+Un prospecto A cumple la mayor parte de estos puntos:
+
+- Dolor claro de citas, no-shows, mensajes repetidos o control de barberos.
+- Capacidad de pago probable por volumen, ubicacion, servicios premium o varias sucursales.
+- Dueno/decisor accesible por WhatsApp, Instagram, Facebook o referido.
+- 2 o mas sillas/barberos o varias sucursales.
+- Redes activas con evidencia de agenda, servicios, promociones o consultas.
+- Puede agendar una demo en menos de 7 dias.
+
+## Descripcion corta para Allan
+
+El cliente ideal de BarberAI es una barberia, salon o estudio con movimiento diario, varias sillas o barberos, agenda por WhatsApp/redes y problemas de citas, no-shows o control operativo. El prospecto A es el negocio donde el dueno siente el dolor, puede pagar y acepta ver una demo para ordenar agenda, atencion y ventas.

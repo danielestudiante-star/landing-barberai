@@ -67,3 +67,64 @@ La estructura de validacion comercial esta lista. No se han inventado prospectos
 - Confirmar que las plantillas cumplen con el plan IPC de Simplexity.
 - Completar datos reales cuando se haga la revision del deploy.
 - Ejecutar `git status` para confirmar los archivos que entraran al commit.
+
+## Validación Comercial IPC — BarberAI
+
+### Objetivo
+
+Validar comercialmente BarberAI durante 8 semanas antes de construir mas funciones. La prioridad es demostrar que BarberAI se puede vender con prospectos reales, evidencia de seguimiento, Backlog, campaña, A/B testing, agente de prospeccion y reporte diario.
+
+### Link del deploy
+
+https://landing-barberai-production.up.railway.app
+
+### Link del Google Sheet
+
+https://docs.google.com/spreadsheets/d/1HPDgX09Av7hNa9HLQa-am7T8tFw97flIPHgIAytYLis/edit
+
+No se pudo abrir/editar el Google Sheet desde este entorno, por eso se dejaron CSV listos para copiar manualmente.
+
+### Archivos de seguimiento creados
+
+- `validacion-comercial/revision-prospectos-barberai.md`
+- `validacion-comercial/tareas-s1-barberai.md`
+- `validacion-comercial/backlog-barberai.md`
+- `validacion-comercial/icp-barberai.md`
+- `validacion-comercial/calendario-contenido-8-semanas-barberai.md`
+- `validacion-comercial/ab-testing-barberai.md`
+- `validacion-comercial/agente-prospeccion-whatsapp-barberai.md`
+- `validacion-comercial/copies-anuncios-barberai.md`
+- `validacion-comercial/presupuesto-kpis-barberai.md`
+- `validacion-comercial/respuestas-criterios-semana-barberai.md`
+- `validacion-comercial/reporte-diario-allan-barberai.md`
+
+### Archivos de exportacion para Google Sheets
+
+- `validacion-comercial/exports-google-sheet/prospectos-barberai-normalizados.csv`
+- `validacion-comercial/exports-google-sheet/calendario-contenido-barberai.csv`
+- `validacion-comercial/exports-google-sheet/ab-testing-barberai.csv`
+
+### Estado de prospectos
+
+Se detectaron 15 prospectos reales en `prospectos/prospectos_barberai_comayagua.xlsx`, todos de Comayagua. El archivo `validacion-comercial/prospectos-comayagua.csv` existe como plantilla, pero no tenia negocios cargados.
+
+Pendiente: completar 5 prospectos reales adicionales de Comayagua para llegar a 20, y luego agregar prospectos reales de Choluteca y Atlantida.
+
+### Estado de Backlog
+
+Backlog inicial creado en `validacion-comercial/backlog-barberai.md`. Pendientes principales: completar prospectos reales, revisar deploy como cliente, tomar capturas de evidencia y confirmar telefonos faltantes.
+
+### Estado de campaña/A-B testing
+
+Campaña todavia no configurada. Se preparo el plan de contenido de 8 semanas, presupuesto/KPIs y pruebas A/B. No se debe activar pauta sin revisar artes, audiencia, presupuesto y aprobacion.
+
+### Proximos pasos
+
+- Copiar CSVs al Google Sheet.
+- Completar prospectos reales faltantes.
+- Revisar deploy con capturas.
+- Cerrar Backlog antes de demo.
+- Preparar artes, videos y campaña en borrador/pausa.
+- Agendar minimo 4 demos semanales como meta de validacion.
+
+Nota: no se deben construir mas funciones si no estan conectadas a venta.
