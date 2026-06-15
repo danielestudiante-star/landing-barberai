@@ -9,10 +9,18 @@ Producto: BarberAI
 | --- | --- | --- | --- |
 | El repositorio tiene estructura de validacion comercial para BarberAI. | Carpeta `validacion-comercial/` | Permite seguimiento comercial ordenado. | Confirmado |
 | El ICP de BarberAI esta documentado. | `validacion-comercial/icp-barberai.md` | Sirve para priorizar barberias, salones y estudios con agenda por redes/WhatsApp. | Confirmado |
-| Hay 15 prospectos reales de Comayagua, no 20. | `prospectos/prospectos_barberai_comayagua.xlsx` y `validacion-comercial/exports-google-sheet/prospectos-barberai-normalizados.csv` | Faltan 5 prospectos reales para cerrar la meta del dia. | Backlog |
+| El CSV normalizado ya tiene 20 prospectos reales de Comayagua. | `validacion-comercial/exports-google-sheet/prospectos-barberai-normalizados.csv` | La meta de 20 quedo completa; B-018 a B-020 requieren confirmar telefono/red social antes de outreach. | Listo |
 | No hay capturas reales del deploy en el proyecto. | Busqueda local de imagenes: solo existe `assets/img/simplexity-logo.png`. | No se puede marcar el deploy como listo para demo sin evidencia visual. | Backlog |
 | El checklist anterior estaba como plantilla. | Version previa de `validacion-comercial/checklist-lunes.md` | Allan no podia validar cierre real del dia. | Corregido |
 | La bitacora anterior tenia campos vacios. | Version previa de `validacion-comercial/bitacora-lunes.md` | El avance del dia no quedaba claro. | Corregido |
+
+## Evidencias encontradas
+
+| Evidencia | Archivo/Ruta | Estado | Observacion |
+| --- | --- | --- | --- |
+| CSV normalizado con prospectos | `validacion-comercial/exports-google-sheet/prospectos-barberai-normalizados.csv` | Encontrada | Contiene 20 prospectos reales documentados. |
+| XLSX local de prospectos | `prospectos/prospectos_barberai_comayagua.xlsx` | Encontrada | Fuente local de los primeros 15 prospectos confirmados. |
+| Capturas reales del deploy/chatbot/WhatsApp/vista movil | pendiente | No encontrada | Solo existe `assets/img/simplexity-logo.png`, que no sirve como evidencia de deploy. |
 
 ## Mejoras recomendadas antes de mostrar a cliente
 
@@ -25,7 +33,7 @@ Producto: BarberAI
 | Revisar que no existan links rotos en CTAs y navegacion. | Media | Captura o nota de prueba en checklist. | Pendiente de evidencia |
 | Guardar captura de la tabla de prospectos y hoja oficial si existe acceso. | Media | `validacion-comercial/evidencia/06-prospectos-google-sheet.png` | Pendiente de evidencia |
 
-## Pendientes por confirmar con captura
+## Pendientes de evidencia
 
 - Pendiente de evidencia: home del deploy cargando en desktop.
 - Pendiente de evidencia: chatbot abierto.
@@ -34,10 +42,11 @@ Producto: BarberAI
 - Pendiente de evidencia: vista movil sin solapamientos ni desbordes.
 - Pendiente de evidencia: tabla de prospectos en Google Sheet o archivo exportado.
 
-## Estado
+## Estado final
 
 - Documentacion de checklist: Listo.
 - Documentacion de bitacora: Listo.
 - Evidencia organizada: Listo.
 - Pruebas reales del deploy: Pendiente de evidencia.
-- Prospectos de Comayagua: 15/20, faltan 5 reales.
+- Prospectos de Comayagua: 20/20, faltan 0 reales.
+- No se puede cerrar como validado completamente hasta subir evidencia real del deploy, chatbot, WhatsApp y vista movil.

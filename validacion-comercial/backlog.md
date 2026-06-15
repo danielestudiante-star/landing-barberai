@@ -18,7 +18,7 @@ Usar este archivo como vista resumida del backlog comercial. El detalle principa
 
 | Tarea | Dia de origen | Prioridad | Estado | Responsable | Fecha limite | Evidencia requerida | Nota |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| Completar 5 prospectos reales faltantes para llegar a 20 en Comayagua. | Lunes 15 | Alta | Backlog | Daniel | 2026-06-16 | CSV/Sheet con fuente publica. | Actualmente hay 15 prospectos reales. |
+| Completar prospectos reales para llegar a 20 en Comayagua. | Lunes 15 | Alta | Listo | Daniel | 2026-06-16 | CSV/Sheet con fuente publica. | CSV normalizado actualizado hasta B-020; validar contacto de B-018 a B-020 antes de outreach. |
 | Completar checklist con evidencia real del deploy. | Lunes 15 | Alta | Pendiente de evidencia | Daniel | 2026-06-15 | Capturas y checklist actualizado. | Checklist documental corregido; faltan capturas. |
 | Agregar capturas reales de revision del deploy. | Lunes 15 | Alta | Backlog | Daniel | 2026-06-15 | Carpeta `validacion-comercial/evidencia/`. | No hay capturas reales en el proyecto. |
 | Mantener hallazgos reales en mejoras/backlog. | Lunes 15 | Alta | Listo | Daniel | 2026-06-15 | `mejoras-antes-demo.md` y `backlog-barberai.md`. | Ya se documentaron hallazgos confirmados y pendientes con contexto. |

@@ -106,9 +106,9 @@ No se pudo abrir/editar el Google Sheet desde este entorno, por eso se dejaron C
 
 ### Estado de prospectos
 
-Se detectaron 15 prospectos reales en `prospectos/prospectos_barberai_comayagua.xlsx`, todos de Comayagua. El archivo `validacion-comercial/prospectos-comayagua.csv` existe como plantilla, pero no tenia negocios cargados.
+Se detectaron 15 prospectos reales en `prospectos/prospectos_barberai_comayagua.xlsx`, todos de Comayagua. Luego se completo el CSV normalizado hasta 20 prospectos reales con fuentes publicas de OpenStreetMap/Nominatim.
 
-Pendiente: completar 5 prospectos reales adicionales de Comayagua para llegar a 20, y luego agregar prospectos reales de Choluteca y Atlantida.
+Pendiente: confirmar telefono o red social de B-018 a B-020 antes de outreach, y luego agregar prospectos reales de Choluteca y Atlantida.
 
 ### Estado de Backlog
 
@@ -133,9 +133,11 @@ Nota: no se deben construir mas funciones si no estan conectadas a venta.
 
 Fecha: 15 de junio de 2026
 
-- Estado de prospectos: 15/20 prospectos reales confirmados en Comayagua. Faltan 5 prospectos reales; no se inventaron negocios.
-- Checklist actualizado: `validacion-comercial/checklist-lunes.md` quedo con Estado, Evidencia y Observacion por punto.
-- Bitacora actualizada: `validacion-comercial/bitacora-lunes.md` ya no tiene campos vacios ni pendientes sin contexto.
-- Evidencia organizada: se creo `validacion-comercial/evidencia-deploy-barberai.md` y la carpeta `validacion-comercial/evidencia/` con instrucciones de capturas.
-- Backlog actualizado: `validacion-comercial/backlog-barberai.md` registra los 4 pendientes reales senalados por Allan y su estado.
-- Pendientes restantes: completar 5 prospectos reales de Comayagua, tomar capturas reales del deploy, validar WhatsApp/chatbot/vista movil/links y actualizar el checklist con esas evidencias.
+- Commit base: b722695.
+- Prospectos reales confirmados: 20.
+- Faltantes: 0.
+- Estado del checklist: actualizado con Estado, Evidencia y Observacion por punto; las pruebas del deploy siguen como Pendiente de evidencia o Backlog porque no hay capturas reales.
+- Estado de evidencia: no se encontraron capturas reales del deploy, chatbot, WhatsApp, vista movil, tabla de prospectos ni hoja oficial Prospectos BarberAI. La carpeta `validacion-comercial/evidencia/` queda lista para guardarlas.
+- Estado del Backlog: actualizado en `validacion-comercial/backlog-barberai.md` con prospectos marcados como completos y tareas pendientes para subir capturas, actualizar checklist y avisar a Allan para nueva revision.
+- Proximo paso: confirmar contacto de B-018 a B-020 y subir capturas reales del deploy, chatbot, WhatsApp y vista movil antes de cerrar la validacion.
+- Nota: no se inventaron prospectos ni capturas.

@@ -6,7 +6,7 @@ Barberias, salones o estudios con 2 o mas sillas/barberos, agenda por WhatsApp o
 
 ## 2. Cuantos prospectos reales encontre?
 
-15 prospectos reales encontrados en `prospectos/prospectos_barberai_comayagua.xlsx`, todos enfocados en Comayagua.
+20 prospectos reales documentados en el CSV normalizado de BarberAI, todos enfocados en Comayagua. Los primeros 15 vienen del XLSX local y B-016 a B-020 se agregaron con fuente publica OpenStreetMap/Nominatim.
 
 ## 3. Cuales son los 10 mejores prospectos y por que?
 

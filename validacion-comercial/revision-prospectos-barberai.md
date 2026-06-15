@@ -6,21 +6,22 @@ Fuente principal revisada: `prospectos/prospectos_barberai_comayagua.xlsx`
 
 ## Resumen
 
-- Prospectos reales encontrados: 15.
+- Total reales confirmados: 20.
 - Meta de Comayagua para cierre del dia: 20.
-- Estado actual frente a la meta: 15/20.
-- Prospectos faltantes para completar la meta: 5.
+- Estado actual frente a la meta: 20/20.
+- Faltantes: 0.
+- Estado: Completo.
 - Ciudad/departamento detectado: Comayagua, Comayagua.
 - Estado de contacto en el XLSX: todos aparecen como `Pendiente`.
-- El archivo `validacion-comercial/prospectos-comayagua.csv` fue actualizado con los mismos 15 prospectos reales del export normalizado.
-- No se encontraron 5 prospectos adicionales en archivos locales. Se creo `validacion-comercial/pendiente-5-prospectos-comayagua.md`.
-- No se encontro informacion de RestoAI en la revision solicitada.
+- El archivo `validacion-comercial/prospectos-comayagua.csv` fue actualizado con los mismos 20 prospectos reales del export normalizado.
+- Se agregaron B-016 a B-020 desde fuente publica OpenStreetMap/Nominatim.
+- Nota: no se contaron filas vacias, filas con solo ID ni registros sin nombre del negocio.
 
 ## Cantidad por ciudad/departamento
 
 | Ciudad/Depto | Cantidad |
 | --- | ---: |
-| Comayagua, Comayagua | 15 |
+| Comayagua, Comayagua | 20 |
 
 ## Cantidad por prioridad
 
@@ -29,24 +30,24 @@ El XLSX no trae prioridad A/B/C. Para el CSV normalizado se sugirio prioridad so
 | Prioridad sugerida | Cantidad | Criterio usado |
 | --- | ---: | --- |
 | A | 5 | Reservas/citas claras, varios canales, servicios recurrentes o senales fuertes de agenda activa. |
-| B | 9 | Buen prospecto por WhatsApp/redes/citas, pero falta confirmar volumen, decisor o cantidad de sillas/barberos. |
-| C | 1 | Presencia publica menor o menos evidencia comercial disponible. |
+| B | 11 | Buen prospecto por WhatsApp/redes/citas o ficha publica con contacto, pero falta confirmar volumen, decisor o cantidad de sillas/barberos. |
+| C | 4 | Presencia publica menor o falta confirmar telefono/red social antes de outreach. |
 
 ## Campos completos
 
-- Nombre del negocio: 15/15.
-- Ciudad/zona: 15/15.
-- Tipo de negocio: 15/15.
-- Por que es buen prospecto: 15/15.
-- Como BarberAI les ayudaria: 15/15.
-- Estado: 15/15.
-- Fuente publica: 15/15.
-- Redes o pagina publica: 15/15.
-- Telefono/WhatsApp confirmado: 11/15.
+- Nombre del negocio: 20/20.
+- Ciudad/zona: 20/20.
+- Tipo de negocio: 20/20.
+- Por que es buen prospecto: 20/20.
+- Como BarberAI les ayudaria: 20/20.
+- Estado: 20/20.
+- Fuente publica: 20/20.
+- Redes, pagina publica o ficha publica: 20/20.
+- Telefono/WhatsApp confirmado: 13/20.
 
 ## Campos incompletos
 
-- Telefono/WhatsApp: faltan 4 prospectos con numero confirmado.
+- Telefono/WhatsApp: faltan 7 prospectos con numero confirmado.
 - Dueno/encargado: no aparece publicado en los datos revisados.
 - TikTok: no aparece publicado en los datos revisados.
 - Web/menu: solo Owen Club Barber tiene enlace de reservas online claro.
@@ -61,6 +62,7 @@ El XLSX no trae prioridad A/B/C. Para el CSV normalizado se sugirio prioridad so
 - TikTok: no aparece como fuente en los archivos revisados.
 - Referido: no aparece como fuente en los archivos revisados.
 - Otra: HeyGoldie y Comayagua Digital aparecen como fuentes publicas.
+- OpenStreetMap/Nominatim: usado en 5 registros agregados.
 
 ## Observaciones de calidad
 
@@ -97,7 +99,7 @@ El XLSX no trae prioridad A/B/C. Para el CSV normalizado se sugirio prioridad so
 
 ## Pendientes
 
-- Completar 5 prospectos reales adicionales de Comayagua para llegar a 20.
+- Confirmar telefono o red social de B-018, B-019 y B-020 antes de outreach.
 - Completar datos reales de Choluteca y Atlantida.
 - Confirmar telefonos faltantes.
 - Validar decisor/dueno para cada prospecto.

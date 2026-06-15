@@ -6,17 +6,17 @@ Hola Allan, comparto avance de validacion comercial de BarberAI:
 
 *Avance de hoy*
 - Se revisaron archivos reales del proyecto BarberAI.
-- Se detectaron 15 prospectos reales en el XLSX de Comayagua.
+- Se completo el CSV normalizado con 20 prospectos reales de Comayagua.
 - Se normalizo el archivo para copiar a Google Sheets.
 - Se dejo estructura de tareas S1, Backlog, ICP, calendario de 8 semanas, A/B testing, agente de prospeccion, copies, presupuesto/KPIs y respuestas semanales.
 
 *Prospectos cargados*
-- Prospectos reales detectados: 15.
+- Prospectos reales detectados: 20.
 - Ciudad actual: Comayagua.
-- Pendiente: completar 5 prospectos reales mas para llegar a 20 en Comayagua y luego sumar Choluteca/Atlantida.
+- Pendiente: confirmar telefono o red social de B-018 a B-020 antes de outreach y luego sumar Choluteca/Atlantida.
 
 *Backlog*
-- Completar 5 prospectos reales adicionales de Comayagua.
+- Confirmar contacto de B-018 a B-020.
 - Revisar deploy como cliente y llenar checklist.
 - Tomar capturas de fuentes.
 - Confirmar telefonos faltantes.

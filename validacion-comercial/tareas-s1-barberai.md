@@ -12,7 +12,7 @@ Responsable general: Daniel.
 | Llenar checklist de revision. | Listo | Daniel | `validacion-comercial/checklist-lunes.md` completo. | Checklist documental corregido; pruebas del deploy quedan como pendiente de evidencia. |
 | Escribir lista de mejoras antes de demo. | Listo | Daniel | `validacion-comercial/mejoras-antes-demo.md`. | Hallazgos reales y pendientes de evidencia registrados. |
 | Escribir ICP de BarberAI. | Listo | Daniel | `validacion-comercial/icp-barberai.md`. | Actualizado para validacion comercial. |
-| Cargar primeros 20 prospectos en Comayagua. | Backlog | Daniel | CSV/Sheet con 20 filas reales. | Hay 15 prospectos reales encontrados; faltan 5 para llegar a 20. No se inventaron negocios. |
+| Cargar primeros 20 prospectos en Comayagua. | Listo | Daniel | CSV/Sheet con 20 filas reales. | CSV normalizado actualizado hasta B-020. B-018 a B-020 requieren confirmar telefono o red social antes de outreach. |
 
 ## MARTES 16
 
@@ -30,7 +30,7 @@ Responsable general: Daniel.
 | Tarea | Estado | Responsable | Evidencia requerida | Nota |
 | --- | --- | --- | --- | --- |
 | Resolver Backlog del martes. | Pendiente | Daniel | Backlog en 0 o justificacion. | No avanzar si bloquea la validacion. |
-| Llegar a 80-100 prospectos totales. | Pendiente | Daniel | Sheet/CSV con 80-100 prospectos reales. | Actualmente hay 15 reales. |
+| Llegar a 80-100 prospectos totales. | Pendiente | Daniel | Sheet/CSV con 80-100 prospectos reales. | Actualmente hay 20 reales en Comayagua. |
 | Hacer analisis de mercado. | Pendiente | Daniel | Documento con hallazgos por ciudad/tipo. | Requiere mas datos. |
 | Definir Top 10 prospectos. | Listo | Daniel | `revision-prospectos-barberai.md`. | Top 10 definido con los 15 reales actuales. |
 | Definir audiencia, geografia y presupuesto piloto. | En progreso | Daniel | `presupuesto-kpis-barberai.md`. | Falta aprobar presupuesto. |

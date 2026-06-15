@@ -8,4 +8,4 @@ Listo, Allan. Ya corregi los pendientes: complete los 20 prospectos reales de Co
 
 ## Version si todavia faltan los 5 prospectos porque no hay datos reales
 
-Listo, Allan. Ya corregi checklist, bitacora, evidencia y backlog. Confirme que actualmente hay 15 prospectos reales y deje marcado que faltan 5 prospectos reales de Comayagua; no los invente porque deben salir de fuente real. Estoy completando esos 5 para cerrar el dia.
+Listo, Allan. Actualice el repo dejando mas claro el estado real: ya quedo completo el CSV normalizado con 20 prospectos reales de Comayagua y deje indicado que faltan capturas reales del deploy, chatbot, WhatsApp y vista movil. No invente capturas ni telefonos; B-018 a B-020 quedan con contacto pendiente de confirmar antes de outreach.

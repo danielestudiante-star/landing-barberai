@@ -6,17 +6,17 @@ Deploy documentado: https://landing-barberai-production.up.railway.app
 
 No se encontraron capturas reales del deploy en el proyecto. La unica imagen local encontrada fue `assets/img/simplexity-logo.png`, que no evidencia la revision del deploy.
 
-## Capturas requeridas
+## Evidencias requeridas
 
-| Evidencia | Ruta esperada | Estado | Nota |
+| Evidencia | Archivo/Ruta | Estado | Observacion |
 | --- | --- | --- | --- |
-| Captura de la pagina principal | `validacion-comercial/evidencia/01-home-deploy.png` | Pendiente | Pendiente: Daniel debe tomar esta captura y colocarla en carpeta evidencia/. |
-| Captura del chatbot abierto | `validacion-comercial/evidencia/02-chatbot-abierto.png` | Pendiente | Pendiente: Daniel debe tomar esta captura y colocarla en carpeta evidencia/. |
-| Captura de una pregunta al chatbot | `validacion-comercial/evidencia/03-chatbot-respuesta.png` | Pendiente | Pendiente: Daniel debe tomar esta captura y colocarla en carpeta evidencia/. |
-| Captura del boton de WhatsApp funcionando | `validacion-comercial/evidencia/04-whatsapp.png` | Pendiente | Pendiente: Daniel debe tomar esta captura y colocarla en carpeta evidencia/. |
-| Captura de vista movil | `validacion-comercial/evidencia/05-vista-movil.png` | Pendiente | Pendiente: Daniel debe tomar esta captura y colocarla en carpeta evidencia/. |
-| Captura de la tabla de prospectos | `validacion-comercial/evidencia/06-prospectos-google-sheet.png` | Pendiente | Pendiente: Daniel debe tomar esta captura y colocarla en carpeta evidencia/. |
-| Captura de la hoja oficial si existe | `validacion-comercial/evidencia/06-prospectos-google-sheet.png` | Pendiente | Pendiente: Daniel debe tomar esta captura y colocarla en carpeta evidencia/. |
+| Pagina principal del deploy | pendiente | Pendiente de evidencia | Pendiente de evidencia real. Daniel debe tomar la captura y guardarla en `validacion-comercial/evidencia/`. |
+| Chatbot abierto | pendiente | Pendiente de evidencia | Pendiente de evidencia real. Daniel debe tomar la captura y guardarla en `validacion-comercial/evidencia/`. |
+| Pregunta y respuesta del chatbot | pendiente | Pendiente de evidencia | Pendiente de evidencia real. Daniel debe tomar la captura y guardarla en `validacion-comercial/evidencia/`. |
+| Boton de WhatsApp funcionando | pendiente | Pendiente de evidencia | Pendiente de evidencia real. Daniel debe tomar la captura y guardarla en `validacion-comercial/evidencia/`. |
+| Vista movil | pendiente | Pendiente de evidencia | Pendiente de evidencia real. Daniel debe tomar la captura y guardarla en `validacion-comercial/evidencia/`. |
+| Tabla de prospectos | pendiente | Pendiente de evidencia | Pendiente de evidencia real. Daniel debe tomar la captura y guardarla en `validacion-comercial/evidencia/`. |
+| Hoja oficial Prospectos BarberAI, si existe captura | pendiente | Pendiente de evidencia | Pendiente de evidencia real. Daniel debe tomar la captura y guardarla en `validacion-comercial/evidencia/`. |
 
 ## Uso en checklist
 

@@ -1,36 +1,26 @@
 # Reporte de estado lunes - BarberAI
 
-Mensaje listo para pegar en WhatsApp al supervisor.
+Fecha: 15 de junio de 2026  
+Producto: BarberAI  
+Commit revisado: b722695
 
-Hola Allan, comparto el avance de validacion comercial de BarberAI:
+## Estado real encontrado
 
-*Que se avanzo*
-- Se reviso la estructura comercial existente de BarberAI.
-- Se confirmo que el ICP, campana, A/B testing, agente de prospeccion, backlog y reportes existen.
-- Se confirmaron 15 prospectos reales de Comayagua en el XLSX y el export normalizado.
-- Se actualizo `validacion-comercial/prospectos-comayagua.csv` con los 15 prospectos reales.
-- Se corrigieron checklist, bitacora, mejoras y backlog para que ya no queden como plantilla vacia.
-- Se creo la estructura de evidencia para capturas del deploy.
+- Prospectos reales confirmados: 20/20.
+- Faltantes: 0 prospectos reales de Comayagua.
+- Evidencias reales encontradas del deploy/chatbot/WhatsApp/vista movil: ninguna.
+- Carpeta de evidencia: `validacion-comercial/evidencia/`.
+- Backlog actualizado: `validacion-comercial/backlog-barberai.md`.
+- Nota: no se inventaron prospectos ni capturas.
 
-*Que falta*
-- Completar 5 prospectos reales de Comayagua para llegar a 20.
-- Revisar el deploy real como cliente y guardar capturas.
-- Confirmar con evidencia el boton de WhatsApp, chatbot, vista movil y links.
-- Tomar captura de la tabla/hoja oficial de prospectos si existe acceso.
+## Escenario A - si se completo todo
 
-*Cantidad de prospectos cargados*
-- Prospectos reales cargados: 15 / 20.
-- Estado: faltan 5 prospectos reales; no se inventaron negocios.
+Listo, Allan. Ya corregi los pendientes del repo landing-barberai: complete los 20 prospectos reales de Comayagua, actualice checklist y bitacora con evidencia, deje hallazgos reales en mejoras/backlog y organice las capturas del deploy/chatbot/WhatsApp/vista movil. Queda listo para nueva revision.
 
-*Backlog*
-- Pendientes registrados: 4 principales.
-- Pendientes criticos: completar 5 prospectos reales y agregar capturas reales del deploy.
-- Estado general: documentacion corregida; pruebas visuales y 5 prospectos quedan en backlog.
+## Escenario B - si siguen faltando prospectos o capturas
 
-*Evidencia*
-- Capturas tomadas: ninguna captura real encontrada en el proyecto.
-- Ubicacion preparada: `validacion-comercial/evidencia/`.
-- Evidencia pendiente: home, chatbot abierto, respuesta de chatbot, WhatsApp, vista movil y tabla de prospectos.
+Listo, Allan. Actualice el repo dejando mas claro el estado real: ya quedo completo el CSV normalizado con 20 prospectos reales de Comayagua y deje indicado que faltan capturas reales del deploy, chatbot, WhatsApp y vista movil. No invente capturas ni telefonos; B-018 a B-020 quedan con contacto pendiente de confirmar antes de outreach.
 
-*Proximo paso*
-- Buscar manualmente 5 prospectos reales en Google Maps, Facebook, Instagram o TikTok, tomar capturas del deploy y actualizar el checklist con evidencia real.
+## Escenario que aplica
+
+Aplica una version parcial del Escenario B. Los prospectos ya quedaron en 20/20, pero no hay capturas reales del deploy, chatbot, WhatsApp ni vista movil en el repo.

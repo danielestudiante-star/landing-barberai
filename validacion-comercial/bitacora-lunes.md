@@ -4,16 +4,17 @@
 
 - Fecha: 15 de junio de 2026
 - Producto: BarberAI
+- Commit revisado: b722695
 - Responsable: Daniel
-- Objetivo del dia: validacion comercial del deploy y prospectos.
+- Objetivo del dia: dejar documentado el estado real de prospectos, evidencia del deploy, chatbot, WhatsApp, vista movil y backlog para nueva revision de Allan.
 
 ## Actividades realizadas
 
 | Actividad | Estado | Evidencia | Observacion |
 | --- | --- | --- | --- |
 | Revisar estructura de validacion comercial | Listo | Carpeta `validacion-comercial/` | Existen archivos de ICP, campana, A/B testing, agente de prospeccion, backlog, reportes y exports. |
-| Revisar prospectos locales | Listo | `prospectos/prospectos_barberai_comayagua.xlsx` y `validacion-comercial/exports-google-sheet/prospectos-barberai-normalizados.csv` | Se confirmaron 15 prospectos reales de Comayagua. |
-| Confirmar si hay 20 prospectos reales | Listo | `validacion-comercial/pendiente-5-prospectos-comayagua.md` | No hay 5 prospectos adicionales en archivos locales; no se inventaron negocios. |
+| Revisar prospectos locales | Listo | `prospectos/prospectos_barberai_comayagua.xlsx` y `validacion-comercial/exports-google-sheet/prospectos-barberai-normalizados.csv` | El XLSX local tenia 15; el CSV normalizado quedo actualizado a 20 prospectos reales. No se contaron filas vacias. |
+| Confirmar si hay 20 prospectos reales | Listo | `validacion-comercial/pendiente-5-prospectos-comayagua.md` | Se agregaron B-016 a B-020 con fuente publica OpenStreetMap/Nominatim. No se inventaron negocios, telefonos ni redes. |
 | Actualizar checklist | Listo | `validacion-comercial/checklist-lunes.md` | Se reemplazo la plantilla por tabla con estado, evidencia y observacion. |
 | Organizar evidencia requerida | Listo | `validacion-comercial/evidencia-deploy-barberai.md` y `validacion-comercial/evidencia/README-evidencia.md` | Se definieron capturas necesarias y nombres de archivo. |
 | Actualizar mejoras/backlog | Listo | `validacion-comercial/mejoras-antes-demo.md` y `validacion-comercial/backlog-barberai.md` | Se registraron hallazgos y pendientes reales sin asumir pruebas no hechas. |
@@ -34,12 +35,13 @@ Deploy documentado: https://landing-barberai-production.up.railway.app
 
 ## Prospectos encontrados
 
-- Prospectos reales confirmados: 15.
+- Prospectos confirmados: 20.
 - Meta del dia: 20 prospectos reales de Comayagua.
-- Estado: 15/20.
+- Estado: 20/20.
+- Faltantes: 0.
 - Fuente local confirmada: `prospectos/prospectos_barberai_comayagua.xlsx`.
 - Export revisado: `validacion-comercial/exports-google-sheet/prospectos-barberai-normalizados.csv`.
-- Observacion: no se encontraron 5 prospectos reales adicionales en archivos locales. Se dejo pendiente manual en `validacion-comercial/pendiente-5-prospectos-comayagua.md`.
+- Observacion: B-016 a B-020 se agregaron desde fuente publica OpenStreetMap/Nominatim; B-018 a B-020 requieren confirmar telefono o red social antes de outreach.
 
 ## Estado de checklist
 
@@ -48,13 +50,17 @@ Deploy documentado: https://landing-barberai-production.up.railway.app
 - Pruebas del deploy: Pendiente de evidencia.
 - Sitio listo para demo: Pendiente de evidencia.
 
-## Evidencia existente
+## Evidencia tomada
+
+- No se encontro ninguna captura real del deploy, chatbot, WhatsApp, vista movil, tabla de prospectos u hoja oficial.
+- La carpeta `validacion-comercial/evidencia/` existe para guardar capturas reales cuando Daniel las tome.
+
+## Evidencia documental existente
 
 - Link del deploy en `README.txt`.
 - Link del deploy en `validacion-comercial/tareas-s1-barberai.md`.
-- CSV normalizado con 15 prospectos reales.
-- XLSX con 15 prospectos reales y resumen.
-- Carpeta de evidencia creada: `validacion-comercial/evidencia/`.
+- CSV normalizado con 20 prospectos reales.
+- XLSX con 15 prospectos reales y resumen original.
 
 ## Evidencia pendiente
 
@@ -69,7 +75,7 @@ Deploy documentado: https://landing-barberai-production.up.railway.app
 
 | Hallazgo | Tipo | Prioridad | Archivo relacionado | Estado |
 | --- | --- | --- | --- | --- |
-| Hay 15 prospectos reales, no 20. | Prospectos | Alta | `prospectos/prospectos_barberai_comayagua.xlsx` | Backlog |
+| El XLSX local tenia 15 prospectos, pero el CSV normalizado ya quedo en 20. | Prospectos | Alta | `validacion-comercial/exports-google-sheet/prospectos-barberai-normalizados.csv` | Listo |
 | No hay capturas reales del deploy en el proyecto. | Evidencia | Alta | `validacion-comercial/evidencia-deploy-barberai.md` | Backlog |
 | Checklist anterior estaba como plantilla con casillas vacias. | Documentacion | Alta | `validacion-comercial/checklist-lunes.md` | Listo |
 | Bitacora anterior tenia campos vacios o pendientes sin contexto. | Documentacion | Alta | `validacion-comercial/bitacora-lunes.md` | Listo |
@@ -77,11 +83,11 @@ Deploy documentado: https://landing-barberai-production.up.railway.app
 
 ## Backlog real
 
-- Completar 5 prospectos reales faltantes para llegar a 20 en Comayagua.
-- Completar checklist con evidencia real del deploy.
-- Agregar capturas reales de revision del deploy.
-- Mantener hallazgos reales en mejoras/backlog con evidencia.
+- Listo: completar prospectos reales de Comayagua hasta B-020.
+- Pendiente para Backlog de martes: completar checklist con evidencia real del deploy.
+- Pendiente para Backlog de martes: agregar capturas reales de revision del deploy, chatbot, WhatsApp y vista movil.
+- Pendiente para Backlog de martes: avisar a Allan para nueva revision cuando existan los 20 prospectos o se mantenga documentado el faltante.
 
 ## Resumen para Allan
 
-Listo, Allan. Ya corregi checklist, bitacora, evidencia y backlog. Confirme que actualmente hay 15 prospectos reales y deje marcado que faltan 5 prospectos reales de Comayagua; no los invente porque deben salir de fuente real. Estoy completando esos 5 para cerrar el dia.
+Listo, Allan. Actualice el repo y complete el CSV normalizado hasta 20 prospectos reales de Comayagua con fuentes publicas. No invente negocios, telefonos ni capturas. Quedan pendientes las capturas reales del deploy, chatbot, WhatsApp y vista movil, y validar telefono/red social de B-018 a B-020 antes de outreach.
