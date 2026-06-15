@@ -7,9 +7,13 @@ Fuente principal revisada: `prospectos/prospectos_barberai_comayagua.xlsx`
 ## Resumen
 
 - Prospectos reales encontrados: 15.
+- Meta de Comayagua para cierre del dia: 20.
+- Estado actual frente a la meta: 15/20.
+- Prospectos faltantes para completar la meta: 5.
 - Ciudad/departamento detectado: Comayagua, Comayagua.
 - Estado de contacto en el XLSX: todos aparecen como `Pendiente`.
-- El archivo `validacion-comercial/prospectos-comayagua.csv` existe, pero estaba como plantilla vacia B-001 a B-020.
+- El archivo `validacion-comercial/prospectos-comayagua.csv` fue actualizado con los mismos 15 prospectos reales del export normalizado.
+- No se encontraron 5 prospectos adicionales en archivos locales. Se creo `validacion-comercial/pendiente-5-prospectos-comayagua.md`.
 - No se encontro informacion de RestoAI en la revision solicitada.
 
 ## Cantidad por ciudad/departamento
@@ -93,7 +97,9 @@ El XLSX no trae prioridad A/B/C. Para el CSV normalizado se sugirio prioridad so
 
 ## Pendientes
 
+- Completar 5 prospectos reales adicionales de Comayagua para llegar a 20.
 - Completar datos reales de Choluteca y Atlantida.
 - Confirmar telefonos faltantes.
 - Validar decisor/dueno para cada prospecto.
 - Tomar capturas de fuente por prospecto antes del outreach.
+- Tomar captura de la hoja oficial Prospectos BarberAI si existe acceso.

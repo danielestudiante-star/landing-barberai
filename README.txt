@@ -128,3 +128,14 @@ Campaña todavia no configurada. Se preparo el plan de contenido de 8 semanas, p
 - Agendar minimo 4 demos semanales como meta de validacion.
 
 Nota: no se deben construir mas funciones si no estan conectadas a venta.
+
+## Correccion revision Allan - BarberAI
+
+Fecha: 15 de junio de 2026
+
+- Estado de prospectos: 15/20 prospectos reales confirmados en Comayagua. Faltan 5 prospectos reales; no se inventaron negocios.
+- Checklist actualizado: `validacion-comercial/checklist-lunes.md` quedo con Estado, Evidencia y Observacion por punto.
+- Bitacora actualizada: `validacion-comercial/bitacora-lunes.md` ya no tiene campos vacios ni pendientes sin contexto.
+- Evidencia organizada: se creo `validacion-comercial/evidencia-deploy-barberai.md` y la carpeta `validacion-comercial/evidencia/` con instrucciones de capturas.
+- Backlog actualizado: `validacion-comercial/backlog-barberai.md` registra los 4 pendientes reales senalados por Allan y su estado.
+- Pendientes restantes: completar 5 prospectos reales de Comayagua, tomar capturas reales del deploy, validar WhatsApp/chatbot/vista movil/links y actualizar el checklist con esas evidencias.

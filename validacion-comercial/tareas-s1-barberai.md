@@ -8,11 +8,11 @@ Responsable general: Daniel.
 | Tarea | Estado | Responsable | Evidencia requerida | Nota |
 | --- | --- | --- | --- | --- |
 | Agregar a Allan como ADMIN en GitHub. | Pendiente | Daniel | Captura de configuracion de colaborador/admin. | No ejecutar sin acceso confirmado. |
-| Revisar deploy de BarberAI como cliente. | Pendiente | Daniel | Capturas desktop/movil del deploy. | Deploy documentado: https://landing-barberai-production.up.railway.app |
-| Llenar checklist de revision. | Pendiente | Daniel | `validacion-comercial/checklist-lunes.md` completo. | Registrar hallazgos reales. |
-| Escribir lista de mejoras antes de demo. | Pendiente | Daniel | `validacion-comercial/mejoras-antes-demo.md`. | No asumir errores sin probar. |
+| Revisar deploy de BarberAI como cliente. | Pendiente de evidencia | Daniel | Capturas desktop/movil del deploy. | Deploy documentado: https://landing-barberai-production.up.railway.app; faltan capturas reales. |
+| Llenar checklist de revision. | Listo | Daniel | `validacion-comercial/checklist-lunes.md` completo. | Checklist documental corregido; pruebas del deploy quedan como pendiente de evidencia. |
+| Escribir lista de mejoras antes de demo. | Listo | Daniel | `validacion-comercial/mejoras-antes-demo.md`. | Hallazgos reales y pendientes de evidencia registrados. |
 | Escribir ICP de BarberAI. | Listo | Daniel | `validacion-comercial/icp-barberai.md`. | Actualizado para validacion comercial. |
-| Cargar primeros 20 prospectos en Comayagua. | Backlog | Daniel | CSV/Sheet con 20 filas reales. | Hay 15 prospectos reales encontrados; faltan 5 para llegar a 20. |
+| Cargar primeros 20 prospectos en Comayagua. | Backlog | Daniel | CSV/Sheet con 20 filas reales. | Hay 15 prospectos reales encontrados; faltan 5 para llegar a 20. No se inventaron negocios. |
 
 ## MARTES 16
 

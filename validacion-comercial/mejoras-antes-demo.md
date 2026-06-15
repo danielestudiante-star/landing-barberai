@@ -1,57 +1,43 @@
-# Mejoras antes de demo
+# Mejoras antes de demo - BarberAI
 
-Anotar aqui todo lo que se deberia corregir o pulir antes de ensenar BarberAI a un cliente. Los ejemplos siguientes estan marcados como pendiente de confirmar para no asumir errores que todavia no han sido verificados.
+Fecha de revision documental: 2026-06-15  
+Producto: BarberAI
 
-## Diseno
+## Hallazgos confirmados
 
-- Pendiente de confirmar: revisar si el hero comunica rapido el valor de BarberAI.
-- Pendiente de confirmar: revisar si los botones principales se ven claros y profesionales.
-- Pendiente de confirmar: revisar si las imagenes o logos cargan correctamente.
-- Hallazgos reales:
+| Hallazgo | Evidencia | Impacto | Estado |
+| --- | --- | --- | --- |
+| El repositorio tiene estructura de validacion comercial para BarberAI. | Carpeta `validacion-comercial/` | Permite seguimiento comercial ordenado. | Confirmado |
+| El ICP de BarberAI esta documentado. | `validacion-comercial/icp-barberai.md` | Sirve para priorizar barberias, salones y estudios con agenda por redes/WhatsApp. | Confirmado |
+| Hay 15 prospectos reales de Comayagua, no 20. | `prospectos/prospectos_barberai_comayagua.xlsx` y `validacion-comercial/exports-google-sheet/prospectos-barberai-normalizados.csv` | Faltan 5 prospectos reales para cerrar la meta del dia. | Backlog |
+| No hay capturas reales del deploy en el proyecto. | Busqueda local de imagenes: solo existe `assets/img/simplexity-logo.png`. | No se puede marcar el deploy como listo para demo sin evidencia visual. | Backlog |
+| El checklist anterior estaba como plantilla. | Version previa de `validacion-comercial/checklist-lunes.md` | Allan no podia validar cierre real del dia. | Corregido |
+| La bitacora anterior tenia campos vacios. | Version previa de `validacion-comercial/bitacora-lunes.md` | El avance del dia no quedaba claro. | Corregido |
 
-## Chatbot
+## Mejoras recomendadas antes de mostrar a cliente
 
-- Pendiente de confirmar: probar si abre correctamente.
-- Pendiente de confirmar: probar respuestas sobre citas, horarios, servicios y barberia.
-- Pendiente de confirmar: revisar si las respuestas son utiles para un dueno de barberia.
-- Hallazgos reales:
+| Mejora | Prioridad | Evidencia requerida | Estado |
+| --- | --- | --- | --- |
+| Verificar que el deploy publico cargue correctamente. | Alta | `validacion-comercial/evidencia/01-home-deploy.png` | Pendiente de evidencia |
+| Confirmar que el boton de WhatsApp abra correctamente. | Alta | `validacion-comercial/evidencia/04-whatsapp.png` | Pendiente de evidencia |
+| Confirmar que el chatbot responda preguntas sobre citas, servicios y horarios. | Alta | `validacion-comercial/evidencia/03-chatbot-respuesta.png` | Pendiente de evidencia |
+| Confirmar que la vista movil no tape contenido con el chatbot o WhatsApp. | Alta | `validacion-comercial/evidencia/05-vista-movil.png` | Pendiente de evidencia |
+| Revisar que no existan links rotos en CTAs y navegacion. | Media | Captura o nota de prueba en checklist. | Pendiente de evidencia |
+| Guardar captura de la tabla de prospectos y hoja oficial si existe acceso. | Media | `validacion-comercial/evidencia/06-prospectos-google-sheet.png` | Pendiente de evidencia |
 
-## WhatsApp
+## Pendientes por confirmar con captura
 
-- Pendiente de confirmar: probar si el boton abre el chat correcto.
-- Pendiente de confirmar: revisar si el mensaje inicial, si existe, esta bien escrito.
-- Pendiente de confirmar: validar que funcione en desktop y movil.
-- Hallazgos reales:
+- Pendiente de evidencia: home del deploy cargando en desktop.
+- Pendiente de evidencia: chatbot abierto.
+- Pendiente de evidencia: respuesta del chatbot a una pregunta real sobre citas, servicios u horarios.
+- Pendiente de evidencia: boton de WhatsApp abriendo el chat correcto.
+- Pendiente de evidencia: vista movil sin solapamientos ni desbordes.
+- Pendiente de evidencia: tabla de prospectos en Google Sheet o archivo exportado.
 
-## Vista movil
+## Estado
 
-- Pendiente de confirmar: revisar si el sitio se adapta bien a celular.
-- Pendiente de confirmar: revisar si hay textos cortados o botones dificiles de tocar.
-- Pendiente de confirmar: revisar si el chatbot o WhatsApp tapan contenido importante.
-- Hallazgos reales:
-
-## Links
-
-- Pendiente de confirmar: probar links internos.
-- Pendiente de confirmar: probar links externos.
-- Pendiente de confirmar: revisar si algun CTA lleva a una ruta incorrecta.
-- Hallazgos reales:
-
-## Textos
-
-- Pendiente de confirmar: revisar ortografia y claridad del mensaje comercial.
-- Pendiente de confirmar: revisar si el texto habla de problemas reales de barberias.
-- Pendiente de confirmar: revisar si la propuesta de valor se entiende sin explicacion adicional.
-- Hallazgos reales:
-
-## Errores encontrados
-
-- Error confirmado 1:
-- Error confirmado 2:
-- Error confirmado 3:
-
-## Recomendaciones
-
-- Recomendacion 1:
-- Recomendacion 2:
-- Recomendacion 3:
+- Documentacion de checklist: Listo.
+- Documentacion de bitacora: Listo.
+- Evidencia organizada: Listo.
+- Pruebas reales del deploy: Pendiente de evidencia.
+- Prospectos de Comayagua: 15/20, faltan 5 reales.

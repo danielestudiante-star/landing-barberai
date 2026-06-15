@@ -1,32 +1,36 @@
 # Reporte de estado lunes - BarberAI
 
-Plantilla lista para pegar en WhatsApp al supervisor.
+Mensaje listo para pegar en WhatsApp al supervisor.
 
 Hola Allan, comparto el avance de validacion comercial de BarberAI:
 
 *Que se avanzo*
-- Se reviso/preparo la carpeta de evidencia comercial.
-- Se dejo lista la estructura para checklist, bitacora, ICP, prospectos, backlog y mejoras antes de demo.
-- Se preparo el archivo de prospectos para cargar negocios reales sin inventar informacion.
+- Se reviso la estructura comercial existente de BarberAI.
+- Se confirmo que el ICP, campana, A/B testing, agente de prospeccion, backlog y reportes existen.
+- Se confirmaron 15 prospectos reales de Comayagua en el XLSX y el export normalizado.
+- Se actualizo `validacion-comercial/prospectos-comayagua.csv` con los 15 prospectos reales.
+- Se corrigieron checklist, bitacora, mejoras y backlog para que ya no queden como plantilla vacia.
+- Se creo la estructura de evidencia para capturas del deploy.
 
 *Que falta*
-- Revisar el deploy real como cliente.
-- Tomar capturas de evidencia.
-- Cargar prospectos reales.
-- Registrar hallazgos confirmados en Backlog.
+- Completar 5 prospectos reales de Comayagua para llegar a 20.
+- Revisar el deploy real como cliente y guardar capturas.
+- Confirmar con evidencia el boton de WhatsApp, chatbot, vista movil y links.
+- Tomar captura de la tabla/hoja oficial de prospectos si existe acceso.
 
 *Cantidad de prospectos cargados*
-- Prospectos cargados: ___ / 20
+- Prospectos reales cargados: 15 / 20.
+- Estado: faltan 5 prospectos reales; no se inventaron negocios.
 
 *Backlog*
-- Pendientes registrados: ___
-- Pendientes criticos: ___
-- Estado general: ___
+- Pendientes registrados: 4 principales.
+- Pendientes criticos: completar 5 prospectos reales y agregar capturas reales del deploy.
+- Estado general: documentacion corregida; pruebas visuales y 5 prospectos quedan en backlog.
 
 *Evidencia*
-- Capturas tomadas: ___
-- Ubicacion de capturas: ___
-- Evidencia pendiente: ___
+- Capturas tomadas: ninguna captura real encontrada en el proyecto.
+- Ubicacion preparada: `validacion-comercial/evidencia/`.
+- Evidencia pendiente: home, chatbot abierto, respuesta de chatbot, WhatsApp, vista movil y tabla de prospectos.
 
 *Proximo paso*
-- Completar revision del deploy, cargar prospectos reales y confirmar si BarberAI esta listo para mostrarse en demo.
+- Buscar manualmente 5 prospectos reales en Google Maps, Facebook, Instagram o TikTok, tomar capturas del deploy y actualizar el checklist con evidencia real.
