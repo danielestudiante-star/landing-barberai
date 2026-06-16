@@ -72,3 +72,24 @@ Hola Allan, comparto avance del martes 16 para BarberAI:
 
 *Estado general*
 - En revision. La base comercial del martes 16 queda preparada, pero faltan capturas reales y confirmacion manual de contactos antes de enviar reporte final o activar campaña.
+
+---
+
+## Correccion revision Allan - martes 16
+
+*Que se cerro*
+- Se subieron capturas reales del deploy desktop, chatbot abierto, pregunta/respuesta del chatbot, boton de WhatsApp, vista movil y tabla local de prospectos.
+- Se valido que el boton flotante de WhatsApp apunta a `https://wa.me/50492157819...`.
+- Se agrego tabla especifica para ciudades asignadas: `validacion-comercial/prospectos-ciudades-asignadas-martes-16-barberai.csv`.
+- Atlantida quedo con 20 prospectos publicos encontrados en La Ceiba y Tela.
+- Se limpio `index.html` para dejar una sola funcion activa `responderBarberAI`.
+- Se actualizo checklist y backlog con estados reales.
+
+*Que sigue pendiente*
+- Choluteca no se pudo completar a +20 con fuentes publicas: OpenStreetMap/Overpass/Nominatim solo devolvieron 2 prospectos validos de Choluteca. Queda documentado en `validacion-comercial/bloqueos-ciudades-asignadas-martes-16.md`.
+- Falta completar WhatsApp, Facebook o Instagram verificable para al menos 10 mejores prospectos antes de outreach.
+- El formulario de contacto de la landing sigue mostrando solo un alert; para cliente real debe conectarse a WhatsApp, email, Google Sheet o backend.
+- Falta capturar Google Sheet oficial si Allan habilita acceso; por ahora se dejo captura de la tabla local real.
+
+*Commit pendiente*
+- Esta correccion todavia debe commitearse y pushearse despues de la revision final local.

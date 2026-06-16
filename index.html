@@ -1636,43 +1636,6 @@
                 .trim();
         }
 
-        function elegirRespuesta(lista) {
-            return lista[Math.floor(Math.random() * lista.length)];
-        }
-
-        function responderBarberAI(pregunta) {
-            const texto = limpiarTexto(pregunta);
-
-            if (palabrasSeguridad.some(palabra => texto.includes(limpiarTexto(palabra)))) {
-                return 'No puedo compartir credenciales ni datos internos. Para acceso demo, contacta al equipo de Simplexity.';
-            }
-
-            const coincidencias = conocimientoBarberAI
-                .map(item => {
-                    const puntos = item.claves.reduce((total, clave) => {
-                        return texto.includes(limpiarTexto(clave)) ? total + 1 : total;
-                    }, 0);
-                    return { ...item, puntos };
-                })
-                .filter(item => item.puntos > 0)
-                .sort((a, b) => b.puntos - a.puntos);
-
-            if (coincidencias.length > 0) {
-                let respuesta = elegirRespuesta(coincidencias[0].respuestas);
-
-                if (coincidencias.length > 1) {
-                    respuesta += ' También puedo explicarte más sobre ' + coincidencias.slice(1, 3).map(item => item.claves[0]).join(' o ') + '.';
-                }
-
-                return respuesta;
-            }
-
-            if (texto.length < 4) {
-                return 'Te leo. Escríbeme un poco más para ayudarte mejor. Puedes preguntarme por citas, cola, ventas, inventario, barberos, servicios, precios o sucursales.';
-            }
-
-            return 'Buena pregunta. En general, BarberAI ayuda a ordenar una barbería desde un solo panel: citas, cola de clientes, ventas, servicios, barberos, precios por sucursal, inventario y sucursales. Si me dices qué parte te interesa, te lo explico más directo.';
-        }
 
         function getTokens(texto) {
             return limpiarTexto(texto).split(' ').filter(token => token.length > 2);

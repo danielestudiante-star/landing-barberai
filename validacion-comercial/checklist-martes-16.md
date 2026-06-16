@@ -10,14 +10,24 @@ Fecha: martes 16 de junio de 2026
 | Campaña inicial preparada | Completado | `validacion-comercial/campania-marketing-martes-16-barberai.md` | Incluye audiencia, ciudades, presupuesto, mensajes, artes, CTA y metricas. |
 | Propuesta de agente WhatsApp preparada | Completado | `validacion-comercial/agente-whatsapp-martes-16-barberai.md` | Flujo comercial documentado; no se implemento una nueva funcion. |
 | Bitacora del martes actualizada | Completado | `validacion-comercial/bitacora-martes-16.md` | Resume actividades, evidencia pendiente y cierre para Allan. |
-| Evidencia pendiente si no hay capturas reales | Pendiente | `validacion-comercial/evidencia/` | No se encontraron ni generaron capturas reales nuevas. |
+| Evidencia pendiente si no hay capturas reales | Completado | `validacion-comercial/evidencia/` | Se agregaron capturas reales del deploy, chatbot, WhatsApp, movil y tabla local. |
 | Pendientes para completar antes de enviar reporte | En revisión | Este checklist y reporte diario | Confirmar telefonos/redes faltantes, subir capturas reales y revisar con Allan antes de publicar resultados. |
-| Deploy publico probado con captura | Pendiente | https://landing-barberai-production.up.railway.app | No se hizo prueba visual nueva ni captura real en este bloque. |
+| Deploy publico probado con captura | Completado | `validacion-comercial/evidencia/01-home-deploy.png` | Captura real del deploy publico en desktop. |
+| Chatbot abierto con captura | Completado | `validacion-comercial/evidencia/02-chatbot-abierto.png` | Captura real del chatbot abierto. |
+| Pregunta y respuesta del chatbot | Completado | `validacion-comercial/evidencia/03-chatbot-respuesta.png` | Captura real con pregunta sobre citas y horarios. |
+| Boton de WhatsApp validado | Completado | `validacion-comercial/evidencia/04-whatsapp.png` | Se valido href `https://wa.me/50492157819...` con Playwright y se guardo captura. |
+| Vista movil con captura | Completado | `validacion-comercial/evidencia/05-vista-movil.png` | Captura real en viewport movil 390x844. |
+| Tabla local de prospectos con captura | Completado | `validacion-comercial/evidencia/06-prospectos-tabla-local.png` | Captura renderizada desde CSV local real; no es Google Sheet. |
+| Prospectos Atlantida asignados | Completado | `validacion-comercial/prospectos-ciudades-asignadas-martes-16-barberai.csv` | 20 prospectos publicos encontrados en La Ceiba/Tela. |
+| Prospectos Choluteca asignados | Pendiente | `validacion-comercial/bloqueos-ciudades-asignadas-martes-16.md` | Solo 2 prospectos validos encontrados en fuentes publicas; no se inventaron 20. |
+| Completar contactos de mejores 10 | Pendiente | `validacion-comercial/mejores-10-prospectos-barberai.md` | Falta confirmar WhatsApp/Facebook/Instagram real para al menos 10 antes de outreach. |
+| Documentar formulario de contacto | En revisión | `validacion-comercial/backlog-barberai.md` | El formulario muestra alert; falta integracion real si se pide cliente real. |
+| Limpiar duplicado de `responderBarberAI` | Completado | `index.html` | Se elimino la definicion vieja pisada; queda una sola funcion activa. |
 | Contacto inicial a prospectos | Backlog | Hoja de seguimiento pendiente | No se contacto a prospectos desde este entorno. |
 
 ## Confirmaciones
 
-- No se modificaron funciones del sitio.
+- No se agregaron funciones nuevas al sitio; solo se limpio una definicion duplicada del chatbot.
 - No se agregaron agenda, base de datos, API ni panel.
 - Campos no encontrados quedaron como `No encontrado`.
-- La evidencia visual sigue pendiente hasta contar con capturas reales.
+- La evidencia visual real ya fue agregada en `validacion-comercial/evidencia/`.

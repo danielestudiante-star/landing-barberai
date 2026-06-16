@@ -1,0 +1,551 @@
+﻿{
+    "version":  0.6,
+    "generator":  "Overpass API 0.7.62.11 87bfad18",
+    "osm3s":  {
+                  "timestamp_osm_base":  "2026-06-16T16:08:15Z",
+                  "copyright":  "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+              },
+    "elements":  [
+                     {
+                         "type":  "node",
+                         "id":  3845527245,
+                         "lat":  15.4037120,
+                         "lon":  -87.7995776,
+                         "tags":  {
+                                      "addr:city":  "El Progreso",
+                                      "name":  "SalÃ³n de Belleza Maria JosÃ©",
+                                      "shop":  "beauty"
+                                  }
+                     },
+                     {
+                         "type":  "node",
+                         "id":  3846071981,
+                         "lat":  15.4029771,
+                         "lon":  -87.8082900,
+                         "tags":  {
+                                      "addr:city":  "El Progreso",
+                                      "name":  "Sala de Belleza Peniel",
+                                      "opening_hours":  "Mo-Sa 08:00-18:00",
+                                      "shop":  "beauty"
+                                  }
+                     },
+                     {
+                         "type":  "node",
+                         "id":  4177228628,
+                         "lat":  15.4053751,
+                         "lon":  -87.8067624,
+                         "tags":  {
+                                      "addr:city":  "El Progreso",
+                                      "name":  "Stetika ClÃ­nica Corporal",
+                                      "shop":  "beauty",
+                                      "source":  "Reconocimiento cartogrÃ¡fico por KG 2016."
+                                  }
+                     },
+                     {
+                         "type":  "node",
+                         "id":  4177565753,
+                         "lat":  15.4880615,
+                         "lon":  -87.7588368,
+                         "tags":  {
+                                      "name":  "BarberÃ­a y Sala de Belleza Elisa",
+                                      "shop":  "hairdresser",
+                                      "source":  "Reconocimiento cartogrÃ¡fico por KG 2016."
+                                  }
+                     },
+                     {
+                         "type":  "node",
+                         "id":  4199397724,
+                         "lat":  15.7811787,
+                         "lon":  -87.4528290,
+                         "tags":  {
+                                      "name":  "Jocelin\u0027s Beauty SalÃ³n",
+                                      "shop":  "hairdresser",
+                                      "source":  "KG Ground Survey 2016"
+                                  }
+                     },
+                     {
+                         "type":  "node",
+                         "id":  4199830678,
+                         "lat":  15.7825929,
+                         "lon":  -87.4506648,
+                         "tags":  {
+                                      "name":  "Sala de Belleza Karlas",
+                                      "shop":  "hairdresser",
+                                      "source":  "Reconocimiento cartogrÃ¡fico por KG 2016."
+                                  }
+                     },
+                     {
+                         "type":  "node",
+                         "id":  4199830770,
+                         "lat":  15.7841728,
+                         "lon":  -87.4495419,
+                         "tags":  {
+                                      "name":  "Sala de Belleza y BarberÃ­a El Centro No. 1",
+                                      "shop":  "hairdresser",
+                                      "source":  "Reconocimiento cartogrÃ¡fico por KG 2016."
+                                  }
+                     },
+                     {
+                         "type":  "node",
+                         "id":  4201242853,
+                         "lat":  15.7822497,
+                         "lon":  -87.4533699,
+                         "tags":  {
+                                      "name":  "Sala de Belleza SandraÂ´s",
+                                      "shop":  "hairdresser",
+                                      "source":  "Reconocimiento cartogrÃ¡fico por KG 2016."
+                                  }
+                     },
+                     {
+                         "type":  "node",
+                         "id":  4201242858,
+                         "lat":  15.7815553,
+                         "lon":  -87.4528927,
+                         "tags":  {
+                                      "addr:city":  "Tela",
+                                      "name":  "BarberÃ­a Social",
+                                      "shop":  "hairdresser",
+                                      "source":  "Reconocimiento cartogrÃ¡fico por KG 2016."
+                                  }
+                     },
+                     {
+                         "type":  "node",
+                         "id":  4201243377,
+                         "lat":  15.7811053,
+                         "lon":  -87.4500846,
+                         "tags":  {
+                                      "addr:city":  "Tela",
+                                      "name":  "BarberÃ­a Anyelo",
+                                      "shop":  "hairdresser",
+                                      "source":  "Reconocimiento cartogrÃ¡fico por KG 2016."
+                                  }
+                     },
+                     {
+                         "type":  "node",
+                         "id":  4201307331,
+                         "lat":  15.7827275,
+                         "lon":  -87.4502411,
+                         "tags":  {
+                                      "addr:city":  "Tela",
+                                      "name":  "Melissa Beauty SalÃ³n",
+                                      "shop":  "hairdresser",
+                                      "source":  "Reconocimiento cartogrÃ¡fico por KG 2016."
+                                  }
+                     },
+                     {
+                         "type":  "node",
+                         "id":  4201307342,
+                         "lat":  15.7833593,
+                         "lon":  -87.4491544,
+                         "tags":  {
+                                      "name":  "Diva\u0027s Silon",
+                                      "shop":  "hairdresser",
+                                      "source":  "Reconocimiento cartogrÃ¡fico por KG 2016."
+                                  }
+                     },
+                     {
+                         "type":  "node",
+                         "id":  4203425667,
+                         "lat":  15.7829416,
+                         "lon":  -86.7910191,
+                         "tags":  {
+                                      "addr:city":  "La Ceiba",
+                                      "fixme":  "name?",
+                                      "shop":  "hairdresser",
+                                      "source":  "Reconocimiento cartogrÃ¡fico por KG 2016."
+                                  }
+                     },
+                     {
+                         "type":  "node",
+                         "id":  4203619194,
+                         "lat":  15.7864774,
+                         "lon":  -86.7929904,
+                         "tags":  {
+                                      "addr:city":  "La Ceiba",
+                                      "name":  "Silvia Beauty SalÃ³n",
+                                      "shop":  "hairdresser",
+                                      "source":  "Reconocimiento cartogrÃ¡fico por KG 2016."
+                                  }
+                     },
+                     {
+                         "type":  "node",
+                         "id":  4203619278,
+                         "lat":  15.7894598,
+                         "lon":  -86.7926822,
+                         "tags":  {
+                                      "addr:city":  "La Ceiba",
+                                      "fixme":  "name?",
+                                      "shop":  "hairdresser",
+                                      "source":  "Reconocimiento cartogrÃ¡fico por KG 2016."
+                                  }
+                     },
+                     {
+                         "type":  "node",
+                         "id":  4205955857,
+                         "lat":  15.7814850,
+                         "lon":  -86.7904207,
+                         "tags":  {
+                                      "addr:city":  "La Ceiba",
+                                      "name":  "BarberÃ­a MÃ³nicos",
+                                      "shop":  "hairdresser",
+                                      "source":  "Reconocimiento cartogrÃ¡fico por KG 2016."
+                                  }
+                     },
+                     {
+                         "type":  "node",
+                         "id":  4205955872,
+                         "lat":  15.7822518,
+                         "lon":  -86.7904049,
+                         "tags":  {
+                                      "addr:city":  "La Ceiba",
+                                      "name":  "Dasha SalÃ³n",
+                                      "shop":  "hairdresser",
+                                      "source":  "Reconocimiento cartogrÃ¡fico por KG 2016."
+                                  }
+                     },
+                     {
+                         "type":  "node",
+                         "id":  4205955896,
+                         "lat":  15.7828951,
+                         "lon":  -86.7907636,
+                         "tags":  {
+                                      "addr:city":  "La Ceiba",
+                                      "fixme":  "name?",
+                                      "name":  "BarberÃ­a",
+                                      "shop":  "hairdresser",
+                                      "source":  "Reconocimiento cartogrÃ¡fico por KG 2016."
+                                  }
+                     },
+                     {
+                         "type":  "node",
+                         "id":  4205990294,
+                         "lat":  15.7814397,
+                         "lon":  -87.4526501,
+                         "tags":  {
+                                      "name":  "Sary\u0027s",
+                                      "shop":  "beauty",
+                                      "source":  "KG Ground Survey 2016"
+                                  }
+                     },
+                     {
+                         "type":  "node",
+                         "id":  4206099389,
+                         "lat":  15.7852220,
+                         "lon":  -86.7934339,
+                         "tags":  {
+                                      "addr:city":  "La Ceiba",
+                                      "name":  "BarberÃ­a Galaxia",
+                                      "shop":  "hairdresser",
+                                      "source":  "Reconocimiento cartogrÃ¡fico por KG 2016."
+                                  }
+                     },
+                     {
+                         "type":  "node",
+                         "id":  4207976523,
+                         "lat":  15.4035427,
+                         "lon":  -87.8057589,
+                         "tags":  {
+                                      "addr:city":  "El Progreso",
+                                      "addr:street":  "7 Avenida NE",
+                                      "name":  "BarberÃ­a Olimpia",
+                                      "shop":  "hairdresser"
+                                  }
+                     },
+                     {
+                         "type":  "node",
+                         "id":  4499056992,
+                         "lat":  15.4054051,
+                         "lon":  -87.8074682,
+                         "tags":  {
+                                      "name":  "mussas",
+                                      "name:es":  "mussas",
+                                      "shop":  "beauty"
+                                  }
+                     },
+                     {
+                         "type":  "node",
+                         "id":  4680786091,
+                         "lat":  15.3996298,
+                         "lon":  -87.8071524,
+                         "tags":  {
+                                      "addr:housenumber":  "local#3",
+                                      "addr:street":  "4 Calle SE",
+                                      "name":  "BarberÃ­a Didier",
+                                      "name:en":  "Didier\u0027s Barber Shop",
+                                      "opening_hours":  "Mo-Su 09:00-18:00",
+                                      "shop":  "hairdresser"
+                                  }
+                     },
+                     {
+                         "type":  "node",
+                         "id":  5525611496,
+                         "lat":  15.7666776,
+                         "lon":  -86.8333047,
+                         "tags":  {
+                                      "addr:city":  "La Ceiba",
+                                      "addr:country":  "HN",
+                                      "addr:housenumber":  "4",
+                                      "addr:street":  "Monte Carlo",
+                                      "name":  "Beauty Studio KR",
+                                      "shop":  "beauty"
+                                  }
+                     },
+                     {
+                         "type":  "node",
+                         "id":  5654674672,
+                         "lat":  15.7876989,
+                         "lon":  -86.7888626,
+                         "tags":  {
+                                      "addr:city":  "La Ceiba",
+                                      "addr:country":  "HN",
+                                      "addr:street":  "Avenida Bastilla",
+                                      "name":  "Sala de Belleza Loreal",
+                                      "shop":  "beauty"
+                                  }
+                     },
+                     {
+                         "type":  "node",
+                         "id":  6925731934,
+                         "lat":  15.7656572,
+                         "lon":  -86.7948787,
+                         "tags":  {
+                                      "contact:facebook":  "https://www.facebook.com/BarberiaOmar/",
+                                      "name":  "BarberÃ­a Omar",
+                                      "shop":  "hairdresser"
+                                  }
+                     },
+                     {
+                         "type":  "node",
+                         "id":  7464894585,
+                         "lat":  15.7455696,
+                         "lon":  -85.7390831,
+                         "tags":  {
+                                      "name":  "BarberÃ­a Erick",
+                                      "name:en":  "Erick\u0027s Barbershop",
+                                      "shop":  "hairdresser"
+                                  }
+                     },
+                     {
+                         "type":  "way",
+                         "id":  419991756,
+                         "center":  {
+                                        "lat":  15.7828140,
+                                        "lon":  -87.4489610
+                                    },
+                         "tags":  {
+                                      "addr:city":  "Tela",
+                                      "building":  "yes",
+                                      "building:levels":  "1",
+                                      "name":  "BarberÃ­a Mary",
+                                      "shop":  "hairdresser",
+                                      "source":  "KG Ground Survey 2016"
+                                  }
+                     },
+                     {
+                         "type":  "way",
+                         "id":  420390102,
+                         "center":  {
+                                        "lat":  15.3889165,
+                                        "lon":  -87.8095196
+                                    },
+                         "tags":  {
+                                      "building":  "yes",
+                                      "name":  "Sala de Belleza Bellas Artes",
+                                      "shop":  "beauty"
+                                  }
+                     },
+                     {
+                         "type":  "way",
+                         "id":  420565515,
+                         "center":  {
+                                        "lat":  15.4007863,
+                                        "lon":  -87.8048525
+                                    },
+                         "tags":  {
+                                      "addr:city":  "El Progreso",
+                                      "addr:street":  "7 Avenida SE",
+                                      "building":  "yes",
+                                      "name":  "BarberÃ­a el Turco #2",
+                                      "shop":  "hairdresser"
+                                  }
+                     },
+                     {
+                         "type":  "way",
+                         "id":  420588085,
+                         "center":  {
+                                        "lat":  15.3990916,
+                                        "lon":  -87.8091179
+                                    },
+                         "tags":  {
+                                      "addr:street":  "4 Calle SE",
+                                      "building":  "yes",
+                                      "name":  "Cindirella",
+                                      "shop":  "beauty"
+                                  }
+                     },
+                     {
+                         "type":  "way",
+                         "id":  420605707,
+                         "center":  {
+                                        "lat":  15.3993356,
+                                        "lon":  -87.8069971
+                                    },
+                         "tags":  {
+                                      "addr:city":  "El Progreso",
+                                      "addr:street":  "4 Avenida SE",
+                                      "building":  "yes",
+                                      "name":  "Sala de Belleza Carolina",
+                                      "shop":  "beauty"
+                                  }
+                     },
+                     {
+                         "type":  "way",
+                         "id":  420642438,
+                         "center":  {
+                                        "lat":  15.4001673,
+                                        "lon":  -87.8099799
+                                    },
+                         "tags":  {
+                                      "addr:city":  "El Progreso",
+                                      "addr:street":  "1 Avenida",
+                                      "building":  "yes",
+                                      "name":  "BarberÃ­a Classe",
+                                      "shop":  "hairdresser"
+                                  }
+                     },
+                     {
+                         "type":  "way",
+                         "id":  420862861,
+                         "center":  {
+                                        "lat":  15.4011537,
+                                        "lon":  -87.8065421
+                                    },
+                         "tags":  {
+                                      "addr:city":  "El Progreso",
+                                      "addr:street":  "2 Calle SE",
+                                      "building":  "yes",
+                                      "name":  "New Look",
+                                      "shop":  "beauty"
+                                  }
+                     },
+                     {
+                         "type":  "way",
+                         "id":  420889975,
+                         "center":  {
+                                        "lat":  15.7786513,
+                                        "lon":  -87.4512036
+                                    },
+                         "tags":  {
+                                      "building":  "yes",
+                                      "name":  "BarberÃ­a Lesly",
+                                      "shop":  "hairdresser",
+                                      "source":  "KG Ground Survey 2016"
+                                  }
+                     },
+                     {
+                         "type":  "way",
+                         "id":  420892700,
+                         "center":  {
+                                        "lat":  15.3972460,
+                                        "lon":  -87.8090377
+                                    },
+                         "tags":  {
+                                      "addr:city":  "El Progreso",
+                                      "addr:street":  "1 Avenida",
+                                      "building":  "yes",
+                                      "name":  "Beauty Center Peniel",
+                                      "note":  "Is this beautyshop still here?",
+                                      "shop":  "beauty"
+                                  }
+                     },
+                     {
+                         "type":  "way",
+                         "id":  420895235,
+                         "center":  {
+                                        "lat":  15.7823098,
+                                        "lon":  -87.4518292
+                                    },
+                         "tags":  {
+                                      "building":  "yes",
+                                      "name":  "Sala de Belleza Daysi",
+                                      "shop":  "hairdresser",
+                                      "source":  "KG Ground Survey 2016"
+                                  }
+                     },
+                     {
+                         "type":  "way",
+                         "id":  420909688,
+                         "center":  {
+                                        "lat":  15.4022124,
+                                        "lon":  -87.8053405
+                                    },
+                         "tags":  {
+                                      "addr:city":  "El Progreso",
+                                      "addr:street":  "7 Avenida SE",
+                                      "building":  "yes",
+                                      "name":  "BarberÃ­a Nazareno",
+                                      "shop":  "hairdresser"
+                                  }
+                     },
+                     {
+                         "type":  "way",
+                         "id":  420909692,
+                         "center":  {
+                                        "lat":  15.4015797,
+                                        "lon":  -87.8050798
+                                    },
+                         "tags":  {
+                                      "addr:city":  "El Progreso",
+                                      "addr:street":  "7 Avenida SE",
+                                      "building":  "yes",
+                                      "name":  "BarberÃ­a",
+                                      "shop":  "hairdresser"
+                                  }
+                     },
+                     {
+                         "type":  "way",
+                         "id":  420909693,
+                         "center":  {
+                                        "lat":  15.4008352,
+                                        "lon":  -87.8048675
+                                    },
+                         "tags":  {
+                                      "addr:city":  "El Progreso",
+                                      "addr:street":  "7 Avenida SE",
+                                      "building":  "yes",
+                                      "name":  "Academia de Belleza y Cosmetoloqia Jireh",
+                                      "shop":  "beauty"
+                                  }
+                     },
+                     {
+                         "type":  "way",
+                         "id":  420911145,
+                         "center":  {
+                                        "lat":  15.4023648,
+                                        "lon":  -87.8052008
+                                    },
+                         "tags":  {
+                                      "addr:city":  "El Progreso",
+                                      "addr:street":  "1 Calle",
+                                      "building":  "yes",
+                                      "name":  "Barber Shop Center",
+                                      "shop":  "hairdresser"
+                                  }
+                     },
+                     {
+                         "type":  "way",
+                         "id":  421115328,
+                         "center":  {
+                                        "lat":  15.4009051,
+                                        "lon":  -87.8082097
+                                    },
+                         "tags":  {
+                                      "addr:city":  "El Progreso",
+                                      "addr:street":  "2 Calle SE",
+                                      "building":  "yes",
+                                      "name":  "BarberÃ­a Eben-ezer",
+                                      "shop":  "hairdresser"
+                                  }
+                     }
+                 ]
+}

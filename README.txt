@@ -144,6 +144,16 @@ Foco del dia: validacion comercial de BarberAI, sin desarrollar nuevas funciones
 - Queda pendiente subir evidencia real: capturas del deploy, chatbot, WhatsApp, vista movil, fuentes y/o pauta si se activa.
 - Los campos no encontrados quedaron como `No encontrado`; no se inventaron telefonos, dueños ni datos sensibles.
 
+### Correccion revision Allan - martes 16
+
+- Se subieron capturas reales en `validacion-comercial/evidencia/`: home desktop, chatbot abierto, pregunta/respuesta, WhatsApp, vista movil y tabla local de prospectos.
+- Se creo `validacion-comercial/prospectos-ciudades-asignadas-martes-16-barberai.csv` para corregir la asignacion de ciudades.
+- Atlantida quedo con 20 prospectos publicos encontrados.
+- Choluteca quedo pendiente: las fuentes publicas consultadas solo devolvieron 2 prospectos validos. El bloqueo esta documentado en `validacion-comercial/bloqueos-ciudades-asignadas-martes-16.md`.
+- Falta completar WhatsApp/Facebook/Instagram verificable de al menos 10 mejores prospectos antes de outreach.
+- Se limpio el duplicado de `responderBarberAI` en `index.html`; no se agregaron funciones nuevas.
+- El formulario de contacto sigue como pendiente tecnico para cliente real porque actualmente solo muestra un alert.
+
 ## Correccion revision Allan - BarberAI
 
 Fecha: 15 de junio de 2026

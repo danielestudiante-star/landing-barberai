@@ -68,13 +68,20 @@ No se implemento ningun bot nuevo en el sitio.
 
 ## Evidencia pendiente
 
-- Captura real de la tabla o Google Sheet.
-- Captura real del deploy publico.
-- Captura real del chatbot Q&A.
-- Captura real del boton de WhatsApp.
-- Captura real de vista movil.
+- Captura real de Google Sheet oficial si Allan habilita acceso.
 - Capturas o links de fuentes revisadas, si Allan las solicita.
+- Completar +20 prospectos de Choluteca con fuentes manuales adicionales.
+- Completar contacto verificable de al menos 10 mejores prospectos antes de outreach.
+
+## Correccion despues de revision Allan
+
+- Se agregaron capturas reales en `validacion-comercial/evidencia/`.
+- Se creo `validacion-comercial/prospectos-ciudades-asignadas-martes-16-barberai.csv` con 20 prospectos de Atlantida y 2 prospectos validos de Choluteca encontrados en fuentes publicas.
+- Se documento el bloqueo de Choluteca en `validacion-comercial/bloqueos-ciudades-asignadas-martes-16.md`.
+- Se actualizo `validacion-comercial/mejores-10-prospectos-barberai.md` con top 10 por ciudades asignadas.
+- Se limpio el duplicado de `responderBarberAI` en `index.html`.
+- Se documento que el formulario de contacto actual solo muestra un alert y queda como pendiente para cliente real.
 
 ## Cierre para Allan
 
-Allan, avance de BarberAI martes 16: se agregaron 25 prospectos nuevos, se clasificaron los mejores 10, se preparo campaña inicial y se documento el flujo del agente de WhatsApp para prospeccion. No se desarrollaron funciones nuevas. Quedan pendientes capturas reales y confirmacion manual de contactos antes de hacer outreach.
+Allan, avance de BarberAI martes 16: se agregaron prospectos, se clasificaron mejores 10, se preparo campaña inicial, se documento el flujo del agente WhatsApp y se subieron capturas reales del deploy. Atlantida quedo con 20 prospectos. Choluteca queda pendiente porque las fuentes publicas consultadas solo devolvieron 2 prospectos validos; no se inventaron datos. Tambien queda pendiente completar contactos verificables de los mejores prospectos antes de outreach.

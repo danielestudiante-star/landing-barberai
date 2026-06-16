@@ -1,23 +1,23 @@
 # Evidencia deploy BarberAI
 
-Fecha: 2026-06-15  
+Fecha: 2026-06-16  
 Producto: BarberAI  
 Deploy documentado: https://landing-barberai-production.up.railway.app
 
-No se encontraron capturas reales del deploy en el proyecto. La unica imagen local encontrada fue `assets/img/simplexity-logo.png`, que no evidencia la revision del deploy.
+Se agregaron capturas reales del deploy publico usando Playwright. Las capturas quedaron en `validacion-comercial/evidencia/`.
 
 ## Evidencias requeridas
 
 | Evidencia | Archivo/Ruta | Estado | Observacion |
 | --- | --- | --- | --- |
-| Pagina principal del deploy | pendiente | Pendiente de evidencia | Pendiente de evidencia real. Daniel debe tomar la captura y guardarla en `validacion-comercial/evidencia/`. |
-| Chatbot abierto | pendiente | Pendiente de evidencia | Pendiente de evidencia real. Daniel debe tomar la captura y guardarla en `validacion-comercial/evidencia/`. |
-| Pregunta y respuesta del chatbot | pendiente | Pendiente de evidencia | Pendiente de evidencia real. Daniel debe tomar la captura y guardarla en `validacion-comercial/evidencia/`. |
-| Boton de WhatsApp funcionando | pendiente | Pendiente de evidencia | Pendiente de evidencia real. Daniel debe tomar la captura y guardarla en `validacion-comercial/evidencia/`. |
-| Vista movil | pendiente | Pendiente de evidencia | Pendiente de evidencia real. Daniel debe tomar la captura y guardarla en `validacion-comercial/evidencia/`. |
-| Tabla de prospectos | pendiente | Pendiente de evidencia | Pendiente de evidencia real. Daniel debe tomar la captura y guardarla en `validacion-comercial/evidencia/`. |
-| Hoja oficial Prospectos BarberAI, si existe captura | pendiente | Pendiente de evidencia | Pendiente de evidencia real. Daniel debe tomar la captura y guardarla en `validacion-comercial/evidencia/`. |
+| Pagina principal del deploy | `validacion-comercial/evidencia/01-home-deploy.png` | Listo | Captura real desktop del deploy publico. |
+| Chatbot abierto | `validacion-comercial/evidencia/02-chatbot-abierto.png` | Listo | Captura real del chatbot abierto. |
+| Pregunta y respuesta del chatbot | `validacion-comercial/evidencia/03-chatbot-respuesta.png` | Listo | Captura real con pregunta sobre citas y horarios. |
+| Boton de WhatsApp funcionando | `validacion-comercial/evidencia/04-whatsapp.png` | Listo | Se valido el href del boton hacia WhatsApp. |
+| Vista movil | `validacion-comercial/evidencia/05-vista-movil.png` | Listo | Captura real movil 390x844. |
+| Tabla de prospectos | `validacion-comercial/evidencia/06-prospectos-tabla-local.png` | Listo | Captura renderizada desde el CSV local real de prospectos. |
+| Hoja oficial Prospectos BarberAI, si existe captura | pendiente | Pendiente | No hay acceso confirmado al Google Sheet oficial desde este entorno. |
 
 ## Uso en checklist
 
-Cuando cada captura exista, actualizar `validacion-comercial/checklist-lunes.md` y cambiar el estado del punto relacionado de `Pendiente de evidencia` a `Listo`.
+Checklist actualizado en `validacion-comercial/checklist-martes-16.md`.

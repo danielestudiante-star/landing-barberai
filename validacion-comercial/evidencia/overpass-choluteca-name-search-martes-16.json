@@ -1,0 +1,66 @@
+﻿{
+    "version":  0.6,
+    "generator":  "Overpass API 0.7.62.11 87bfad18",
+    "osm3s":  {
+                  "timestamp_osm_base":  "2026-06-16T16:10:20Z",
+                  "copyright":  "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+              },
+    "elements":  [
+                     {
+                         "type":  "node",
+                         "id":  3165765016,
+                         "lat":  13.3139730,
+                         "lon":  -87.1914477,
+                         "tags":  {
+                                      "amenity":  "arts_centre",
+                                      "name":  "SalÃ³n Arado 1"
+                                  }
+                     },
+                     {
+                         "type":  "node",
+                         "id":  3165765017,
+                         "lat":  13.3140069,
+                         "lon":  -87.1913968,
+                         "tags":  {
+                                      "amenity":  "arts_centre",
+                                      "name":  "SalÃ³n Arado 2"
+                                  }
+                     },
+                     {
+                         "type":  "node",
+                         "id":  4129248295,
+                         "lat":  13.1780257,
+                         "lon":  -87.6966616,
+                         "tags":  {
+                                      "amenity":  "place_of_worship",
+                                      "denomination":  "jehovahs_witness",
+                                      "name":  "SalÃ³n del Reino de Los Testigos de Jehova",
+                                      "religion":  "christian"
+                                  }
+                     },
+                     {
+                         "type":  "node",
+                         "id":  4820488023,
+                         "lat":  13.4274045,
+                         "lon":  -87.4452840,
+                         "tags":  {
+                                      "addr:city":  "San Lorenzo",
+                                      "addr:country":  "HN",
+                                      "addr:street":  "Mercado Nuevo",
+                                      "name":  "SalÃ³n de Belleza Nueva Imagen",
+                                      "shop":  "hairdresser"
+                                  }
+                     },
+                     {
+                         "type":  "node",
+                         "id":  11101836605,
+                         "lat":  13.3033016,
+                         "lon":  -87.1931695,
+                         "tags":  {
+                                      "addr:street":  "5a Avenida O",
+                                      "name":  "barberia enrique",
+                                      "shop":  "hairdresser"
+                                  }
+                     }
+                 ]
+}

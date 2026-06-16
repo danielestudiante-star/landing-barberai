@@ -1,0 +1,45 @@
+﻿{
+    "version":  0.6,
+    "generator":  "Overpass API 0.7.62.11 87bfad18",
+    "osm3s":  {
+                  "timestamp_osm_base":  "2026-06-16T16:08:15Z",
+                  "copyright":  "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+              },
+    "elements":  [
+                     {
+                         "type":  "node",
+                         "id":  3165965168,
+                         "lat":  13.3101022,
+                         "lon":  -87.1810783,
+                         "tags":  {
+                                      "addr:city":  "Choluteca",
+                                      "name":  "Roxi",
+                                      "shop":  "beauty"
+                                  }
+                     },
+                     {
+                         "type":  "node",
+                         "id":  4820488023,
+                         "lat":  13.4274045,
+                         "lon":  -87.4452840,
+                         "tags":  {
+                                      "addr:city":  "San Lorenzo",
+                                      "addr:country":  "HN",
+                                      "addr:street":  "Mercado Nuevo",
+                                      "name":  "SalÃ³n de Belleza Nueva Imagen",
+                                      "shop":  "hairdresser"
+                                  }
+                     },
+                     {
+                         "type":  "node",
+                         "id":  11101836605,
+                         "lat":  13.3033016,
+                         "lon":  -87.1931695,
+                         "tags":  {
+                                      "addr:street":  "5a Avenida O",
+                                      "name":  "barberia enrique",
+                                      "shop":  "hairdresser"
+                                  }
+                     }
+                 ]
+}
