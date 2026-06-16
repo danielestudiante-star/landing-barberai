@@ -129,6 +129,21 @@ Campaña todavia no configurada. Se preparo el plan de contenido de 8 semanas, p
 
 Nota: no se deben construir mas funciones si no estan conectadas a venta.
 
+## Avance martes 16 - Validación comercial
+
+Foco del dia: validacion comercial de BarberAI, sin desarrollar nuevas funciones del sistema.
+
+- Se revisaron prospectos previos para evitar duplicar la base de Comayagua.
+- Se creo `validacion-comercial/prospectos-martes-16-barberai.csv` con 25 prospectos nuevos de barberias, barber shops, salones y negocios similares.
+- Se clasificaron los mejores 10 prospectos en `validacion-comercial/mejores-10-prospectos-barberai.md`.
+- Se preparo una campaña inicial en `validacion-comercial/campania-marketing-martes-16-barberai.md`, orientada a dueños que atienden por WhatsApp y necesitan ordenar citas, horarios, servicios y consultas.
+- Se documento la propuesta del agente de WhatsApp en `validacion-comercial/agente-whatsapp-martes-16-barberai.md`.
+- Se actualizo la bitacora del dia en `validacion-comercial/bitacora-martes-16.md`.
+- Se actualizo el checklist del dia en `validacion-comercial/checklist-martes-16.md`.
+- No se modificaron HTML, CSS, chatbot, agenda, base de datos, API ni panel.
+- Queda pendiente subir evidencia real: capturas del deploy, chatbot, WhatsApp, vista movil, fuentes y/o pauta si se activa.
+- Los campos no encontrados quedaron como `No encontrado`; no se inventaron telefonos, dueños ni datos sensibles.
+
 ## Correccion revision Allan - BarberAI
 
 Fecha: 15 de junio de 2026
