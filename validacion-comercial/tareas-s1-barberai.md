@@ -7,7 +7,7 @@ Responsable general: Daniel.
 
 | Tarea | Estado | Responsable | Evidencia requerida | Nota |
 | --- | --- | --- | --- | --- |
-| Agregar a Allan como ADMIN en GitHub. | Pendiente | Daniel | Captura de configuracion de colaborador/admin. | No ejecutar sin acceso confirmado. |
+| Agregar a Allan como ADMIN en GitHub. | Backlog | Daniel | Captura de invitacion, aceptacion de Allan o confirmacion en configuracion del repo. | No se encontro evidencia local de invitacion ni aceptacion; confirmar desde GitHub. |
 | Revisar deploy de BarberAI como cliente. | Listo | Daniel | Capturas desktop/movil del deploy. | Evidencia agregada en `validacion-comercial/evidencia/01-home-deploy.png` y `validacion-comercial/evidencia/05-vista-movil.png`. |
 | Llenar checklist de revision. | Listo | Daniel | `validacion-comercial/checklist-lunes.md` completo. | Checklist alineado con la evidencia agregada el martes 16. |
 | Escribir lista de mejoras antes de demo. | Listo | Daniel | `validacion-comercial/mejoras-antes-demo.md`. | Hallazgos reales y pendientes de evidencia registrados. |
@@ -18,12 +18,12 @@ Responsable general: Daniel.
 
 | Tarea | Estado | Responsable | Evidencia requerida | Nota |
 | --- | --- | --- | --- | --- |
-| Resolver Backlog del lunes. | En revision | Daniel | `validacion-comercial/backlog-barberai.md` actualizado. | Evidencia tecnica resuelta; siguen pendientes Choluteca y contactos verificables. |
-| Agregar +20 prospectos de Choluteca. | Backlog | Daniel | 20 prospectos reales con fuente. | Solo hay 2 prospectos validos; requiere busqueda manual en redes/mapas/directorios. |
+| Resolver Backlog del lunes. | En revision | Daniel | `validacion-comercial/backlog-barberai.md` actualizado. | Evidencia tecnica resuelta; siguen pendientes Choluteca, Allan admin GitHub y formulario integrado. |
+| Agregar +20 prospectos de Choluteca. | Backlog bloqueado | Daniel | 20 prospectos reales con fuente. | Solo hay 2 prospectos validos tras reconsulta OSM/Overpass/Nominatim; requiere busqueda manual en Google Business/Facebook/Instagram. |
 | Agregar +20 prospectos de Atlantida. | Listo | Daniel | 20 prospectos reales con fuente. | Documentado en `validacion-comercial/prospectos-ciudades-asignadas-martes-16-barberai.csv`. |
 | Iniciar clasificacion A/B/C. | Listo | Daniel | Columna Prioridad en export. | Clasificacion aplicada en CSV y top 10. |
 | Conteo parcial por ciudad y tipo. | Listo | Daniel | Revision de prospectos actualizada. | CSV asignado: 2 Choluteca y 20 Atlantida. |
-| Bitacora con capturas de fuentes. | En revision | Daniel | Carpeta de evidencia/capturas. | Capturas del deploy y tabla local listas; fuentes de Choluteca siguen bloqueadas por baja disponibilidad publica. |
+| Bitacora con capturas de fuentes. | En revision | Daniel | Carpeta de evidencia/capturas. | Capturas del deploy y tabla local listas; fuentes de Choluteca siguen bloqueadas por baja disponibilidad publica. Daniel puede cerrar el trabajo de hoy como avance aprobado, pero con backlog comercial pendiente. No es backlog en cero. |
 
 ## MIERCOLES 17
 

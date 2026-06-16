@@ -87,9 +87,41 @@ Hola Allan, comparto avance del martes 16 para BarberAI:
 
 *Que sigue pendiente*
 - Choluteca no se pudo completar a +20 con fuentes publicas: OpenStreetMap/Overpass/Nominatim solo devolvieron 2 prospectos validos de Choluteca. Queda documentado en `validacion-comercial/bloqueos-ciudades-asignadas-martes-16.md`.
-- Falta completar WhatsApp, Facebook o Instagram verificable para al menos 10 mejores prospectos antes de outreach.
-- El formulario de contacto de la landing sigue mostrando solo un alert; para cliente real debe conectarse a WhatsApp, email, Google Sheet o backend.
+- Se documentaron 19 contactos verificables en la base completa en `validacion-comercial/contactos-verificables-barberai.md`; los registros sin telefono/red social siguen pendientes antes de outreach.
+- El formulario de contacto de la landing sigue mostrando solo un alert; no esta integrado. Para cliente real debe conectarse a WhatsApp, email, Google Sheet o backend.
+- Allan como admin/colaborador GitHub sigue pendiente: no se encontro evidencia local de invitacion, aceptacion o confirmacion dentro del repo.
 - Falta capturar Google Sheet oficial si Allan habilita acceso; por ahora se dejo captura de la tabla local real.
 
 *Commit pendiente*
 - Esta correccion todavia debe commitearse y pushearse despues de la revision final local.
+
+---
+
+## Cierre final del bloque comercial pendiente
+
+*Cerrado*
+- Deploy/evidencia tecnica.
+- Capturas reales.
+- Chatbot/documentacion.
+- Atlantida con 20 prospectos.
+- Tabla correcta de ciudades asignadas.
+- Backlog documentado.
+
+*Completado nuevo*
+- Se creo `validacion-comercial/contactos-verificables-barberai.md` con 19 contactos verificables.
+- Se revalido Choluteca y se dejo como 2/20 por falta de datos publicos suficientes; no se inventaron negocios.
+- Se aclaro que Allan admin GitHub necesita evidencia externa al repo.
+- Se dejo el formulario de contacto como limitacion no integrada.
+
+*Pendiente*
+- Completar Choluteca hasta 20 con fuentes reales.
+- Revisar contactos pendientes antes de outreach.
+- Confirmar invitacion/aceptacion/admin GitHub para Allan.
+- Integrar formulario de contacto.
+
+*Para manana*
+- Buscar Choluteca en Google Business/Facebook/Instagram desde una sesion con acceso completo.
+- Contactar solo prospectos con contacto verificable.
+- Confirmar con Allan acceso GitHub y Google Sheet oficial.
+
+Daniel puede cerrar el trabajo de hoy como avance aprobado, pero con backlog comercial pendiente. No es backlog en cero.

@@ -70,8 +70,9 @@ No se implemento ningun bot nuevo en el sitio.
 
 - Captura real de Google Sheet oficial si Allan habilita acceso.
 - Capturas o links de fuentes revisadas, si Allan las solicita.
-- Completar +20 prospectos de Choluteca con fuentes manuales adicionales.
-- Completar contacto verificable de al menos 10 mejores prospectos antes de outreach.
+- Completar +20 prospectos de Choluteca con fuentes manuales adicionales; las fuentes publicas consultadas solo sostienen 2 registros validos.
+- Revisar los prospectos sin telefono/red social antes de outreach. Ya hay 19 contactos verificables documentados en `validacion-comercial/contactos-verificables-barberai.md`.
+- Confirmar evidencia de Allan como admin/colaborador GitHub: falta captura de invitacion, aceptacion de Allan o confirmacion dentro del repo.
 
 ## Correccion despues de revision Allan
 
@@ -81,7 +82,40 @@ No se implemento ningun bot nuevo en el sitio.
 - Se actualizo `validacion-comercial/mejores-10-prospectos-barberai.md` con top 10 por ciudades asignadas.
 - Se limpio el duplicado de `responderBarberAI` en `index.html`.
 - Se documento que el formulario de contacto actual solo muestra un alert y queda como pendiente para cliente real.
+- Se agrego `validacion-comercial/contactos-verificables-barberai.md` con 19 contactos verificables de la base completa y pendientes marcados.
+- Se confirmo que no hay evidencia local de Allan como admin/colaborador en GitHub; queda pendiente con evidencia requerida.
 
 ## Cierre para Allan
 
-Allan, avance de BarberAI martes 16: se agregaron prospectos, se clasificaron mejores 10, se preparo campaña inicial, se documento el flujo del agente WhatsApp y se subieron capturas reales del deploy. Atlantida quedo con 20 prospectos. Choluteca queda pendiente porque las fuentes publicas consultadas solo devolvieron 2 prospectos validos; no se inventaron datos. Tambien queda pendiente completar contactos verificables de los mejores prospectos antes de outreach.
+Allan, avance de BarberAI martes 16: se agregaron prospectos, se clasificaron mejores 10, se preparo campaña inicial, se documento el flujo del agente WhatsApp y se subieron capturas reales del deploy. Atlantida quedo con 20 prospectos. Se documentaron 19 contactos verificables en la base completa. Choluteca queda pendiente porque las fuentes publicas consultadas solo devolvieron 2 prospectos validos; no se inventaron datos. Tambien queda pendiente confirmar admin GitHub para Allan con captura/invitacion/aceptacion y conectar el formulario de contacto, que hoy solo muestra un alert. Daniel puede cerrar el trabajo de hoy como avance aprobado, pero con backlog comercial pendiente. No es backlog en cero.
+
+## Resumen final del bloque
+
+### Cerrado
+
+- Deploy y evidencia tecnica.
+- Capturas reales de home, chatbot, WhatsApp, movil y tabla local.
+- Documentacion del chatbot y flujo comercial.
+- Atlantida con 20 prospectos.
+- Tabla correcta de ciudades asignadas.
+- Backlog documentado con pendientes reales.
+
+### Completado nuevo
+
+- Contactos verificables documentados: 19 registros con telefono, red social, web, sistema de reservas o ficha publica con contacto.
+- Choluteca revalidado contra fuentes publicas estructuradas; se mantiene en 2/20 sin inventar datos.
+- Admin GitHub para Allan documentado como pendiente sin evidencia local.
+- Formulario de contacto reforzado como limitacion no integrada.
+
+### Pendiente
+
+- Completar Choluteca hasta 20 con negocios reales y fuentes publicas/manuales.
+- Verificar telefonos/redes de prospectos sin contacto visible antes de outreach.
+- Obtener evidencia de Allan como admin/colaborador GitHub.
+- Integrar formulario de contacto a WhatsApp, email, Google Sheet o backend.
+
+### Revisar manana
+
+- Buscar Choluteca en Google Business/Facebook/Instagram desde una sesion con acceso completo.
+- Priorizar outreach solo a los contactos verificables.
+- Confirmar con Allan evidencia de GitHub y acceso al Google Sheet oficial.

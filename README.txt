@@ -150,9 +150,36 @@ Foco del dia: validacion comercial de BarberAI, sin desarrollar nuevas funciones
 - Se creo `validacion-comercial/prospectos-ciudades-asignadas-martes-16-barberai.csv` para corregir la asignacion de ciudades.
 - Atlantida quedo con 20 prospectos publicos encontrados.
 - Choluteca quedo pendiente: las fuentes publicas consultadas solo devolvieron 2 prospectos validos. El bloqueo esta documentado en `validacion-comercial/bloqueos-ciudades-asignadas-martes-16.md`.
-- Falta completar WhatsApp/Facebook/Instagram verificable de al menos 10 mejores prospectos antes de outreach.
+- Se documento `validacion-comercial/contactos-verificables-barberai.md` con 19 contactos verificables en la base completa. Los registros sin telefono/red social siguen pendientes antes de outreach.
 - Se limpio el duplicado de `responderBarberAI` en `index.html`; no se agregaron funciones nuevas.
 - El formulario de contacto sigue como pendiente tecnico para cliente real porque actualmente solo muestra un alert.
+- Allan como admin/colaborador GitHub sigue pendiente porque no hay evidencia local de invitacion, aceptacion o confirmacion dentro del repo.
+- Daniel puede cerrar el trabajo de hoy como avance aprobado, pero con backlog comercial pendiente. No es backlog en cero.
+
+### Cierre final del bloque comercial pendiente
+
+Quedo cerrado:
+
+- Deploy/evidencia tecnica.
+- Capturas reales.
+- Chatbot/documentacion.
+- Atlantida con 20 prospectos.
+- Tabla correcta de ciudades asignadas.
+- Backlog documentado.
+
+Quedo completado nuevo:
+
+- Contactos verificables documentados: 19.
+- Choluteca revalidado sin inventar datos; sigue en 2/20.
+- Estado de Allan admin GitHub aclarado como pendiente con evidencia requerida.
+- Formulario de contacto documentado como limitacion no integrada.
+
+Queda pendiente para el siguiente bloque:
+
+- Completar Choluteca hasta 20 con negocios reales.
+- Revisar contactos pendientes antes de outreach.
+- Confirmar invitacion/aceptacion/admin GitHub para Allan.
+- Integrar formulario de contacto a WhatsApp, email, Google Sheet o backend.
 
 ## Correccion revision Allan - BarberAI
 

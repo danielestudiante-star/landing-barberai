@@ -19,11 +19,12 @@ Fecha: martes 16 de junio de 2026
 | Vista movil con captura | Completado | `validacion-comercial/evidencia/05-vista-movil.png` | Captura real en viewport movil 390x844. |
 | Tabla local de prospectos con captura | Completado | `validacion-comercial/evidencia/06-prospectos-tabla-local.png` | Captura regenerada desde `validacion-comercial/prospectos-ciudades-asignadas-martes-16-barberai.csv`; no es Google Sheet. |
 | Prospectos Atlantida asignados | Completado | `validacion-comercial/prospectos-ciudades-asignadas-martes-16-barberai.csv` | 20 prospectos publicos encontrados en La Ceiba/Tela. |
-| Prospectos Choluteca asignados | Pendiente | `validacion-comercial/bloqueos-ciudades-asignadas-martes-16.md` | Solo 2 prospectos validos encontrados en fuentes publicas; no se inventaron 20. |
-| Completar contactos de mejores 10 | Pendiente | `validacion-comercial/mejores-10-prospectos-barberai.md` | Falta confirmar WhatsApp/Facebook/Instagram real para al menos 10 antes de outreach. |
+| Prospectos Choluteca asignados | Backlog bloqueado | `validacion-comercial/bloqueos-ciudades-asignadas-martes-16.md` | Solo 2 prospectos validos encontrados en fuentes publicas; no se inventaron 20. Requiere verificacion manual en Google Business/Facebook/Instagram. |
+| Completar contactos de mejores 10 | Listo parcial | `validacion-comercial/contactos-verificables-barberai.md` | Se documentaron 19 contactos verificables en la base completa. Siguen pendientes los registros sin telefono/red social antes de outreach. |
 | Documentar formulario de contacto | Completado | `validacion-comercial/backlog-barberai.md` | El formulario muestra `alert`; para cliente real debe enviar a WhatsApp, email, Google Sheet o backend. |
 | Limpiar duplicado de `responderBarberAI` | Completado | `index.html` | Se elimino la definicion vieja pisada; queda una sola funcion activa. |
 | Contacto inicial a prospectos | Backlog | Hoja de seguimiento pendiente | No se contacto a prospectos desde este entorno. |
+| Allan admin/colaborador GitHub | Backlog | `validacion-comercial/tareas-s1-barberai.md` | No se encontro evidencia local de invitacion, aceptacion o confirmacion en configuracion del repo. |
 
 ## Confirmaciones
 
@@ -31,3 +32,4 @@ Fecha: martes 16 de junio de 2026
 - No se agregaron agenda, base de datos, API ni panel.
 - Campos no encontrados quedaron como `No encontrado`.
 - La evidencia visual real ya fue agregada en `validacion-comercial/evidencia/`.
+- Daniel puede cerrar el trabajo de hoy como avance aprobado, pero con backlog comercial pendiente. No es backlog en cero.
