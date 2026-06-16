@@ -17,11 +17,11 @@ Fecha: martes 16 de junio de 2026
 | Pregunta y respuesta del chatbot | Completado | `validacion-comercial/evidencia/03-chatbot-respuesta.png` | Captura real con pregunta sobre citas y horarios. |
 | Boton de WhatsApp validado | Completado | `validacion-comercial/evidencia/04-whatsapp.png` | Se valido href `https://wa.me/50492157819...` con Playwright y se guardo captura. |
 | Vista movil con captura | Completado | `validacion-comercial/evidencia/05-vista-movil.png` | Captura real en viewport movil 390x844. |
-| Tabla local de prospectos con captura | Completado | `validacion-comercial/evidencia/06-prospectos-tabla-local.png` | Captura renderizada desde CSV local real; no es Google Sheet. |
+| Tabla local de prospectos con captura | Completado | `validacion-comercial/evidencia/06-prospectos-tabla-local.png` | Captura regenerada desde `validacion-comercial/prospectos-ciudades-asignadas-martes-16-barberai.csv`; no es Google Sheet. |
 | Prospectos Atlantida asignados | Completado | `validacion-comercial/prospectos-ciudades-asignadas-martes-16-barberai.csv` | 20 prospectos publicos encontrados en La Ceiba/Tela. |
 | Prospectos Choluteca asignados | Pendiente | `validacion-comercial/bloqueos-ciudades-asignadas-martes-16.md` | Solo 2 prospectos validos encontrados en fuentes publicas; no se inventaron 20. |
 | Completar contactos de mejores 10 | Pendiente | `validacion-comercial/mejores-10-prospectos-barberai.md` | Falta confirmar WhatsApp/Facebook/Instagram real para al menos 10 antes de outreach. |
-| Documentar formulario de contacto | En revisión | `validacion-comercial/backlog-barberai.md` | El formulario muestra alert; falta integracion real si se pide cliente real. |
+| Documentar formulario de contacto | Completado | `validacion-comercial/backlog-barberai.md` | El formulario muestra `alert`; para cliente real debe enviar a WhatsApp, email, Google Sheet o backend. |
 | Limpiar duplicado de `responderBarberAI` | Completado | `index.html` | Se elimino la definicion vieja pisada; queda una sola funcion activa. |
 | Contacto inicial a prospectos | Backlog | Hoja de seguimiento pendiente | No se contacto a prospectos desde este entorno. |
 

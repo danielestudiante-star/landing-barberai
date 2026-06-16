@@ -8,8 +8,8 @@ Responsable general: Daniel.
 | Tarea | Estado | Responsable | Evidencia requerida | Nota |
 | --- | --- | --- | --- | --- |
 | Agregar a Allan como ADMIN en GitHub. | Pendiente | Daniel | Captura de configuracion de colaborador/admin. | No ejecutar sin acceso confirmado. |
-| Revisar deploy de BarberAI como cliente. | Pendiente de evidencia | Daniel | Capturas desktop/movil del deploy. | Deploy documentado: https://landing-barberai-production.up.railway.app; faltan capturas reales. |
-| Llenar checklist de revision. | Listo | Daniel | `validacion-comercial/checklist-lunes.md` completo. | Checklist documental corregido; pruebas del deploy quedan como pendiente de evidencia. |
+| Revisar deploy de BarberAI como cliente. | Listo | Daniel | Capturas desktop/movil del deploy. | Evidencia agregada en `validacion-comercial/evidencia/01-home-deploy.png` y `validacion-comercial/evidencia/05-vista-movil.png`. |
+| Llenar checklist de revision. | Listo | Daniel | `validacion-comercial/checklist-lunes.md` completo. | Checklist alineado con la evidencia agregada el martes 16. |
 | Escribir lista de mejoras antes de demo. | Listo | Daniel | `validacion-comercial/mejoras-antes-demo.md`. | Hallazgos reales y pendientes de evidencia registrados. |
 | Escribir ICP de BarberAI. | Listo | Daniel | `validacion-comercial/icp-barberai.md`. | Actualizado para validacion comercial. |
 | Cargar primeros 20 prospectos en Comayagua. | Listo | Daniel | CSV/Sheet con 20 filas reales. | CSV normalizado actualizado hasta B-020. B-018 a B-020 requieren confirmar telefono o red social antes de outreach. |
@@ -18,12 +18,12 @@ Responsable general: Daniel.
 
 | Tarea | Estado | Responsable | Evidencia requerida | Nota |
 | --- | --- | --- | --- | --- |
-| Resolver Backlog del lunes. | Pendiente | Daniel | `validacion-comercial/backlog-barberai.md` actualizado. | Trabajar antes de tareas nuevas. |
-| Agregar +20 prospectos de Choluteca. | Pendiente | Daniel | 20 prospectos reales con fuente. | No inventar negocios. |
-| Agregar +20 prospectos de Atlantida. | Pendiente | Daniel | 20 prospectos reales con fuente. | No inventar negocios. |
-| Iniciar clasificacion A/B/C. | En progreso | Daniel | Columna Prioridad en export. | Clasificacion inicial hecha solo para 15 reales. |
-| Conteo parcial por ciudad y tipo. | En progreso | Daniel | Revision de prospectos actualizada. | Actualmente solo Comayagua. |
-| Bitacora con capturas de fuentes. | Pendiente | Daniel | Carpeta de evidencia/capturas. | Faltan capturas reales. |
+| Resolver Backlog del lunes. | En revision | Daniel | `validacion-comercial/backlog-barberai.md` actualizado. | Evidencia tecnica resuelta; siguen pendientes Choluteca y contactos verificables. |
+| Agregar +20 prospectos de Choluteca. | Backlog | Daniel | 20 prospectos reales con fuente. | Solo hay 2 prospectos validos; requiere busqueda manual en redes/mapas/directorios. |
+| Agregar +20 prospectos de Atlantida. | Listo | Daniel | 20 prospectos reales con fuente. | Documentado en `validacion-comercial/prospectos-ciudades-asignadas-martes-16-barberai.csv`. |
+| Iniciar clasificacion A/B/C. | Listo | Daniel | Columna Prioridad en export. | Clasificacion aplicada en CSV y top 10. |
+| Conteo parcial por ciudad y tipo. | Listo | Daniel | Revision de prospectos actualizada. | CSV asignado: 2 Choluteca y 20 Atlantida. |
+| Bitacora con capturas de fuentes. | En revision | Daniel | Carpeta de evidencia/capturas. | Capturas del deploy y tabla local listas; fuentes de Choluteca siguen bloqueadas por baja disponibilidad publica. |
 
 ## MIERCOLES 17
 
@@ -54,6 +54,6 @@ Responsable general: Daniel.
 | Campana en borrador/pausa. | Pendiente | Daniel | Captura de Ads Manager/TikTok. | No configurar sin aprobacion. |
 | Estimar resultados esperados. | Listo | Daniel | `presupuesto-kpis-barberai.md`. | Estimacion inicial. |
 | Actualizar README. | Listo | Daniel | `README.txt`. | Seccion IPC agregada. |
-| Bitacora completa y carpeta de evidencia ordenada. | Pendiente | Daniel | Bitacora + capturas. | Falta evidencia real. |
+| Bitacora completa y carpeta de evidencia ordenada. | En revision | Daniel | Bitacora + capturas. | Evidencia tecnica ordenada; faltan contactos reales para outreach. |
 | Preparar mini-demo de 5 a 7 minutos. | Pendiente | Daniel | Guion o checklist de demo. | Basarse en presentacion existente. |
 | Responder las 8 preguntas de revision semanal. | Listo | Daniel | `respuestas-criterios-semana-barberai.md`. | Algunas respuestas quedan pendientes por datos reales. |

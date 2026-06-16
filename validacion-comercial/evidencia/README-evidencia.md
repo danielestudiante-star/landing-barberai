@@ -12,7 +12,7 @@ Guardar aqui las capturas reales de la revision comercial del deploy de BarberAI
 | `04-whatsapp.png` | Boton de WhatsApp funcionando o chat abierto. |
 | `05-vista-movil.png` | Vista movil del sitio sin contenido tapado ni desbordes visibles. |
 | `06-prospectos-google-sheet.png` | Tabla de prospectos o hoja oficial Prospectos BarberAI si existe acceso. |
-| `06-prospectos-tabla-local.png` | Tabla local renderizada desde el CSV real de prospectos si no hay acceso al Google Sheet. |
+| `06-prospectos-tabla-local.png` | Tabla local renderizada desde `validacion-comercial/prospectos-ciudades-asignadas-martes-16-barberai.csv` si no hay acceso al Google Sheet. |
 
 ## Capturas tomadas el martes 16
 
@@ -21,7 +21,7 @@ Guardar aqui las capturas reales de la revision comercial del deploy de BarberAI
 - `03-chatbot-respuesta.png`
 - `04-whatsapp.png`
 - `05-vista-movil.png`
-- `06-prospectos-tabla-local.png`
+- `06-prospectos-tabla-local.png` - regenerada para mostrar Choluteca/Atlantida desde el CSV nuevo de ciudades asignadas.
 
 Nota: no se capturo Google Sheet oficial porque no hay acceso confirmado desde este entorno. Se uso la tabla local real de validacion comercial.
 
