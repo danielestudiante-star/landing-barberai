@@ -36,3 +36,22 @@ Queda abierto para el siguiente bloque:
 - Verificar contactos de los prospectos sin telefono/red social.
 - Confirmar admin GitHub para Allan con evidencia.
 - Integrar el formulario de contacto; hoy solo esta documentado como limitacion.
+
+## Cierre miercoles 17
+
+Daniel consolido el cierre comercial en:
+
+- `data/prospectos_barberai.csv`
+- `docs/conteos_finales_barberai.md`
+- `docs/top_10_barberai.md`
+- `docs/propuesta_piloto_barberai.md`
+- `docs/bitacora_miercoles_17_barberai.md`
+- `docs/evidencia_miercoles_17.md`
+
+Estado final:
+
+- Base real sustentada: 67 prospectos.
+- Meta 80-100: no alcanzada por falta de evidencia suficiente; no se inventaron negocios ni contactos.
+- Choluteca: BLOQUEADO JUSTIFICADO con 2 registros validos.
+- Contactos faltantes: pendientes de verificacion manual antes de outreach.
+- GitHub admin Allan: pendiente por falta de evidencia local.

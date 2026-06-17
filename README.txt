@@ -181,6 +181,20 @@ Queda pendiente para el siguiente bloque:
 - Confirmar invitacion/aceptacion/admin GitHub para Allan.
 - Integrar formulario de contacto a WhatsApp, email, Google Sheet o backend.
 
+## Cierre comercial miercoles 17
+
+- Base comercial actualizada: `data/prospectos_barberai.csv` con 67 prospectos consolidados desde archivos existentes.
+- Conteos finales: `docs/conteos_finales_barberai.md`.
+- Top 10 BarberAI: `docs/top_10_barberai.md`.
+- Propuesta piloto: `docs/propuesta_piloto_barberai.md`.
+- Backlog/bloqueos: `docs/bitacora_miercoles_17_barberai.md`.
+- Evidencia: `docs/evidencia_miercoles_17.md` y capturas en `validacion-comercial/evidencia/`.
+- Choluteca queda como BLOQUEADO JUSTIFICADO porque solo hay 2 prospectos publicos sustentables.
+- GitHub admin Allan sigue pendiente por falta de evidencia local.
+- No se alcanzo 80-100 prospectos porque no se inventaron negocios, telefonos ni redes.
+
+Resumen sugerido de commit: `Cierra validacion comercial BarberAI miercoles 17`
+
 ## Correccion revision Allan - BarberAI
 
 Fecha: 15 de junio de 2026

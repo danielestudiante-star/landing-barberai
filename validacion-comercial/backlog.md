@@ -31,3 +31,17 @@ Usar este archivo como vista resumida del backlog comercial. El detalle principa
 ## Estado de cierre
 
 Daniel puede cerrar el trabajo de hoy como avance aprobado, pero con backlog comercial pendiente. No es backlog en cero.
+
+## Cierre miercoles 17
+
+Se consolido la base comercial en `data/prospectos_barberai.csv` con 67 prospectos existentes y sustentados en archivos del repo. No se subio a 80-100 porque no hay evidencia publica suficiente para crear registros adicionales sin inventar datos.
+
+Estado actualizado:
+
+- Choluteca: BLOQUEADO JUSTIFICADO. Se mantienen solo 2 prospectos validos con fuente publica; completar 20 requiere investigacion manual adicional.
+- Contactos verificables: Pendiente parcial. Hay prospectos con telefono/red/social/web, pero 45 registros siguen sin canal publico encontrado.
+- Admin GitHub Allan: Pendiente. No hay evidencia local de invitacion, aceptacion o confirmacion como admin/colaborador.
+- Evidencia de cierre: `docs/evidencia_miercoles_17.md`.
+- Conteos finales: `docs/conteos_finales_barberai.md`.
+- Top 10: `docs/top_10_barberai.md`.
+- Propuesta piloto: `docs/propuesta_piloto_barberai.md`.
