@@ -18,6 +18,13 @@ Carpeta: `validacion-comercial/evidencia/`
 - Fuente de consolidacion: archivos existentes en `validacion-comercial/`.
 - Google Sheet oficial: pendiente de evidencia local de acceso o captura.
 
+## Respaldo comercial usado
+
+- El respaldo oficial usado hoy fue el CSV local: `data/prospectos_barberai.csv`.
+- Si existe hoja oficial externa, falta captura o acceso actualizado.
+- Si no existe acceso a hoja externa, queda documentado como limitacion.
+- No se afirma que Google Sheets esta actualizado porque no hay evidencia local suficiente.
+
 ## Conteos
 
 - Documento: `docs/conteos_finales_barberai.md`.
@@ -38,6 +45,22 @@ Carpeta: `validacion-comercial/evidencia/`
 Estado: pendiente.
 
 No se encontro evidencia local de invitacion enviada, aceptacion de Allan o confirmacion dentro de la configuracion del repo. Para cerrar este punto se requiere captura de GitHub, confirmacion de Allan o registro verificable dentro del repositorio.
+
+Documento de control: `docs/evidencia_github_allan.md`.
+
+## Bloqueo meta 80-100
+
+- La base sustentada llega a 67 prospectos reales.
+- No se subio artificialmente a 80-100 porque faltaba evidencia publica suficiente.
+- Prioridad actual: completar contactos reales antes que agregar registros debiles.
+- Estado: bloqueo justificado, no cierre total.
+
+## Formulario de contacto
+
+- El formulario sigue documentado como limitacion tecnica.
+- No esta integrado completamente.
+- Estado: pendiente tecnico.
+- Proximo paso recomendado: conectar formulario a backend, servicio de correo o base de datos segun alcance definido.
 
 ## Limitaciones encontradas
 

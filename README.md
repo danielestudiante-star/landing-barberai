@@ -21,3 +21,28 @@ Notas de cierre:
 Resumen sugerido de commit:
 
 `Cierra validacion comercial BarberAI miercoles 17`
+
+## Seguimiento posterior a revision del supervisor
+
+- Prospectos reales sustentados: 67.
+- Prospectos con algun canal verificable: 22.
+- Prospectos pendientes de verificar: 45.
+- Meta 80-100: bloqueada por falta de evidencia publica suficiente; no se agregaron registros debiles.
+- Top 10: prioriza contactos con evidencia.
+- Allan GitHub: pendiente de evidencia externa si no se puede confirmar desde GitHub.
+- Hoja oficial: pendiente si no hay acceso o captura; el respaldo comercial usado hoy fue `data/prospectos_barberai.csv`.
+- Formulario: pendiente tecnico; no esta integrado completamente.
+
+Documentos agregados en este seguimiento:
+
+- `docs/contactos_pendientes_barberai.md`
+- `docs/evidencia_github_allan.md`
+- `docs/cierre_pendientes_supervisor_17_junio.md`
+
+## Respaldo comercial usado
+
+El respaldo oficial usado hoy fue el CSV local `data/prospectos_barberai.csv`. Si existe una hoja oficial externa, falta captura o acceso actualizado. No se debe decir que Google Sheets esta actualizado sin evidencia.
+
+## Formulario de contacto
+
+El formulario sigue documentado como limitacion tecnica. No esta integrado completamente. Estado: pendiente tecnico. Proximo paso recomendado: conectar formulario a backend, servicio de correo o base de datos segun alcance definido.

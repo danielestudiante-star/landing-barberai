@@ -51,3 +51,27 @@
 ## Proximo paso
 
 Trabajar Choluteca manualmente desde fuentes con mejor cobertura local y confirmar contactos de los prospectos sin canal antes de cualquier outreach. En paralelo, pedir a Allan evidencia de admin/colaborador GitHub y acceso/captura del Google Sheet oficial si se usara como respaldo.
+
+## Seguimiento posterior a revision del supervisor
+
+- Se revisaron los 45 prospectos sin canal publico en `data/prospectos_barberai.csv`.
+- No se encontro evidencia adicional de contacto en archivos existentes del repo.
+- Se agregaron las columnas `estado_contacto`, `accion_siguiente` y `fecha_revision`.
+- Los 45 registros sin canal quedaron marcados como `Pendiente de verificar`.
+- Se creo `docs/contactos_pendientes_barberai.md`.
+- Se creo `docs/evidencia_github_allan.md`.
+- Se creo `docs/cierre_pendientes_supervisor_17_junio.md`.
+
+## Bloqueo meta 80-100
+
+- La base sustentada llega a 67 prospectos reales.
+- No se subio artificialmente a 80-100 porque faltaba evidencia publica suficiente.
+- Prioridad actual: completar contactos reales antes que agregar registros debiles.
+- Estado: bloqueo justificado, no cierre total.
+
+## Formulario de contacto
+
+- El formulario sigue documentado como limitacion tecnica.
+- No esta integrado completamente.
+- Estado: pendiente tecnico.
+- Proximo paso recomendado: conectar formulario a backend, servicio de correo o base de datos segun alcance definido.

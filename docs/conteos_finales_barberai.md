@@ -61,3 +61,14 @@ No se alcanzo la meta de 80-100 prospectos porque el backlog exige no inventar n
 - Choluteca: bloqueado justificado por falta de datos publicos suficientes en las fuentes revisadas.
 - Contactos faltantes: 45 registros no tienen telefono, WhatsApp, Facebook, Instagram o web verificada en la fuente local.
 - GitHub admin Allan: pendiente; no hay evidencia local de invitacion, aceptacion o confirmacion dentro del repo.
+
+## Bloqueo meta 80-100
+
+- La base sustentada llega a 67 prospectos reales.
+- No se subio artificialmente a 80-100 porque faltaba evidencia publica suficiente.
+- Prioridad actual: completar contactos reales antes que agregar registros debiles.
+- Estado: bloqueo justificado, no cierre total.
+
+## Seguimiento de contactos
+
+Se agregaron columnas de control a `data/prospectos_barberai.csv`: `estado_contacto`, `accion_siguiente` y `fecha_revision`. Los 45 prospectos sin canal publico quedaron como `Pendiente de verificar` con accion siguiente `Buscar contacto manual antes de outreach`.
