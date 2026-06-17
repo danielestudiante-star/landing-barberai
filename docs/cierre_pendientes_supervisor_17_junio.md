@@ -3,6 +3,7 @@
 ## Que observo el supervisor
 
 - Ultimo commit revisado: `a96a196 Cierra validacion comercial BarberAI miercoles 17`.
+- Cierre reforzado posterior: `d73b9ad Refuerza cierre de pendientes BarberAI supervisor`.
 - Deploy responde HTTP 200.
 - Ya existen bitacora, conteos finales, Top 10, propuesta piloto y evidencia.
 - CSV actual: `data/prospectos_barberai.csv` con 67 prospectos reales.
@@ -39,6 +40,12 @@
 ## Estado final
 
 Avance validado, backlog ordenado, no backlog cero.
+
+## Commit final verificado
+
+- Commit revisado: `d73b9ad Refuerza cierre de pendientes BarberAI supervisor`
+- Estado: avance validado, backlog ordenado, pendientes externos documentados.
+- Nota: el commit anterior `a96a196` fue la base del cierre comercial, y `d73b9ad` reforzo los pendientes posteriores a revision.
 
 ## Proximos pasos recomendados
 

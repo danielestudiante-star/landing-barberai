@@ -24,7 +24,7 @@
 | Completar WhatsApp/Facebook/Instagram de al menos 10 mejores prospectos. | Martes 16 | Alta | Listo parcial | Daniel | 2026-06-16 | `validacion-comercial/contactos-verificables-barberai.md` | Se documentaron 19 contactos verificables en la base completa. Siguen pendientes los registros sin telefono/red social antes de outreach. |
 | Documentar limitacion del formulario de contacto. | Martes 16 | Media | Listo | Daniel | 2026-06-16 | Este backlog y reporte diario. | El formulario actual solo muestra un alert; no esta integrado. Para cliente real debe enviar a WhatsApp, email, Google Sheet o backend. |
 | Agregar a Allan como admin/colaborador en GitHub. | Lunes 15 | Alta | Backlog | Daniel | 2026-06-17 | Captura de invitacion, aceptacion de Allan o confirmacion en configuracion del repo. | No se encontro evidencia local de invitacion ni aceptacion. Falta confirmar desde GitHub. |
-| Avisar a Allan para nueva revision. | Lunes 15 | Media | En revision | Daniel | 2026-06-16 | Mensaje de estado final con prospectos y evidencias reales. | Daniel puede cerrar el trabajo de hoy como avance aprobado, pero con backlog comercial pendiente. No es backlog en cero. |
+| Avisar a Allan para nueva revision. | Lunes 15 | Media | Listo | Daniel | 2026-06-16 | Mensaje de estado final con prospectos y evidencias reales. | Revisado sobre el commit d73b9ad. El supervisor confirmo avance validado, backlog ordenado y pendientes externos documentados. |
 
 ## Estado de cierre
 
@@ -55,3 +55,5 @@ Estado final:
 - Choluteca: BLOQUEADO JUSTIFICADO con 2 registros validos.
 - Contactos faltantes: pendientes de verificacion manual antes de outreach.
 - GitHub admin Allan: pendiente por falta de evidencia local.
+- Hoja oficial: pendiente si no hay acceso o captura actualizada.
+- Formulario: pendiente tecnico mientras no este integrado completamente.
