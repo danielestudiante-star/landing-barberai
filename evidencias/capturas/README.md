@@ -11,3 +11,5 @@ Capturas y piezas generadas para respaldar el avance comercial del dia.
 | `validacion-whatsapp-top-10.png` | Evidencia resumida de validacion tecnica de enlaces `wa.me` del Top 10. |
 | `../../artes/whatsapp/pieza-feed-1080x1080-barberai.png` | Pieza feed 1080x1080 lista como arte base. |
 | `../../artes/whatsapp/pieza-story-1080x1920-barberai.png` | Pieza story 1080x1920 lista como arte base. |
+
+Pendiente antes de contacto real: guardar aqui capturas de la validacion visual de cada chat de WhatsApp del Top 10.
