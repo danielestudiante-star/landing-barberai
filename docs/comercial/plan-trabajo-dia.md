@@ -1,33 +1,34 @@
-# Plan de trabajo comercial del dia - RestoAI / Lili
+# Plan de trabajo comercial del dia - BarberAI
 
 ## Objetivo del dia
 
-Dejar preparado el avance comercial de RestoAI / Lili con documentos, piezas de prospeccion y espacios de evidencia listos para respaldar el trabajo del dia.
+Dejar preparado el avance comercial de BarberAI con documentos, piezas de prospeccion y espacios de evidencia listos para respaldar el trabajo del dia.
 
 ## Contexto del trabajo
 
-El cierre anterior de RestoAI quedo recibido con el commit `dab806a` y el despliegue ya fue verificado. Para esta jornada no se modifica la logica tecnica principal ni archivos de deploy. El enfoque es comercial: organizar materiales, preparar mensajes y dejar trazabilidad clara dentro del repositorio.
+Este repositorio corresponde a BarberAI. Para esta jornada no se modifica la logica tecnica principal ni archivos de deploy. El enfoque es comercial: organizar materiales, preparar mensajes, completar prospectos verificables y dejar trazabilidad clara dentro del repositorio.
 
 ## Entregables a realizar
 
 - Plan de trabajo comercial del dia.
-- Guion breve para demo de Lili.
+- Guion breve para demo de BarberAI.
 - Flujo de prospeccion por WhatsApp.
-- Tabla base para validar 10 restaurantes antes de contactarlos.
-- Tres piezas comerciales para WhatsApp/redes enfocadas en restaurantes.
+- Top 10 real de barberias, salones o estudios con contacto verificable.
+- Tres piezas comerciales para WhatsApp/redes enfocadas en barberias y salones.
+- Brief visual Simplexity para feed, story y video/demo corto.
 - Carpeta para capturas y evidencia del avance.
 
 ## Evidencia esperada
 
 - Capturas de los archivos creados o revisados.
 - Capturas de las piezas comerciales listas para usar.
-- Capturas del Top 10 cuando se complete con restaurantes reales.
+- Capturas del Top 10 completo con negocios reales.
 - Evidencia de mensajes enviados, respuestas recibidas o reuniones agendadas, si aplica.
 - Registro final en git con los archivos agregados.
 
 ## Estado esperado al cierre
 
-Al cierre del dia debe quedar un paquete comercial ordenado, usable y respaldado en el repositorio. El equipo debe poder abrir los documentos, completar la lista de prospectos reales, tomar capturas y avanzar a contacto comercial sin depender de cambios tecnicos.
+Al cierre del dia debe quedar un paquete comercial ordenado, usable y respaldado en el repositorio. El equipo debe poder abrir los documentos, revisar el Top 10, tomar capturas y avanzar a contacto comercial sin depender de cambios tecnicos.
 
 ## Nota de trazabilidad
 

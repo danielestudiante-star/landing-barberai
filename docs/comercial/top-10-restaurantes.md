@@ -1,16 +1,16 @@
-# Top 10 restaurantes para validar
+# Top 10 negocios BarberAI para validar
 
-Tabla base para completar antes de iniciar contacto comercial. Validar que cada restaurante tenga actividad reciente, canal de contacto visible y una oportunidad clara donde RestoAI / Lili pueda aportar valor.
+Seleccion basada en `data/prospectos_barberai.csv` y `validacion-comercial/contactos-verificables-barberai.md`. Solo se incluyen negocios con telefono, WhatsApp o red social documentada antes de outreach.
 
-| Numero | Nombre del restaurante | Ciudad o zona | WhatsApp o telefono | Red social | Estado del contacto | Problema probable | Mensaje personalizado |
+| Numero | Nombre del negocio | Ciudad o zona | WhatsApp o telefono | Red social | Estado del contacto | Problema probable | Mensaje personalizado |
 |---:|---|---|---|---|---|---|---|
-| 1 | Pendiente | Pendiente | Pendiente | Pendiente | Pendiente | Pendiente | Pendiente |
-| 2 | Pendiente | Pendiente | Pendiente | Pendiente | Pendiente | Pendiente | Pendiente |
-| 3 | Pendiente | Pendiente | Pendiente | Pendiente | Pendiente | Pendiente | Pendiente |
-| 4 | Pendiente | Pendiente | Pendiente | Pendiente | Pendiente | Pendiente | Pendiente |
-| 5 | Pendiente | Pendiente | Pendiente | Pendiente | Pendiente | Pendiente | Pendiente |
-| 6 | Pendiente | Pendiente | Pendiente | Pendiente | Pendiente | Pendiente | Pendiente |
-| 7 | Pendiente | Pendiente | Pendiente | Pendiente | Pendiente | Pendiente | Pendiente |
-| 8 | Pendiente | Pendiente | Pendiente | Pendiente | Pendiente | Pendiente | Pendiente |
-| 9 | Pendiente | Pendiente | Pendiente | Pendiente | Pendiente | Pendiente | Pendiente |
-| 10 | Pendiente | Pendiente | Pendiente | Pendiente | Pendiente | Pendiente | Pendiente |
+| 1 | E Cavaleiro | Comayagua / Barrio El Centro | +504 9266-9247 | https://www.facebook.com/Ecavaleirohn/ / https://www.instagram.com/ecavaleirohn/ | Contacto verificable documentado | Mensajes repetidos sobre horarios, servicios, precios y citas por WhatsApp. | Hola, vi que E Cavaleiro maneja citas y redes activas. BarberAI puede ayudarles a responder horarios, servicios y disponibilidad sin cargar mas trabajo al equipo. Les puedo mostrar una demo breve esta semana? |
+| 2 | NOVO Studio & Barber | Comayagua | +504 3193-8081 | https://www.instagram.com/novo.studiohn/ | Contacto verificable documentado | Agenda de servicios de barberia/belleza y consultas desde redes. | Hola, vi NOVO Studio & Barber y su movimiento en Instagram. BarberAI ayuda a convertir mensajes sobre servicios y citas en una agenda mas ordenada. Les muestro una demo de 10 minutos? |
+| 3 | Blessing Barber Shop | Comayagua | +504 9644-1679 | https://www.facebook.com/61577737670444/ | Contacto verificable documentado | Agendamiento por WhatsApp y seguimiento manual de disponibilidad. | Hola, vi que Blessing Barber Shop usa WhatsApp para atender clientes. BarberAI puede responder consultas frecuentes y ayudar a ordenar citas. Tienen 10 minutos para ver una demo? |
+| 4 | Douglas Almendares Salon | Comayagua | +504 9573-4280 | https://www.facebook.com/DouglasAlmendaressalon/ | Contacto verificable documentado | Promociones, citas y servicios que generan preguntas repetidas. | Hola, vi que manejan citas y promociones en Douglas Almendares Salon. BarberAI puede ayudarles a responder servicios, horarios y disponibilidad por WhatsApp. Les interesa una demo corta? |
+| 5 | Allure Day Spa & Salon | Comayagua | +504 9912-3052 / 2772-2122 | https://www.facebook.com/AllureComayagua/ | Contacto verificable documentado | Varios servicios de salon/spa con consultas de precios, agenda y disponibilidad. | Hola, vi que Allure maneja varios servicios y canales de contacto. BarberAI puede ordenar las consultas de citas, servicios y horarios para responder mas rapido. Agendamos una demo breve? |
+| 6 | Bella Studio | Comayagua | +504 9599-2271 | https://www.facebook.com/bellastudiohn/ | Contacto verificable documentado | Citas para servicios de belleza, depilacion, visagismo y seguimiento manual. | Hola, vi los servicios de Bella Studio. BarberAI puede ayudarles a responder dudas frecuentes y convertir mensajes en citas por WhatsApp. Les puedo compartir una demo de 10 minutos? |
+| 7 | Pronabelle Sala de Belleza | Comayagua | +504 3348-0658 | https://www.facebook.com/pronabelle/ | Contacto verificable documentado | Reservas para servicios de belleza, eventos y recordatorios. | Hola, vi que Pronabelle atiende citas y servicios para eventos. BarberAI puede responder disponibilidad, servicios y recordatorios por WhatsApp. Les gustaria ver una demo breve? |
+| 8 | Ellas Salon | Barrio Torondon, Comayagua | +504 9587-2546 | https://www.facebook.com/salonellas/ | Contacto verificable documentado | Citas por DM o WhatsApp y preguntas de ubicacion/horarios. | Hola, vi Ellas Salon y su atencion por redes. BarberAI puede ayudar a ordenar mensajes de citas, horarios y ubicacion para responder mas rapido. Les muestro una demo corta? |
+| 9 | Kary Beauty Salon | Comayagua | +504 8836-8171 | https://www.facebook.com/p/Kary-Beauty-Salon-100063606279477/ | Contacto verificable documentado | Agenda de salon y preguntas sobre productos o servicios. | Hola, vi que Kary Beauty Salon combina servicios y productos. BarberAI puede responder preguntas frecuentes y ayudar a agendar citas por WhatsApp. Tienen espacio para una demo de 10 minutos? |
+| 10 | AE Nail Studio | Plaza San Blas, primer nivel, Comayagua | +504 9909-0478 | https://www.instagram.com/aenailstudio/ | Contacto verificable documentado | Servicios por duracion, precios, disponibilidad y recordatorios de cita. | Hola, vi AE Nail Studio en Plaza San Blas. BarberAI puede ayudarles a responder precios, disponibilidad y recordatorios por WhatsApp. Les interesa ver una demo breve? |

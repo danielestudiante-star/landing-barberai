@@ -1,11 +1,11 @@
 Titulo comercial:
-Conoce a Lili en una demo para restaurantes
+Conoce BarberAI en una demo para barberias
 
 Texto principal:
-RestoAI / Lili es una asistente para restaurantes que ayuda a atender clientes por WhatsApp, responder preguntas frecuentes y guiar conversaciones sobre reservas, menu, horarios y pedidos.
+BarberAI es un asistente para barberias y salones que ayuda a atender clientes por WhatsApp, responder preguntas frecuentes y guiar conversaciones sobre citas, servicios, horarios y disponibilidad.
 
 Beneficio claro:
-En pocos minutos puedes ver como funcionaria con clientes reales de tu restaurante, sin cambiar tu operacion actual.
+En pocos minutos puedes ver como funcionaria con clientes reales de tu barberia o salon, sin cambiar tu operacion actual.
 
 Llamado a la accion:
-Agenda una demo de 10 a 15 minutos y revisemos si Lili encaja con tu restaurante.
+Agenda una demo de 10 a 15 minutos y revisemos si BarberAI encaja con tu negocio.
