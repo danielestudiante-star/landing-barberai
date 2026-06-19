@@ -20,22 +20,35 @@
 | Subir captura real de la vista movil. | Lunes 15 | Alta | Listo | Daniel | 2026-06-16 | `validacion-comercial/evidencia/05-vista-movil.png` | Captura real en viewport movil. |
 | Actualizar checklist cuando las evidencias esten subidas. | Lunes 15 | Alta | Listo | Daniel | 2026-06-16 | `validacion-comercial/checklist-martes-16.md` con rutas reales enlazadas. | Checklist actualizado despues de capturas. |
 | Completar +20 prospectos de Atlantida. | Martes 16 | Alta | Listo | Daniel | 2026-06-16 | `validacion-comercial/prospectos-ciudades-asignadas-martes-16-barberai.csv` | 20 prospectos publicos encontrados en La Ceiba/Tela. |
-| Completar +20 prospectos de Choluteca. | Martes 16 | Alta | Backlog bloqueado | Daniel | 2026-06-17 | `validacion-comercial/bloqueos-ciudades-asignadas-martes-16.md` | Reconsulta Overpass/Nominatim para todo Choluteca solo devolvio 2 prospectos validos. No se inventan negocios; requiere Google Business/Facebook/Instagram desde sesion manual. |
-| Completar WhatsApp/Facebook/Instagram de al menos 10 mejores prospectos. | Martes 16 | Alta | Listo parcial | Daniel | 2026-06-16 | `validacion-comercial/contactos-verificables-barberai.md` | Se documentaron 19 contactos verificables en la base completa. Siguen pendientes los registros sin telefono/red social antes de outreach. |
+| Completar +20 prospectos de Choluteca. | Martes 16 | Alta | Pendiente externo documentado | Daniel | 2026-06-17 | `validacion-comercial/bloqueos-ciudades-asignadas-martes-16.md` | Reconsulta Overpass/Nominatim para todo Choluteca solo devolvio 2 prospectos validos. No se inventan negocios; completar requiere Google Business/Facebook/Instagram desde sesion manual. No bloquea el cierre documental del viernes. |
+| Completar WhatsApp/Facebook/Instagram de al menos 10 mejores prospectos. | Martes 16 | Alta | Listo con limitacion | Daniel | 2026-06-16 | `validacion-comercial/contactos-verificables-barberai.md` y `docs/contactos_pendientes_barberai.md` | Se documentaron 19 contactos verificables en la base completa. Registros sin telefono/red social quedan identificados para verificacion antes de outreach. |
 | Documentar limitacion del formulario de contacto. | Martes 16 | Media | Listo | Daniel | 2026-06-16 | Este backlog y reporte diario. | El formulario actual solo muestra un alert; no esta integrado. Para cliente real debe enviar a WhatsApp, email, Google Sheet o backend. |
-| Agregar a Allan como admin/colaborador en GitHub. | Lunes 15 | Alta | Backlog | Daniel | 2026-06-17 | Captura de invitacion, aceptacion de Allan o confirmacion en configuracion del repo. | No se encontro evidencia local de invitacion ni aceptacion. Falta confirmar desde GitHub. |
+| Agregar a Allan como admin/colaborador en GitHub. | Lunes 15 | Alta | Pendiente externo documentado | Daniel | 2026-06-17 | Captura de invitacion, aceptacion de Allan o confirmacion en configuracion del repo. | No se encontro evidencia local de invitacion ni aceptacion. Falta confirmar desde GitHub; no se inventa captura. |
 | Avisar a Allan para nueva revision. | Lunes 15 | Media | Listo | Daniel | 2026-06-16 | Mensaje de estado final con prospectos y evidencias reales. | Revisado sobre el commit d73b9ad. El supervisor confirmo avance validado, backlog ordenado y pendientes externos documentados. |
 
-## Estado de cierre
+## Estado de cierre viernes 19
 
-Daniel puede cerrar el trabajo de hoy como avance aprobado, pero con backlog comercial pendiente. No es backlog en cero.
+Fecha de cierre: viernes 19 de junio de 2026.
 
-Queda abierto para el siguiente bloque:
+El backlog interno del repo queda cerrado para el avance semanal comercial/documental. No quedan tareas internas sin clasificar que impidan subir el cierre a `main`.
+
+Lo que quedo cerrado:
+
+- Evidencia tecnica del deploy, chatbot, WhatsApp y vista movil.
+- Base comercial sustentada con 67 prospectos reales.
+- Top 10 comercial y propuesta piloto.
+- Copies, campana documental, presupuesto, KPIs y flujo de prospeccion.
+- Guion base de mini-demo y brief de artes.
+- Limitaciones documentadas sin inventar evidencia.
+
+Limitaciones que siguen documentadas para seguimiento posterior:
 
 - Completar Choluteca hasta 20 solo con negocios reales verificados.
-- Verificar contactos de los prospectos sin telefono/red social.
-- Confirmar admin GitHub para Allan con evidencia.
-- Integrar el formulario de contacto; hoy solo esta documentado como limitacion.
+- Verificar contactos de prospectos sin telefono/red social antes de outreach.
+- Confirmar admin GitHub para Allan con evidencia desde GitHub.
+- Integrar el formulario de contacto si se abre fase tecnica; hoy queda como limitacion documentada.
+
+Estas limitaciones son externas o requieren validacion manual adicional. No se declaran como entregables completados porque no existe evidencia local suficiente.
 
 ## Cierre miercoles 17
 
