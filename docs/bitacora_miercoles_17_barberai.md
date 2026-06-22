@@ -1,4 +1,4 @@
-# Bitacora miercoles 17 - BarberAI
+﻿# Bitacora miercoles 17 - BarberAI
 
 ## Datos del dia
 
@@ -10,16 +10,16 @@
 
 - Backlog principal: `validacion-comercial/backlog.md` y `validacion-comercial/backlog-barberai.md`.
 - Prospectos existentes: Comayagua, martes 16 y ciudades asignadas.
-- Contactos verificables: `validacion-comercial/contactos-verificables-barberai.md`.
+- Contactos verificables: `data/prospectos-barberai-oficial.xlsx`.
 - Bloqueo Choluteca: `validacion-comercial/bloqueos-ciudades-asignadas-martes-16.md`.
 - Evidencia disponible: capturas en `validacion-comercial/evidencia/`.
 - Estado GitHub Allan: reportes del martes y backlog.
 
 ## Que se completo
 
-- Se creo `data/prospectos_barberai.csv` con 67 prospectos consolidados desde archivos existentes.
-- Se creo `docs/conteos_finales_barberai.md` con conteos por ciudad, prioridad, canal y oportunidad.
-- Se creo `docs/top_10_barberai.md` con los 10 mejores prospectos priorizando evidencia/contacto.
+- Se creo `data/prospectos-barberai-oficial.xlsx` con 67 prospectos consolidados desde archivos existentes.
+- Se creo `data/prospectos-barberai-oficial.xlsx` con conteos por ciudad, prioridad, canal y oportunidad.
+- Se creo `data/prospectos-barberai-oficial.xlsx` con los 10 mejores prospectos priorizando evidencia/contacto.
 - Se creo `docs/propuesta_piloto_barberai.md` con audiencia, geografia, presupuesto, objetivo, WhatsApp como canal principal y 3 copies de anuncio.
 - Se creo `docs/evidencia_miercoles_17.md` como indice de evidencia del cierre.
 - Se creo `README.md` con seccion de cierre comercial miercoles 17.
@@ -33,9 +33,9 @@
 
 ## Evidencia agregada
 
-- CSV consolidado: `data/prospectos_barberai.csv`.
-- Conteos finales: `docs/conteos_finales_barberai.md`.
-- Top 10: `docs/top_10_barberai.md`.
+- Excel consolidado: `data/prospectos-barberai-oficial.xlsx`.
+- Conteos finales: `data/prospectos-barberai-oficial.xlsx`.
+- Top 10: `data/prospectos-barberai-oficial.xlsx`.
 - Propuesta piloto: `docs/propuesta_piloto_barberai.md`.
 - Evidencia del cierre: `docs/evidencia_miercoles_17.md`.
 
@@ -54,11 +54,11 @@ Trabajar Choluteca manualmente desde fuentes con mejor cobertura local y confirm
 
 ## Seguimiento posterior a revision del supervisor
 
-- Se revisaron los 45 prospectos sin canal publico en `data/prospectos_barberai.csv`.
+- Se revisaron los 45 prospectos sin canal publico en `data/prospectos-barberai-oficial.xlsx`.
 - No se encontro evidencia adicional de contacto en archivos existentes del repo.
 - Se agregaron las columnas `estado_contacto`, `accion_siguiente` y `fecha_revision`.
 - Los 45 registros sin canal quedaron marcados como `Pendiente de verificar`.
-- Se creo `docs/contactos_pendientes_barberai.md`.
+- Se creo `data/prospectos-barberai-oficial.xlsx`.
 - Se creo `docs/evidencia_github_allan.md`.
 - Se creo `docs/cierre_pendientes_supervisor_17_junio.md`.
 
@@ -75,3 +75,5 @@ Trabajar Choluteca manualmente desde fuentes con mejor cobertura local y confirm
 - No esta integrado completamente.
 - Estado: pendiente tecnico.
 - Proximo paso recomendado: conectar formulario a backend, servicio de correo o base de datos segun alcance definido.
+
+

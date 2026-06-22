@@ -1,4 +1,4 @@
-# Bloqueos ciudades asignadas - martes 16 BarberAI
+﻿# Bloqueos ciudades asignadas - martes 16 BarberAI
 
 ## Resultado
 
@@ -13,7 +13,7 @@ Estado: Completado.
 
 Se encontraron 20 prospectos publicos en La Ceiba y Tela usando OpenStreetMap/Overpass. Quedaron documentados en:
 
-`validacion-comercial/prospectos-ciudades-asignadas-martes-16-barberai.csv`
+`data/prospectos-barberai-oficial.xlsx`
 
 ## Choluteca
 
@@ -43,8 +43,10 @@ No se inventaron 20 prospectos de Choluteca. La tarea queda documentada como pen
 
 ## Contactos de mejores prospectos
 
-Se creo `validacion-comercial/contactos-verificables-barberai.md` con 19 prospectos de la base completa que si tienen telefono, red social, web, sistema de reservas o ficha publica con contacto. En la tabla de ciudades asignadas solo `Barberia Omar` tiene red social visible; los telefonos o WhatsApp no encontrados permanecen como `No encontrado` o `Pendiente de verificar`.
+Se creo `data/prospectos-barberai-oficial.xlsx` con 22 prospectos de la base completa que si tienen telefono, red social, web, sistema de reservas o ficha publica con contacto. En la tabla de ciudades asignadas solo `Barberia Omar` tiene red social visible; los telefonos o WhatsApp no encontrados permanecen como `No encontrado` o `Pendiente de verificar`.
 
 ## Cierre
 
 Daniel puede cerrar el trabajo de hoy como avance aprobado, pero con backlog comercial pendiente. No es backlog en cero.
+
+

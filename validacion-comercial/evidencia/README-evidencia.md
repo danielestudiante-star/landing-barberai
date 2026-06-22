@@ -1,4 +1,4 @@
-# README evidencia BarberAI
+﻿# README evidencia BarberAI
 
 Guardar aqui las capturas reales de la revision comercial del deploy de BarberAI.
 
@@ -12,7 +12,7 @@ Guardar aqui las capturas reales de la revision comercial del deploy de BarberAI
 | `04-whatsapp.png` | Boton de WhatsApp funcionando o chat abierto. |
 | `05-vista-movil.png` | Vista movil del sitio sin contenido tapado ni desbordes visibles. |
 | `06-prospectos-google-sheet.png` | Tabla de prospectos o hoja oficial Prospectos BarberAI si existe acceso. |
-| `06-prospectos-tabla-local.png` | Tabla local renderizada desde `validacion-comercial/prospectos-ciudades-asignadas-martes-16-barberai.csv` si no hay acceso al Google Sheet. |
+| `06-prospectos-tabla-local.png` | Tabla local renderizada desde `data/prospectos-barberai-oficial.xlsx` si no hay acceso al Google Sheet. |
 
 ## Capturas tomadas el martes 16
 
@@ -28,3 +28,4 @@ Nota: no se capturo Google Sheet oficial porque no hay acceso confirmado desde e
 ## Regla
 
 No guardar capturas de ejemplo ni placeholders. Cada archivo debe salir de una prueba real del deploy, Google Sheet o tabla usada para validacion comercial.
+

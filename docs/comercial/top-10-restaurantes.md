@@ -1,6 +1,6 @@
-# Top 10 negocios BarberAI para validar
+﻿# Top 10 negocios BarberAI para validar
 
-Seleccion basada en `data/prospectos_barberai.csv` y `validacion-comercial/contactos-verificables-barberai.md`. Solo se incluyen negocios con telefono, WhatsApp o red social documentada antes de outreach.
+Seleccion basada en `data/prospectos-barberai-oficial.xlsx` y `data/prospectos-barberai-oficial.xlsx`. Solo se incluyen negocios con telefono, WhatsApp o red social documentada antes de outreach.
 
 | Numero | Nombre del negocio | Ciudad o zona | WhatsApp o telefono | Red social | Estado del contacto | Problema probable | Mensaje personalizado |
 |---:|---|---|---|---|---|---|---|
@@ -14,3 +14,4 @@ Seleccion basada en `data/prospectos_barberai.csv` y `validacion-comercial/conta
 | 8 | Ellas Salon | Barrio Torondon, Comayagua | +504 9587-2546 | https://www.facebook.com/salonellas/ | Contacto verificable documentado | Citas por DM o WhatsApp y preguntas de ubicacion/horarios. | Hola, vi Ellas Salon y su atencion por redes. BarberAI puede ayudar a ordenar mensajes de citas, horarios y ubicacion para responder mas rapido. Les muestro una demo corta? |
 | 9 | Kary Beauty Salon | Comayagua | +504 8836-8171 | https://www.facebook.com/p/Kary-Beauty-Salon-100063606279477/ | Contacto verificable documentado | Agenda de salon y preguntas sobre productos o servicios. | Hola, vi que Kary Beauty Salon combina servicios y productos. BarberAI puede responder preguntas frecuentes y ayudar a agendar citas por WhatsApp. Tienen espacio para una demo de 10 minutos? |
 | 10 | AE Nail Studio | Plaza San Blas, primer nivel, Comayagua | +504 9909-0478 | https://www.instagram.com/aenailstudio/ | Contacto verificable documentado | Servicios por duracion, precios, disponibilidad y recordatorios de cita. | Hola, vi AE Nail Studio en Plaza San Blas. BarberAI puede ayudarles a responder precios, disponibilidad y recordatorios por WhatsApp. Les interesa ver una demo breve? |
+

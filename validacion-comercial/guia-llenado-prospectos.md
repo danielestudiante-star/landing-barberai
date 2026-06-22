@@ -1,6 +1,6 @@
-# Guia de llenado de prospectos
+﻿# Guia de llenado de prospectos
 
-Usar esta guia para completar `prospectos-comayagua.csv` con datos reales. No agregar negocios inventados. Cada fila debe corresponder a un prospecto verificado manualmente.
+Usar esta guia para completar `data/prospectos-barberai-oficial.xlsx` con datos reales. No agregar negocios inventados. Cada fila debe corresponder a un prospecto verificado manualmente.
 
 ## Columnas
 
@@ -113,3 +113,4 @@ Ejemplos de texto: `Revisar horarios antes de escribir`, `Validar numero`, `Posi
 - Si un dato no aparece, dejar la celda vacia.
 - Registrar la fuente para poder comprobar de donde salio cada prospecto.
 - Usar prioridad Alta solo cuando haya senales claras de movimiento, varias sillas, varios barberos o varias sucursales.
+

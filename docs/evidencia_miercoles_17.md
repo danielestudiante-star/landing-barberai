@@ -1,4 +1,4 @@
-# Evidencia miercoles 17 - BarberAI
+﻿# Evidencia miercoles 17 - BarberAI
 
 ## Capturas disponibles
 
@@ -13,26 +13,26 @@ Carpeta: `validacion-comercial/evidencia/`
 
 ## CSV / hoja actualizada
 
-- CSV consolidado: `data/prospectos_barberai.csv`.
+- Excel consolidado: `data/prospectos-barberai-oficial.xlsx`.
 - Total consolidado: 67 prospectos.
 - Fuente de consolidacion: archivos existentes en `validacion-comercial/`.
 - Google Sheet oficial: pendiente de evidencia local de acceso o captura.
 
 ## Respaldo comercial usado
 
-- El respaldo oficial usado hoy fue el CSV local: `data/prospectos_barberai.csv`.
+- El respaldo oficial usado hoy fue el CSV local: `data/prospectos-barberai-oficial.xlsx`.
 - Si existe hoja oficial externa, falta captura o acceso actualizado.
 - Si no existe acceso a hoja externa, queda documentado como limitacion.
 - No se afirma que Google Sheets esta actualizado porque no hay evidencia local suficiente.
 
 ## Conteos
 
-- Documento: `docs/conteos_finales_barberai.md`.
+- Documento: `data/prospectos-barberai-oficial.xlsx`.
 - Incluye total, ciudad, prioridad, canal disponible y tipo de oportunidad.
 
 ## Top 10
 
-- Documento: `docs/top_10_barberai.md`.
+- Documento: `data/prospectos-barberai-oficial.xlsx`.
 - Seleccionado solo con mejor evidencia/contacto disponible.
 
 ## Propuesta piloto
@@ -69,3 +69,5 @@ Documento de control: `docs/evidencia_github_allan.md`.
 - 45 prospectos no tienen canal publico encontrado en las fuentes locales revisadas.
 - No se debe contactar prospectos con `No encontrado publicamente` o `Pendiente de verificar` sin una segunda revision manual.
 - El formulario del sitio sigue documentado como limitacion tecnica porque no esta integrado a WhatsApp, email, Google Sheet ni backend.
+
+

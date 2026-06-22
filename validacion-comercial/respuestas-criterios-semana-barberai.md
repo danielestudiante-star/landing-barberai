@@ -1,4 +1,4 @@
-# Respuestas de revision semanal BarberAI
+﻿# Respuestas de revision semanal BarberAI
 
 ## 1. Quien es el cliente ideal de BarberAI?
 
@@ -6,7 +6,7 @@ Barberias, salones o estudios con 2 o mas sillas/barberos, agenda por WhatsApp o
 
 ## 2. Cuantos prospectos reales encontre?
 
-20 prospectos reales documentados en el CSV normalizado de BarberAI, todos enfocados en Comayagua. Los primeros 15 vienen del XLSX local y B-016 a B-020 se agregaron con fuente publica OpenStreetMap/Nominatim.
+20 prospectos reales documentados en el Excel oficial de BarberAI, todos enfocados en Comayagua. Los primeros 15 vienen del Excel oficial y B-016 a B-020 se agregaron con fuente publica OpenStreetMap/Nominatim.
 
 ## 3. Cuales son los 10 mejores prospectos y por que?
 
@@ -40,3 +40,4 @@ Preguntaria por cantidad de sillas/barberos, canal actual de agenda, no-shows, c
 ## 8. Que haria el humano despues de que el agente consiga interes?
 
 Daniel o Allan revisaria el contexto del prospecto, confirmaria dolor y decisor, agendaria una demo de 10 a 15 minutos, mostraria BarberAI aplicado al flujo real del negocio y registraria siguiente paso en el Sheet.
+

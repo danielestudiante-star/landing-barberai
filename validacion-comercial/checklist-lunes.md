@@ -1,4 +1,4 @@
-# Checklist lunes - Validacion comercial BarberAI
+﻿# Checklist lunes - Validacion comercial BarberAI
 
 Fecha de revision documental: 2026-06-15  
 Producto: BarberAI  
@@ -28,7 +28,7 @@ Este checklist conserva la revision original del lunes, pero queda alineado con 
 | Chatbot abierto | Listo | `validacion-comercial/evidencia/02-chatbot-abierto.png` | Captura real agregada. |
 | Respuesta util del chatbot | Listo | `validacion-comercial/evidencia/03-chatbot-respuesta.png` | Captura real agregada. |
 | WhatsApp | Listo | `validacion-comercial/evidencia/04-whatsapp.png` | Captura real agregada. |
-| Tabla de prospectos | Listo | `validacion-comercial/evidencia/06-prospectos-tabla-local.png` | Captura regenerada desde `prospectos-ciudades-asignadas-martes-16-barberai.csv`. |
+| Tabla de prospectos | Listo | `validacion-comercial/evidencia/06-prospectos-tabla-local.png` | Captura regenerada desde `data/prospectos-barberai-oficial.xlsx`. |
 
 ## Resultado final
 
@@ -37,3 +37,4 @@ Este checklist conserva la revision original del lunes, pero queda alineado con 
 | Checklist actualizado | Listo | `validacion-comercial/checklist-lunes.md` | Se reemplazo la plantilla por estados reales. |
 | Pendientes en backlog | Listo | `validacion-comercial/backlog-barberai.md` | Se registraron los pendientes reales de Allan. |
 | Sitio listo para demo | En revision | `validacion-comercial/checklist-martes-16.md` | Deploy/evidencia tecnica listos; no iniciar outreach sin completar contactos verificables. |
+

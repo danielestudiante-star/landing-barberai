@@ -1,4 +1,4 @@
-# Cierre pendientes supervisor - 17 de junio
+﻿# Cierre pendientes supervisor - 17 de junio
 
 ## Que observo el supervisor
 
@@ -6,7 +6,7 @@
 - Cierre reforzado posterior: `d73b9ad Refuerza cierre de pendientes BarberAI supervisor`.
 - Deploy responde HTTP 200.
 - Ya existen bitacora, conteos finales, Top 10, propuesta piloto y evidencia.
-- CSV actual: `data/prospectos_barberai.csv` con 67 prospectos reales.
+- CSV actual: `data/prospectos-barberai-oficial.xlsx` con 67 prospectos reales.
 - Conteos actuales: 9 prioridad A, 40 B, 18 C.
 - Estado de canales: 22 con algun canal y 45 sin canal publico.
 - Supervisor aprobo no inventar 80-100 prospectos.
@@ -15,7 +15,7 @@
 
 - Se agregaron columnas de control al CSV: `estado_contacto`, `accion_siguiente`, `fecha_revision`.
 - Los 45 prospectos sin canal quedaron marcados como `Pendiente de verificar`.
-- Se creo `docs/contactos_pendientes_barberai.md` con la lista de pendientes.
+- Se creo `data/prospectos-barberai-oficial.xlsx` con la lista de pendientes.
 - Se reforzo el bloqueo de meta 80-100 en conteos, bitacora y evidencia.
 - Se creo `docs/evidencia_github_allan.md` para dejar claro que GitHub Allan depende de evidencia externa.
 - Se documento que el respaldo comercial usado hoy fue el CSV local.
@@ -53,3 +53,4 @@ Avance validado, backlog ordenado, no backlog cero.
 2. Conseguir evidencia GitHub Allan.
 3. Confirmar hoja oficial o mantener CSV local como respaldo.
 4. Integrar formulario cuando toque bloque tecnico.
+

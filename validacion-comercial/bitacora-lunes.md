@@ -1,4 +1,4 @@
-# Bitacora lunes - Validacion comercial BarberAI
+﻿# Bitacora lunes - Validacion comercial BarberAI
 
 ## Datos del dia
 
@@ -13,8 +13,8 @@
 | Actividad | Estado | Evidencia | Observacion |
 | --- | --- | --- | --- |
 | Revisar estructura de validacion comercial | Listo | Carpeta `validacion-comercial/` | Existen archivos de ICP, campana, A/B testing, agente de prospeccion, backlog, reportes y exports. |
-| Revisar prospectos locales | Listo | `prospectos/prospectos_barberai_comayagua.xlsx` y `validacion-comercial/exports-google-sheet/prospectos-barberai-normalizados.csv` | El XLSX local tenia 15; el CSV normalizado quedo actualizado a 20 prospectos reales. No se contaron filas vacias. |
-| Confirmar si hay 20 prospectos reales | Listo | `validacion-comercial/pendiente-5-prospectos-comayagua.md` | Se agregaron B-016 a B-020 con fuente publica OpenStreetMap/Nominatim. No se inventaron negocios, telefonos ni redes. |
+| Revisar prospectos locales | Listo | `data/prospectos-barberai-oficial.xlsx` y `data/prospectos-barberai-oficial.xlsx` | El Excel oficial tenia 15; el Excel oficial quedo actualizado a 20 prospectos reales. No se contaron filas vacias. |
+| Confirmar si hay 20 prospectos reales | Listo | `data/prospectos-barberai-oficial.xlsx` | Se agregaron B-016 a B-020 con fuente publica OpenStreetMap/Nominatim. No se inventaron negocios, telefonos ni redes. |
 | Actualizar checklist | Listo | `validacion-comercial/checklist-lunes.md` | Se reemplazo la plantilla por tabla con estado, evidencia y observacion. |
 | Organizar evidencia requerida | Listo | `validacion-comercial/evidencia-deploy-barberai.md` y `validacion-comercial/evidencia/README-evidencia.md` | Se definieron capturas necesarias y nombres de archivo. |
 | Actualizar mejoras/backlog | Listo | `validacion-comercial/mejoras-antes-demo.md` y `validacion-comercial/backlog-barberai.md` | Se registraron hallazgos y pendientes reales sin asumir pruebas no hechas. |
@@ -39,8 +39,8 @@ Deploy documentado: https://landing-barberai-production.up.railway.app
 - Meta del dia: 20 prospectos reales de Comayagua.
 - Estado: 20/20.
 - Faltantes: 0.
-- Fuente local confirmada: `prospectos/prospectos_barberai_comayagua.xlsx`.
-- Export revisado: `validacion-comercial/exports-google-sheet/prospectos-barberai-normalizados.csv`.
+- Fuente local confirmada: `data/prospectos-barberai-oficial.xlsx`.
+- Export revisado: `data/prospectos-barberai-oficial.xlsx`.
 - Observacion: B-016 a B-020 se agregaron desde fuente publica OpenStreetMap/Nominatim; B-018 a B-020 requieren confirmar telefono o red social antes de outreach.
 
 ## Estado de checklist
@@ -59,7 +59,7 @@ Deploy documentado: https://landing-barberai-production.up.railway.app
 
 - Link del deploy en `README.txt`.
 - Link del deploy en `validacion-comercial/tareas-s1-barberai.md`.
-- CSV normalizado con 20 prospectos reales.
+- Excel oficial con 20 prospectos reales.
 - XLSX con 15 prospectos reales y resumen original.
 
 ## Evidencia pendiente
@@ -75,7 +75,7 @@ Deploy documentado: https://landing-barberai-production.up.railway.app
 
 | Hallazgo | Tipo | Prioridad | Archivo relacionado | Estado |
 | --- | --- | --- | --- | --- |
-| El XLSX local tenia 15 prospectos, pero el CSV normalizado ya quedo en 20. | Prospectos | Alta | `validacion-comercial/exports-google-sheet/prospectos-barberai-normalizados.csv` | Listo |
+| El Excel oficial tenia 15 prospectos, pero el Excel oficial ya quedo en 20. | Prospectos | Alta | `data/prospectos-barberai-oficial.xlsx` | Listo |
 | No hay capturas reales del deploy en el proyecto. | Evidencia | Alta | `validacion-comercial/evidencia-deploy-barberai.md` | Backlog |
 | Checklist anterior estaba como plantilla con casillas vacias. | Documentacion | Alta | `validacion-comercial/checklist-lunes.md` | Listo |
 | Bitacora anterior tenia campos vacios o pendientes sin contexto. | Documentacion | Alta | `validacion-comercial/bitacora-lunes.md` | Listo |
@@ -90,4 +90,6 @@ Deploy documentado: https://landing-barberai-production.up.railway.app
 
 ## Resumen para Allan
 
-Listo, Allan. Actualice el repo y complete el CSV normalizado hasta 20 prospectos reales de Comayagua con fuentes publicas. No invente negocios, telefonos ni capturas. Quedan pendientes las capturas reales del deploy, chatbot, WhatsApp y vista movil, y validar telefono/red social de B-018 a B-020 antes de outreach.
+Listo, Allan. Actualice el repo y complete el Excel oficial hasta 20 prospectos reales de Comayagua con fuentes publicas. No invente negocios, telefonos ni capturas. Quedan pendientes las capturas reales del deploy, chatbot, WhatsApp y vista movil, y validar telefono/red social de B-018 a B-020 antes de outreach.
+
+

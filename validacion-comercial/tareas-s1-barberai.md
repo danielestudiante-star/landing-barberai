@@ -1,4 +1,4 @@
-# Tareas S1 BarberAI
+﻿# Tareas S1 BarberAI
 
 Semana 1 de validacion comercial: lunes 15 a viernes 19 de junio de 2026.  
 Responsable general: Daniel.
@@ -12,17 +12,17 @@ Esta vista reemplaza la lectura de "todo pendiente". Se separa lo cerrado, lo bl
 | Frente | Estado | Responsable | Evidencia / ruta | Nota |
 | --- | --- | --- | --- | --- |
 | Deploy, chatbot, WhatsApp y vista movil documentados. | Listo | Daniel | `validacion-comercial/evidencia/` | Evidencias tecnicas existentes en repo. |
-| Base comercial sustentada local. | Listo | Daniel | `data/prospectos_barberai.csv` | Base local consolidada con 67 prospectos; no se agregan negocios sin evidencia. |
-| Top 10 y propuesta piloto. | Listo | Daniel | `docs/top_10_barberai.md`, `docs/propuesta_piloto_barberai.md` | Material comercial listo para revision documental. |
+| Base comercial sustentada local. | Listo | Daniel | `data/prospectos-barberai-oficial.xlsx` | Base local consolidada con 67 prospectos; no se agregan negocios sin evidencia. |
+| Top 10 y propuesta piloto. | Listo | Daniel | `data/prospectos-barberai-oficial.xlsx`, `docs/propuesta_piloto_barberai.md` | Material comercial listo para revision documental. |
 | Buyer persona BarberAI. | Listo | Daniel | `docs/buyer-persona-barberai.md` | Documento final creado para orientar copies y artes piloto. |
 | Calendario 15 dias / 45 piezas. | Pendiente real | Daniel | `docs/calendario-15-dias-45-piezas.md` | Queda en Borrador/Pausa. No se producen las 45 piezas hasta aprobacion del supervisor. |
-| 3 artes piloto: Facebook, Instagram y WhatsApp. | Pendiente real | Daniel | `artes/piloto/` | Briefs preparados; estado pendiente de validacion Allan. |
+| 3 artes piloto: Facebook, Instagram y WhatsApp. | Listo para validacion | Daniel | `artes/piloto/facebook-piloto-1080x1080.png`, `artes/piloto/instagram-piloto-1080x1080.png`, `artes/piloto/whatsapp-piloto-1080x1920.png` | Artes visuales exportados; falta aprobacion Allan antes de producir las 45 piezas. |
 | Choluteca completo. | Bloqueado externo | Daniel / terceros | `validacion-comercial/bloqueos-ciudades-asignadas-martes-16.md` | Solo hay 2 prospectos validos en la evidencia local. Completar requiere busqueda manual externa en Google Business, Facebook, Instagram o referencia local. |
-| Contactos verificables faltantes. | Bloqueado externo | Daniel / terceros | `docs/contactos_pendientes_barberai.md` | No se inventan telefonos ni redes. Requiere verificacion manual antes de outreach. |
+| Contactos verificables faltantes. | Bloqueado externo | Daniel / terceros | `data/prospectos-barberai-oficial.xlsx` | No se inventan telefonos ni redes. Requiere verificacion manual antes de outreach. |
 | Admin GitHub Allan. | Bloqueado externo | Allan / acceso GitHub | `docs/evidencia_github_allan.md` | Falta evidencia local de invitacion, aceptacion o permisos. |
-| Hoja oficial. | Bloqueado externo | Responsable con acceso a hoja | README y respaldo local `data/prospectos_barberai.csv` | No hay captura o acceso actualizado en el repo. No se declara Google Sheets actualizado sin evidencia. |
+| Hoja oficial. | Bloqueado externo | Responsable con acceso a hoja | README y respaldo local `data/prospectos-barberai-oficial.xlsx` | No hay captura o acceso actualizado en el repo. No se declara Google Sheets actualizado sin evidencia. |
 | Formulario. | Pendiente real tecnico | Daniel / equipo tecnico | `validacion-comercial/backlog-barberai.md` | Falta integracion real a WhatsApp, email, Google Sheet, backend o CRM. |
-| Contacto a prospectos reales. | Pendiente real / Pausa | Allan / Daniel | N/A | No iniciar contacto hasta validar estilo de las 3 artes piloto. |
+| Contacto a prospectos reales. | Pendiente real / Pausa | Allan / Daniel | N/A | No iniciar contacto hasta que Allan apruebe el estilo de las 3 artes piloto. |
 
 ## LUNES 15
 
@@ -33,7 +33,7 @@ Esta vista reemplaza la lectura de "todo pendiente". Se separa lo cerrado, lo bl
 | Llenar checklist de revision. | Listo | Daniel | `validacion-comercial/checklist-lunes.md` completo. | Checklist alineado con la evidencia agregada el martes 16. |
 | Escribir lista de mejoras antes de demo. | Listo | Daniel | `validacion-comercial/mejoras-antes-demo.md`. | Hallazgos reales y pendientes de evidencia registrados. |
 | Escribir ICP de BarberAI. | Listo | Daniel | `validacion-comercial/icp-barberai.md`. | Actualizado para validacion comercial. |
-| Cargar primeros 20 prospectos en Comayagua. | Listo | Daniel | CSV/Sheet con 20 filas reales. | CSV normalizado actualizado hasta B-020. B-018 a B-020 requieren confirmar telefono o red social antes de outreach. |
+| Cargar primeros 20 prospectos en Comayagua. | Listo | Daniel | Excel oficial con 20 filas reales. | Excel oficial actualizado hasta B-020. B-018 a B-020 requieren confirmar telefono o red social antes de outreach. |
 
 ## MARTES 16
 
@@ -41,9 +41,9 @@ Esta vista reemplaza la lectura de "todo pendiente". Se separa lo cerrado, lo bl
 | --- | --- | --- | --- | --- |
 | Resolver Backlog del lunes. | En revision | Daniel | `validacion-comercial/backlog-barberai.md` actualizado. | Evidencia tecnica resuelta; siguen pendientes Choluteca, Allan admin GitHub y formulario integrado. |
 | Agregar +20 prospectos de Choluteca. | Bloqueado justificado | Daniel | 20 prospectos reales con fuente. | Solo hay 2 prospectos validos tras reconsulta OSM/Overpass/Nominatim; requiere busqueda manual en Google Business/Facebook/Instagram. |
-| Agregar +20 prospectos de Atlantida. | Listo | Daniel | 20 prospectos reales con fuente. | Documentado en `validacion-comercial/prospectos-ciudades-asignadas-martes-16-barberai.csv`. |
+| Agregar +20 prospectos de Atlantida. | Listo | Daniel | 20 prospectos reales con fuente. | Documentado en `data/prospectos-barberai-oficial.xlsx`. |
 | Iniciar clasificacion A/B/C. | Listo | Daniel | Columna Prioridad en export. | Clasificacion aplicada en CSV y top 10. |
-| Conteo parcial por ciudad y tipo. | Listo | Daniel | Revision de prospectos actualizada. | CSV asignado: 2 Choluteca y 20 Atlantida. |
+| Conteo parcial por ciudad y tipo. | Listo | Daniel | Revision de prospectos actualizada. | Excel oficial: 2 Choluteca y 20 Atlantida. |
 | Bitacora con capturas de fuentes. | Listo con limitacion documentada | Daniel | Carpeta de evidencia/capturas. | Capturas del deploy y tabla local listas; fuentes de Choluteca quedan documentadas como bloqueo externo por baja disponibilidad publica. |
 
 ## MIERCOLES 17
@@ -51,9 +51,9 @@ Esta vista reemplaza la lectura de "todo pendiente". Se separa lo cerrado, lo bl
 | Tarea | Estado | Responsable | Evidencia requerida | Nota |
 | --- | --- | --- | --- | --- |
 | Resolver Backlog del martes. | Listo con limitaciones | Daniel | Backlog en 0 o justificacion. | Backlog interno ordenado; pendientes externos documentados sin inventar evidencia. |
-| Llegar a 80-100 prospectos totales. | Bloqueado justificado | Daniel | Sheet/CSV con 80-100 prospectos reales. | Base sustentada llega a 67 prospectos reales; no se completo 80-100 por falta de evidencia publica suficiente. |
-| Hacer analisis de mercado. | Listo | Daniel | Documento con hallazgos por ciudad/tipo. | Consolidado en `docs/conteos_finales_barberai.md`, `docs/top_10_barberai.md` y `docs/propuesta_piloto_barberai.md`. |
-| Definir Top 10 prospectos. | Listo | Daniel | `revision-prospectos-barberai.md`. | Top 10 actualizado y respaldado tambien en `docs/top_10_barberai.md`. |
+| Llegar a 80-100 prospectos totales. | Bloqueado justificado | Daniel | Sheet/Excel con 80-100 prospectos reales. | Base sustentada llega a 67 prospectos reales; no se completo 80-100 por falta de evidencia publica suficiente. |
+| Hacer analisis de mercado. | Listo | Daniel | Documento con hallazgos por ciudad/tipo. | Consolidado en `data/prospectos-barberai-oficial.xlsx`, `data/prospectos-barberai-oficial.xlsx` y `docs/propuesta_piloto_barberai.md`. |
+| Definir Top 10 prospectos. | Listo | Daniel | `data/prospectos-barberai-oficial.xlsx`. | Top 10 actualizado en el Excel oficial. |
 | Definir audiencia, geografia y presupuesto piloto. | En progreso | Daniel | `presupuesto-kpis-barberai.md`. | Falta aprobar presupuesto. |
 | Escribir 3 copies de anuncio: dolor, solucion y oferta. | Listo | Daniel | `copies-anuncios-barberai.md`. | Listos para revisar. |
 | Preparar checkpoint con Allan. | Pendiente | Daniel | Mensaje/resumen para Allan. | Usar reporte diario. |
@@ -92,9 +92,9 @@ Resumen de lo realizado:
 
 Evidencias principales:
 
-- `data/prospectos_barberai.csv`
-- `docs/conteos_finales_barberai.md`
-- `docs/top_10_barberai.md`
+- `data/prospectos-barberai-oficial.xlsx`
+- `data/prospectos-barberai-oficial.xlsx`
+- `data/prospectos-barberai-oficial.xlsx`
 - `docs/propuesta_piloto_barberai.md`
 - `docs/comercial/guion-demo-barberai.md`
 - `docs/comercial/cierre-dia-comercial-barberai.md`
@@ -109,3 +109,5 @@ Estado final:
 - Mini-demo: guion documentado; pendiente solo grabacion o ejecucion real si Allan la solicita.
 - Contacto comercial real: no iniciado; requiere validacion visual previa de WhatsApp/canales.
 - Pendientes externos documentados: Choluteca completa, contactos faltantes, evidencia de Allan como admin en GitHub y formulario real de leads.
+
+
