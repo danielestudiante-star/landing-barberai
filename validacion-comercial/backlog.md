@@ -11,9 +11,28 @@ Usar este archivo como vista resumida del backlog comercial. El detalle principa
 ## Estados
 
 - Listo
-- Backlog
-- Pendiente de evidencia
-- En revision
+- Bloqueado externo
+- Pendiente real
+- Pendiente real / Pausa
+
+## Revision S1 antes de produccion masiva
+
+Fecha de actualizacion: 22 de junio de 2026.  
+Estado general: se prepara validacion de estilo con 3 artes piloto. Las 45 piezas quedan en pausa hasta aprobacion del supervisor.
+
+| Frente | Estado | Nota |
+| --- | --- | --- |
+| Evidencia tecnica del deploy, chatbot, WhatsApp y movil. | Listo | Capturas existentes en `validacion-comercial/evidencia/`. |
+| Base comercial local, Top 10 y propuesta piloto. | Listo | Respaldado en `data/prospectos_barberai.csv`, `docs/top_10_barberai.md` y `docs/propuesta_piloto_barberai.md`. |
+| Buyer persona final. | Listo | Creado en `docs/buyer-persona-barberai.md`. |
+| Calendario 15 dias / 45 piezas. | Pendiente real / Pausa | Creado como borrador en `docs/calendario-15-dias-45-piezas.md`; no se produce en masa. |
+| Artes piloto Facebook, Instagram y WhatsApp. | Pendiente real | Briefs creados en `artes/piloto/`; faltan validacion Allan y produccion visual final. |
+| Choluteca incompleto. | Bloqueado externo | Completar requiere busqueda manual externa; no hay evidencia local suficiente. |
+| Contactos verificables faltantes. | Bloqueado externo | No se inventan contactos; requieren verificacion manual. |
+| Admin GitHub Allan. | Bloqueado externo | Falta evidencia desde GitHub. |
+| Hoja oficial. | Bloqueado externo | Falta acceso o captura actualizada; se usa CSV local como respaldo. |
+| Formulario. | Pendiente real | Falta integracion tecnica real. |
+| Contacto a prospectos reales. | Pendiente real / Pausa | No iniciar outreach hasta validar estilo. |
 
 ## Tareas pendientes
 

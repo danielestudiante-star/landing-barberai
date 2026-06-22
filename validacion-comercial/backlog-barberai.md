@@ -8,6 +8,26 @@
 - El viernes no se inicia demo si el Backlog no esta en 0.
 - No se inventan prospectos, capturas ni resultados de pruebas.
 
+## Revision S1 antes de producir artes
+
+Fecha de actualizacion: 22 de junio de 2026.  
+Objetivo inmediato: validar estilo con 3 artes piloto, no producir las 45 piezas completas.
+
+| Tarea / frente | Estado | Responsable | Evidencia / ruta | Explicacion |
+| --- | --- | --- | --- | --- |
+| Evidencia tecnica de landing, chatbot, WhatsApp y movil. | Listo | Daniel | `validacion-comercial/evidencia/` | Capturas existentes en repo. |
+| Base comercial local sustentada. | Listo | Daniel | `data/prospectos_barberai.csv` | Se trabaja con 67 prospectos reales documentados; no se inventan registros. |
+| Top 10 y propuesta piloto. | Listo | Daniel | `docs/top_10_barberai.md`, `docs/propuesta_piloto_barberai.md` | Material comercial listo para revision previa. |
+| Buyer persona final. | Listo | Daniel | `docs/buyer-persona-barberai.md` | Documento creado para orientar mensajes y canales. |
+| Calendario 15 dias / 45 piezas. | Pendiente real | Daniel | `docs/calendario-15-dias-45-piezas.md` | Estructura creada en Borrador/Pausa. La produccion completa queda detenida hasta aprobacion. |
+| 3 artes piloto. | Pendiente real | Daniel | `artes/piloto/` | Briefs creados para Facebook, Instagram y WhatsApp; falta validacion Allan. |
+| Choluteca incompleto. | Bloqueado externo | Daniel / fuentes externas | `validacion-comercial/bloqueos-ciudades-asignadas-martes-16.md` | Solo hay 2 prospectos validos en evidencia local; completar requiere investigacion manual externa. |
+| Contactos verificables faltantes. | Bloqueado externo | Daniel / fuentes externas | `docs/contactos_pendientes_barberai.md` | Falta verificar canales publicos antes de outreach; no se agregan telefonos/redes sin fuente. |
+| Admin GitHub Allan. | Bloqueado externo | Allan / GitHub | `docs/evidencia_github_allan.md` | No existe evidencia local de invitacion, aceptacion o permiso admin. |
+| Hoja oficial. | Bloqueado externo | Responsable con acceso | `data/prospectos_barberai.csv` como respaldo local | Falta acceso o captura actualizada de la hoja oficial. No se declara actualizada sin evidencia. |
+| Formulario. | Pendiente real tecnico | Equipo tecnico | Pendiente de integracion | El formulario no queda cerrado hasta conectarlo a WhatsApp, email, Google Sheet, backend o CRM. |
+| Contacto real a prospectos. | Pendiente real / Pausa | Allan / Daniel | N/A | No se contacta a prospectos reales hasta validar estilo y recibir aprobacion. |
+
 ## Tareas
 
 | Tarea | Dia de origen | Prioridad | Estado | Responsable | Fecha limite | Evidencia requerida | Nota |

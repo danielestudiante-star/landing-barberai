@@ -46,3 +46,17 @@ El respaldo oficial usado hoy fue el CSV local `data/prospectos_barberai.csv`. S
 ## Formulario de contacto
 
 El formulario sigue documentado como limitacion tecnica. No esta integrado completamente. Estado: pendiente tecnico. Proximo paso recomendado: conectar formulario a backend, servicio de correo o base de datos segun alcance definido.
+
+## Validacion previa de artes
+
+Antes de producir las 45 artes, se preparan 3 artes piloto para validacion de estilo: Facebook, Instagram y WhatsApp. Las 45 piezas quedan pendientes hasta aprobacion del supervisor.
+
+Archivos de trabajo:
+
+- `docs/buyer-persona-barberai.md`
+- `docs/calendario-15-dias-45-piezas.md`
+- `artes/piloto/facebook-piloto.md`
+- `artes/piloto/instagram-piloto.md`
+- `artes/piloto/whatsapp-piloto.md`
+
+Estado: Borrador/Pausa. No se contacta a prospectos reales todavia.

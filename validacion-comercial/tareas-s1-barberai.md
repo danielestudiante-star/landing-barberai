@@ -3,6 +3,27 @@
 Semana 1 de validacion comercial: lunes 15 a viernes 19 de junio de 2026.  
 Responsable general: Daniel.
 
+## Estado actualizado previo a validacion de estilo
+
+Fecha de actualizacion: 22 de junio de 2026.
+
+Esta vista reemplaza la lectura de "todo pendiente". Se separa lo cerrado, lo bloqueado por dependencias externas y lo que queda como pendiente real antes de producir artes en masa.
+
+| Frente | Estado | Responsable | Evidencia / ruta | Nota |
+| --- | --- | --- | --- | --- |
+| Deploy, chatbot, WhatsApp y vista movil documentados. | Listo | Daniel | `validacion-comercial/evidencia/` | Evidencias tecnicas existentes en repo. |
+| Base comercial sustentada local. | Listo | Daniel | `data/prospectos_barberai.csv` | Base local consolidada con 67 prospectos; no se agregan negocios sin evidencia. |
+| Top 10 y propuesta piloto. | Listo | Daniel | `docs/top_10_barberai.md`, `docs/propuesta_piloto_barberai.md` | Material comercial listo para revision documental. |
+| Buyer persona BarberAI. | Listo | Daniel | `docs/buyer-persona-barberai.md` | Documento final creado para orientar copies y artes piloto. |
+| Calendario 15 dias / 45 piezas. | Pendiente real | Daniel | `docs/calendario-15-dias-45-piezas.md` | Queda en Borrador/Pausa. No se producen las 45 piezas hasta aprobacion del supervisor. |
+| 3 artes piloto: Facebook, Instagram y WhatsApp. | Pendiente real | Daniel | `artes/piloto/` | Briefs preparados; estado pendiente de validacion Allan. |
+| Choluteca completo. | Bloqueado externo | Daniel / terceros | `validacion-comercial/bloqueos-ciudades-asignadas-martes-16.md` | Solo hay 2 prospectos validos en la evidencia local. Completar requiere busqueda manual externa en Google Business, Facebook, Instagram o referencia local. |
+| Contactos verificables faltantes. | Bloqueado externo | Daniel / terceros | `docs/contactos_pendientes_barberai.md` | No se inventan telefonos ni redes. Requiere verificacion manual antes de outreach. |
+| Admin GitHub Allan. | Bloqueado externo | Allan / acceso GitHub | `docs/evidencia_github_allan.md` | Falta evidencia local de invitacion, aceptacion o permisos. |
+| Hoja oficial. | Bloqueado externo | Responsable con acceso a hoja | README y respaldo local `data/prospectos_barberai.csv` | No hay captura o acceso actualizado en el repo. No se declara Google Sheets actualizado sin evidencia. |
+| Formulario. | Pendiente real tecnico | Daniel / equipo tecnico | `validacion-comercial/backlog-barberai.md` | Falta integracion real a WhatsApp, email, Google Sheet, backend o CRM. |
+| Contacto a prospectos reales. | Pendiente real / Pausa | Allan / Daniel | N/A | No iniciar contacto hasta validar estilo de las 3 artes piloto. |
+
 ## LUNES 15
 
 | Tarea | Estado | Responsable | Evidencia requerida | Nota |
