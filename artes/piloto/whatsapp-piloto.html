@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>WhatsApp piloto BarberAI</title>
+  <style>
+    :root {
+      --simplexity-blue: #0038ff;
+      --simplexity-cyan: #28edff;
+      --simplexity-lime: #c6ff8d;
+      --gold: #d6b057;
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; min-height: 100vh; display: grid; place-items: center; background: #111827; font-family: Arial, Helvetica, sans-serif; }
+    .art {
+      position: relative;
+      width: 1080px;
+      height: 1920px;
+      overflow: hidden;
+      color: #fff;
+      background:
+        linear-gradient(rgba(0, 0, 0, .62), rgba(0, 0, 0, .62)),
+        url("fuentes/barberia-unsplash-kawe-rodrigues.jpg") center 40% / cover;
+    }
+    .logo { position: absolute; left: 72px; top: 72px; width: 402px; padding: 18px 26px; border-radius: 22px; background: rgba(255, 255, 255, .94); }
+    .logo img { display: block; width: 100%; }
+    .label { position: absolute; left: 72px; top: 278px; color: var(--simplexity-cyan); font-size: 34px; font-weight: 800; }
+    .status { position: absolute; left: 72px; top: 318px; padding: 8px 16px; border-radius: 12px; background: var(--simplexity-lime); color: #090c12; font-size: 23px; font-weight: 800; }
+    h1 { position: absolute; left: 72px; top: 390px; width: 936px; margin: 0; font-size: 86px; line-height: 1.2; letter-spacing: 0; }
+    .cta { position: absolute; left: 72px; bottom: 206px; width: 936px; height: 170px; display: grid; place-items: center; border-radius: 22px; background: var(--simplexity-blue); color: #fff; font-size: 56px; font-weight: 800; }
+    .rule { position: absolute; left: 64px; right: 64px; bottom: 50px; height: 8px; background: var(--gold); }
+  </style>
+</head>
+<body>
+  <main class="art" aria-label="Arte piloto WhatsApp BarberAI">
+    <div class="logo"><img src="../../assets/img/simplexity-logo.png" alt="Simplexity"></div>
+    <div class="label">BarberAI</div>
+    <div class="status">BORRADOR/PAUSA</div>
+    <h1>Agenda cortes mas facil por WhatsApp</h1>
+    <div class="cta">Escribe RESERVA</div>
+    <div class="rule"></div>
+  </main>
+</body>
+</html>

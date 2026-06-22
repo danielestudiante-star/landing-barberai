@@ -47,16 +47,40 @@ El respaldo oficial usado hoy fue el CSV local `data/prospectos_barberai.csv`. S
 
 El formulario sigue documentado como limitacion tecnica. No esta integrado completamente. Estado: pendiente tecnico. Proximo paso recomendado: conectar formulario a backend, servicio de correo o base de datos segun alcance definido.
 
-## Validacion previa de artes
+## Estado de artes piloto
 
-Antes de producir las 45 artes, se preparan 3 artes piloto para validacion de estilo: Facebook, Instagram y WhatsApp. Las 45 piezas quedan pendientes hasta aprobacion del supervisor.
+Los 3 artes piloto visuales existen fisicamente en `artes/piloto/` y quedan pendientes de validacion Allan. No representan campania activa ni outreach real.
 
-Archivos de trabajo:
+Artes finales:
+
+- Facebook piloto: `artes/piloto/facebook-piloto-1080x1080.png`
+- Instagram piloto: `artes/piloto/instagram-piloto-1080x1080.png`
+- WhatsApp piloto: `artes/piloto/whatsapp-piloto-1080x1920.png`
+
+Versiones editables:
+
+- `artes/piloto/facebook-piloto.html`
+- `artes/piloto/instagram-piloto.html`
+- `artes/piloto/whatsapp-piloto.html`
+
+Documentos relacionados:
 
 - `docs/buyer-persona-barberai.md`
 - `docs/calendario-15-dias-45-piezas.md`
-- `artes/piloto/facebook-piloto.md`
-- `artes/piloto/instagram-piloto.md`
-- `artes/piloto/whatsapp-piloto.md`
+- `docs/prospectos-barberai-dashboard.html`
+- `docs/resumen-prospectos-barberai.md`
+- `docs/prospectos-barberai-ordenados.md`
 
-Estado: Borrador/Pausa. No se contacta a prospectos reales todavia.
+Estado: pendiente de validacion Allan. Produccion de 45 artes pausada hasta aprobacion. No se contacta a prospectos reales todavia.
+
+## Ordenamiento de prospectos BarberAI
+
+Se ordeno y mejoro la presentacion de la base de prospectos BarberAI. Se creo una version clara para revision, con conteos, prioridades, contactos verificables, pendientes y Top 10.
+
+Archivos de revision:
+
+- `docs/prospectos-barberai-ordenados.md`
+- `docs/prospectos-barberai-dashboard.html`
+- `docs/resumen-prospectos-barberai.md`
+
+Estado: BORRADOR/PAUSA. No se contacto a prospectos reales; cualquier outreach queda pendiente hasta validacion de Allan.

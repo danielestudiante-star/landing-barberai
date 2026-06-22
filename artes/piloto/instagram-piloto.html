@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Instagram piloto BarberAI</title>
+  <style>
+    :root {
+      --simplexity-blue: #0038ff;
+      --simplexity-cyan: #28edff;
+      --simplexity-lime: #c6ff8d;
+      --gold: #d6b057;
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; min-height: 100vh; display: grid; place-items: center; background: #111827; font-family: Arial, Helvetica, sans-serif; }
+    .art {
+      position: relative;
+      width: 1080px;
+      height: 1080px;
+      overflow: hidden;
+      color: #fff;
+      background:
+        linear-gradient(rgba(0, 0, 0, .58), rgba(0, 0, 0, .58)),
+        url("fuentes/barberia-unsplash-kawe-rodrigues.jpg") center 38% / cover;
+    }
+    .logo { position: absolute; left: 64px; top: 64px; width: 388px; padding: 18px 26px; border-radius: 22px; background: rgba(255, 255, 255, .94); }
+    .logo img { display: block; width: 100%; }
+    .label { position: absolute; left: 64px; top: 242px; color: var(--simplexity-cyan); font-size: 34px; font-weight: 800; }
+    .status { position: absolute; left: 64px; top: 286px; padding: 8px 16px; border-radius: 12px; background: var(--simplexity-lime); color: #090c12; font-size: 23px; font-weight: 800; }
+    h1 { position: absolute; left: 64px; top: 350px; width: 900px; margin: 0; font-size: 68px; line-height: 1.27; letter-spacing: 0; }
+    .cta { position: absolute; left: 64px; bottom: 106px; width: 952px; height: 132px; display: grid; place-items: center; border-radius: 18px; background: var(--simplexity-blue); color: #fff; font-size: 48px; font-weight: 800; }
+    .rule { position: absolute; left: 64px; right: 64px; bottom: 50px; height: 8px; background: var(--gold); }
+  </style>
+</head>
+<body>
+  <main class="art" aria-label="Arte piloto Instagram BarberAI">
+    <div class="logo"><img src="../../assets/img/simplexity-logo.png" alt="Simplexity"></div>
+    <div class="label">BarberAI</div>
+    <div class="status">BORRADOR/PAUSA</div>
+    <h1>Tus cortes tambien deben verse profesionales en redes</h1>
+    <div class="cta">Ver ejemplo BarberAI</div>
+    <div class="rule"></div>
+  </main>
+</body>
+</html>

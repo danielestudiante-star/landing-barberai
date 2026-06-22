@@ -1,10 +1,18 @@
 # Arte piloto Facebook BarberAI
 
-Estado: Pendiente de validacion Allan.
+Estado: arte piloto visual exportado. Campania en BORRADOR/PAUSA y pendiente de validacion Allan.
 
 ## Formato sugerido
 
 Post cuadrado 1080x1080 px para feed de Facebook.
+
+Archivo final:
+
+`artes/piloto/facebook-piloto-1080x1080.png`
+
+Version editable:
+
+`artes/piloto/facebook-piloto.html`
 
 ## Texto principal
 
@@ -24,4 +32,4 @@ Solicitar demo por WhatsApp.
 
 ## Nota de uso
 
-Este archivo es brief de validacion visual. No representa arte final producido ni publicacion activa.
+Este archivo documenta el brief y el arte piloto exportado. No representa publicacion activa ni contacto a prospectos reales.

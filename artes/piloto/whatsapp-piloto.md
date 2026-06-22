@@ -1,10 +1,18 @@
 # Arte piloto WhatsApp BarberAI
 
-Estado: Pendiente de validacion Allan.
+Estado: arte piloto visual exportado. Campania en BORRADOR/PAUSA y pendiente de validacion Allan.
 
 ## Formato sugerido
 
 Imagen vertical 1080x1920 px para estado de WhatsApp o imagen cuadrada 1080x1080 px para envio directo.
+
+Archivo final:
+
+`artes/piloto/whatsapp-piloto-1080x1920.png`
+
+Version editable:
+
+`artes/piloto/whatsapp-piloto.html`
 
 ## Texto principal
 
@@ -24,4 +32,4 @@ Escribe "reserva" para consultar disponibilidad.
 
 ## Nota de uso
 
-Este archivo es brief de validacion visual. No representa arte final producido ni envio activo a prospectos.
+Este archivo documenta el brief y el arte piloto exportado. No representa envio activo ni contacto a prospectos reales.
