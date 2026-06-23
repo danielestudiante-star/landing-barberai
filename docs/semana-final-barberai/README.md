@@ -10,9 +10,12 @@ Esta carpeta contiene la base del avance del lunes para la campaña final de Bar
 - `bitacora-lunes.md`: registro del trabajo realizado el lunes 22 de junio de 2026 y pendientes para martes.
 - `bitacora-martes.md`: registro del avance del martes 23 de junio de 2026.
 - `bitacora-miercoles.md`: registro del avance del miércoles 24 de junio de 2026.
+- `bitacora-jueves.md`: registro del avance del jueves 25 de junio de 2026.
 - `../../artes/barberai/muestras/`: briefs de muestras para validar con Allan antes de producir artes finales.
 - `../../artes/barberai/tanda-1/`: briefs de los días 1–5 para Facebook, Instagram y WhatsApp.
 - `../../artes/barberai/tanda-2/`: briefs de los días 6–10 para Facebook, Instagram y WhatsApp.
+- `../../artes/barberai/tanda-3/`: briefs de los días 11–15 para Facebook, Instagram y WhatsApp.
+- `../../evidencias/semana-final-barberai/`: carpeta preparada para evidencias reales de entrega final.
 - `agente-openclaw/`: documentación inicial y checklist para configurar OpenClaw.
 
 ## Avance martes — Tanda 1
@@ -36,6 +39,17 @@ El avance del miércoles contiene:
 - Checklist inicial para configuración del agente.
 
 Queda pendiente la configuración real de OpenClaw, pruebas internas, evidencia y validación. La tanda 2 queda como planificación y brief; no se reporta como producción final de artes.
+
+## Avance jueves — Tanda 3 + evidencia
+
+El avance del jueves contiene:
+
+- Briefs de días 11–15.
+- 15 piezas planificadas por canal.
+- Documentación reforzada del agente OpenClaw.
+- Carpeta de evidencia para la entrega final.
+
+Queda pendiente cierre final, evidencia real, validación y presentación. La tanda 3 queda como planificación y brief; no se reporta como producción final de artes.
 
 ## Criterio de marca
 
