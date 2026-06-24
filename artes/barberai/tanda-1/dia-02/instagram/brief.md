@@ -1,15 +1,20 @@
-# Brief — Día 02 Instagram
+# Instagram - Día 02
 
-- Canal: Instagram
-- Formato: Instagram Feed
-- Tamaño: 1080×1080
-- Objetivo: comunicar que las preguntas repetidas pueden responderse de forma más ordenada.
-- Mensaje principal: "Respuestas claras cuando el cliente pregunta."
-- Copy de publicación: "Menos mensajes repetidos. Más atención ordenada para tu barbería."
-- CTA: "Pedí una demo por WhatsApp."
-- Idea visual: cliente viendo celular dentro de una barbería realista, con poco texto y foco en claridad.
-- Colores: fondo/overlay `#030065`, botón `#0038FF`, acento `#28EDFF` o `#C6FF8D`, texto blanco.
-- Tipografía: Montserrat Bold para el mensaje y Montserrat Regular para apoyo.
-- Logo: Simplexity blanco sobre fondo oscuro.
-- Regla de marca: visual fuerte, poco texto, un mensaje y un CTA.
-- Estado: Borrador / Pendiente de diseño / Pendiente de validación Allan.
+Canal: Instagram
+
+Formatos:
+- Feed 1080x1080
+- Historia/Reel 1080x1920
+
+Archivos:
+- dia-02-instagram-feed.png
+- dia-02-instagram-historia.png
+
+Tema:
+Control de la barbería
+
+Mensaje principal:
+TENÉS EL CONTROL DE TU BARBERÍA
+
+Estado:
+Listo para revisión.

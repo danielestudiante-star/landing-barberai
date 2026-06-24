@@ -1,15 +1,20 @@
-# Brief — Día 05 Instagram
+# Instagram - Día 05
 
-- Canal: Instagram
-- Formato: Instagram Historia/Reel
-- Tamaño: 1080×1920
-- Objetivo: presentar horarios claros como beneficio visual y fácil de entender.
-- Mensaje principal: "Horarios claros. Reservas más fáciles."
-- Copy de publicación: "Una agenda más clara ayuda a que tu barbería se vea más profesional."
-- CTA: "Revisá disponibilidad con BarberAI."
-- Idea visual: agenda vertical con bloques de horario sobre foto realista de barbería.
-- Colores: fondo/overlay `#030065`, botón `#0038FF`, acento `#28EDFF` o `#C6FF8D`, texto blanco.
-- Tipografía: Montserrat Bold para mensaje y Montserrat Regular para apoyo.
-- Logo: Simplexity blanco sobre fondo oscuro.
-- Regla de marca: visual limpio, poco texto, un solo mensaje y un CTA.
-- Estado: Borrador / Pendiente de diseño / Pendiente de validación Allan.
+Canal: Instagram
+
+Formatos:
+- Feed 1080x1080
+- Historia/Reel 1080x1920
+
+Archivos:
+- dia-05-instagram-feed.png
+- dia-05-instagram-historia.png
+
+Tema:
+Citas perdidas / recordatorios / no-shows
+
+Mensaje principal:
+ADIÓS A LAS CITAS PERDIDAS
+
+Estado:
+Listo para revisión.
