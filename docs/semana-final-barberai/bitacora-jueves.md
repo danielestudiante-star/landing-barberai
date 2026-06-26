@@ -15,11 +15,11 @@
 
 ## Pendientes
 
-- Diseñar/exportar piezas visuales finales si todavía no existen.
+- Diseñar/exportar piezas visuales finales si todavía no existen. Estado posterior: resuelto al cierre del viernes con 45 piezas exportadas en `artes/barberai/`.
 - Adjuntar evidencia real de validación con Allan si existe.
 - Probar OpenClaw realmente si el entorno lo permite.
 - Preparar README final, cierre, bitácora final y presentación.
 
 ## Nota
 
-"Este avance corresponde a planificación, briefs, documentación y preparación de evidencia. No se reportan los 45 artes como finalizados hasta tener diseños/exportaciones y validación correspondiente."
+"Este avance correspondía a planificación, briefs, documentación y preparación de evidencia. Al cierre del viernes, los artes quedaron exportados; la validación de Allan sigue pendiente si no existe evidencia real."

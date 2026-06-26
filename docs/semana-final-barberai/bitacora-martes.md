@@ -14,11 +14,11 @@
 
 ## Pendientes
 
-- Diseñar/exportar las piezas visuales finales.
+- Diseñar/exportar las piezas visuales finales. Estado posterior: resuelto al cierre del viernes con 45 piezas exportadas en `artes/barberai/`.
 - Validar muestras con Allan si todavía no hay respuesta.
 - Continuar con tanda 2: días 6–10.
 - Avanzar con OpenClaw según el plan semanal.
 
 ## Nota
 
-"Este avance corresponde a planificación y briefs de artes. No se reportan los 45 artes como finalizados hasta tener todos los diseños, mensajes y validación correspondiente."
+"Este avance correspondía a planificación y briefs de artes. Al cierre del viernes, los artes quedaron exportados; la validación de Allan sigue pendiente si no existe evidencia real."

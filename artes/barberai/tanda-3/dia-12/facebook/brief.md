@@ -12,4 +12,4 @@
 - Tipografía: Montserrat Bold para título y Montserrat Regular para apoyo.
 - Logo: Simplexity blanco sobre fondo oscuro.
 - Regla de marca: un solo mensaje, un solo CTA, foto realista de barbería activa.
-- Estado: Borrador / Pendiente de diseño / Pendiente de validación Allan.
+- Estado: Arte exportado / Revisar dimensiones finales / Pendiente de validación Allan.

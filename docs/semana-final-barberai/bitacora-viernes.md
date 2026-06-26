@@ -10,14 +10,13 @@
 
 - Se consolidó la documentación final de la semana.
 - Se revisaron las tandas 1, 2 y 3.
-- Se organizó el estado de los 45 briefs planificados.
+- Se organizó el estado de los 45 briefs planificados y los artes exportados.
 - Se documentó el estado del agente OpenClaw.
 - Se preparó checklist de entrega final.
 - Se dejó estructura para presentación final.
 
 ## Pendientes
 
-- Exportar artes visuales finales si todavía solo existen briefs.
 - Adjuntar evidencia real de validación con Allan si existe.
 - Probar OpenClaw con evidencia real si el entorno lo permite.
 - Presentar el avance final.

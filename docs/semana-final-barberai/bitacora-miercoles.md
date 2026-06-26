@@ -15,7 +15,7 @@
 
 ## Pendientes
 
-- Diseñar/exportar piezas visuales finales si todavía no existen.
+- Diseñar/exportar piezas visuales finales si todavía no existen. Estado posterior: resuelto al cierre del viernes con 45 piezas exportadas en `artes/barberai/`.
 - Validar muestras con Allan si todavía no hay respuesta.
 - Preparar tanda 3: días 11–15.
 - Configurar y probar OpenClaw realmente.

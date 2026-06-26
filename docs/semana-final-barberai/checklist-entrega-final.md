@@ -13,7 +13,7 @@
 | Carpeta de evidencia creada. | Listo |
 | Evidencia real de validación con Allan agregada. | Pendiente de evidencia |
 | Evidencia real de pruebas OpenClaw agregada. | Pendiente de evidencia |
-| Artes visuales finales exportados. | Pendiente |
+| Artes visuales finales exportados. | Listo: 45 piezas / 90 PNG en `artes/barberai/` |
 | Documentación OpenClaw creada. | Listo |
 | OpenClaw configurado y probado con evidencia real. | Pendiente de evidencia |
 | Bitácoras lunes, martes, miércoles y jueves creadas. | Listo |
@@ -23,4 +23,4 @@
 
 ## Nota
 
-Este checklist refleja el estado documental y de planificación al cierre del viernes. No reporta como listo ningún arte visual final exportado, validación de Allan ni funcionamiento de OpenClaw sin evidencia real.
+Este checklist refleja el estado documental y visual al cierre del viernes. Los artes finales están exportados en `artes/barberai/` como 45 piezas / 90 PNG. La normalización exacta a 1080×1080 o 1080×1920 queda pendiente si Allan exige medidas finales estrictas. No reporta validación de Allan ni funcionamiento de OpenClaw sin evidencia real.

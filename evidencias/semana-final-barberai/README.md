@@ -2,6 +2,8 @@
 
 Esta carpeta queda preparada para reunir evidencia real de la entrega final de BarberAI.
 
+La evidencia de artes finales exportados vive en `../../artes/barberai/`: 45 piezas por día y canal, con 90 PNG exportados.
+
 Aquí se colocarán, cuando existan:
 
 - Capturas de artes.
@@ -12,4 +14,4 @@ Aquí se colocarán, cuando existan:
 
 ## Estado
 
-Carpeta preparada. No hay capturas agregadas en este README y no se debe reportar evidencia que todavía no exista.
+Carpeta preparada para capturas adicionales. No hay capturas de validación de Allan ni pruebas reales de OpenClaw agregadas en este README, y no se debe reportar evidencia que todavía no exista.

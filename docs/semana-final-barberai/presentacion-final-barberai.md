@@ -22,9 +22,9 @@ BarberAI ayuda a responder, ordenar reservas y convertir mensajes en citas.
 
 ## 6. Campaña
 
-15 días × 3 canales = 45 piezas planificadas.
+15 días × 3 canales = 45 piezas planificadas y exportadas.
 
-Estado real: 45 briefs preparados por día y canal. Las piezas visuales finales quedan pendientes de diseño/exportación y validación correspondiente si todavía no existen.
+Estado real: 45 briefs preparados por día y canal, con 90 PNG exportados dentro de `artes/barberai/`. Queda pendiente la validación de Allan si no existe evidencia de aprobación.
 
 ## 7. Canales
 
@@ -57,9 +57,9 @@ No se debe reportar evidencia que todavía no exista en la carpeta correspondien
 
 ## 11. Pendientes
 
-- Exportación visual final.
 - Validación Allan si existe evidencia.
 - Prueba real OpenClaw si aplica.
+- Normalización exacta de dimensiones si Allan exige 1080×1080 o 1080×1920 estrictos.
 - Presentación y retroalimentación final.
 
 ## 12. Cierre

@@ -12,4 +12,4 @@
 - Tipografía: Montserrat Bold para pregunta principal y Montserrat Regular para apoyo.
 - Logo: Simplexity blanco sobre fondo oscuro.
 - Regla de marca: tono personal, claro, un solo mensaje y un CTA.
-- Estado: Borrador / Pendiente de diseño / Pendiente de validación Allan.
+- Estado: Arte exportado / Revisar dimensiones finales / Pendiente de validación Allan.

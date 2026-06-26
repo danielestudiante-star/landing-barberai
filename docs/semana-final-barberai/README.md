@@ -26,7 +26,7 @@
 - Buyer Persona: listo.
 - Calendario: listo/documentado.
 - 45 briefs: preparados por día y canal.
-- Artes visuales exportados: pendiente si no existen imágenes finales.
+- Artes visuales exportados: listos en `artes/barberai/` como 45 piezas / 90 PNG.
 - OpenClaw: documentado / pendiente de prueba real si no hay evidencia.
 - Validación Allan: pendiente de evidencia si no existe captura.
 - Prospectos reales: no contactados en esta semana final.
@@ -36,9 +36,9 @@
 | Día | Avance | Estado real |
 | --- | --- | --- |
 | Lunes | Buyer Persona, ángulos, calendario base, bitácora y muestras. | Listo como base documental. |
-| Martes | Tanda 1: días 1–5 en Facebook, Instagram y WhatsApp. | 15 briefs preparados. |
-| Miércoles | Tanda 2: días 6–10 y documentación inicial OpenClaw. | 15 briefs preparados; OpenClaw documentado. |
-| Jueves | Tanda 3: días 11–15, flujo OpenClaw y carpeta de evidencia. | 15 briefs preparados; evidencia preparada para capturas reales. |
+| Martes | Tanda 1: días 1–5 en Facebook, Instagram y WhatsApp. | 15 briefs y artes exportados. |
+| Miércoles | Tanda 2: días 6–10 y documentación inicial OpenClaw. | 15 briefs y artes exportados; OpenClaw documentado. |
+| Jueves | Tanda 3: días 11–15, flujo OpenClaw y carpeta de evidencia. | 15 briefs y artes exportados; evidencia preparada para capturas reales. |
 | Viernes | Cierre final, checklist, bitácora final y presentación. | Documentación de cierre preparada. |
 
 ## Marca Simplexity
@@ -66,4 +66,6 @@ Tipografía recomendada: Montserrat si no está disponible Sofia Pro o Sofia San
 
 ## Nota de Estado
 
-Este cierre no reporta los 45 artes como terminados si solo existen briefs. No reporta OpenClaw como funcionando sin prueba real. No reporta validación de Allan sin evidencia. No se contactaron prospectos reales durante esta semana final.
+Este cierre reporta los 45 artes como exportados porque existen imágenes finales en `artes/barberai/`. No reporta OpenClaw como funcionando sin prueba real. No reporta validación de Allan sin evidencia. No se contactaron prospectos reales durante esta semana final.
+
+La normalización exacta a 1080×1080 o 1080×1920 queda pendiente si Allan exige medidas finales estrictas.
