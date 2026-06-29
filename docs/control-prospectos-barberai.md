@@ -79,7 +79,7 @@ La hoja `Todos los prospectos` usa las columnas oficiales del plan:
 
 El respaldo vigente de prospectos es el Excel oficial `data/prospectos-barberai-oficial.xlsx`.
 
-Los documentos comerciales importantes del plan se mantienen en el repositorio: ICP/buyer persona, calendarios, A/B testing, agente de prospeccion, presupuesto/KPIs, artes piloto, bitacoras y evidencias.
+Los documentos comerciales importantes del plan se mantienen en el repositorio: ICP/buyer persona, calendarios, A/B testing, agente de prospeccion, presupuesto/KPIs, artes finales, bitacoras y evidencias.
 
 ## Verificacion del plan comercial
 
@@ -95,7 +95,7 @@ El repo mantiene documentos o secciones para:
 - Acciones del humano despues del interes: `docs/comercial/flujo-whatsapp-prospeccion.md` y `docs/comercial/guion-demo-barberai.md`
 - Calendario de contenido: `docs/calendario-15-dias-45-piezas.md` y `validacion-comercial/calendario-contenido-8-semanas-barberai.md`
 - A/B testing: `validacion-comercial/ab-testing-barberai.md`
-- Artes piloto: `artes/piloto/`
+- Artes finales: `artes/barberai/`
 - Evidencia y bitacora: `validacion-comercial/evidencia/`, `docs/evidencia_miercoles_17.md`, `validacion-comercial/bitacora-lunes.md` y `validacion-comercial/bitacora-martes-16.md`
 
 ## Archivos eliminados
