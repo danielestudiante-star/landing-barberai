@@ -30,6 +30,18 @@
     "generar-reporte",
     "modo-aprobacion"
   ],
+  "ejecucion_local": {
+    "runtime": "node",
+    "archivo": ".claude/agente-comercial.mjs",
+    "comando_prueba": "node .claude/agente-comercial.mjs --comando preparar-whatsapp --prospecto \"Barberia Demo\" --ciudad \"Tegucigalpa\" --prioridad A"
+  },
+  "openclaw": {
+    "instalado": true,
+    "version_probada": "OpenClaw 2026.6.10",
+    "comando_windows": "openclaw.cmd",
+    "canales_configurados": false,
+    "gateway_configurado": true,
+    "gateway_activo": false
+  },
   "estado": "Preparado a nivel de configuración inicial. Pendiente conexión real con cuentas oficiales autorizadas."
 }
-

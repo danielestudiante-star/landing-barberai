@@ -1,16 +1,20 @@
-# Revisar Prospecto
+---
+comando: revisar-prospecto
+tipo: analisis
+requiere_aprobacion_humana: false
+entrada_requerida:
+  - prospecto
+  - ciudad
+  - canal
+  - prioridad
+  - observacion
+salida:
+  - clasificacion
+  - accion_sugerida
+  - riesgo
+  - estado
+bloqueos:
+  - no_contactar_sin_canal_verificado
+---
 
-El agente revisa la información comercial mínima antes de sugerir una acción para BarberAI.
-
-Debe considerar:
-
-- Nombre del negocio.
-- Ciudad.
-- Canal disponible.
-- Prioridad.
-- Observación comercial.
-
-Después de revisar esos datos, el agente puede sugerir si conviene preparar contacto directo, seguimiento, publicación o dejar el prospecto en revisión.
-
-Regla obligatoria: no debe recomendar contacto si el canal no está verificado.
-
+Revisar prospecto antes de sugerir acción comercial. Si el canal no está verificado, devolver Requiere revisión.

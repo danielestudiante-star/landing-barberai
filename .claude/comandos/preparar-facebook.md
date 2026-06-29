@@ -1,8 +1,20 @@
-# Preparar Facebook
+---
+comando: preparar-facebook
+tipo: borrador
+canal: Facebook
+requiere_aprobacion_humana: true
+entrada_requerida:
+  - objetivo
+  - audiencia
+  - observacion
+salida:
+  - resumen
+  - texto_preparado
+  - estado
+bloqueos:
+  - no_publicar_automaticamente
+  - no_credenciales
+  - no_resultados_inventados
+---
 
-El agente prepara publicaciones o mensajes para Facebook relacionados con BarberAI.
-
-Puede proponer textos informativos, mensajes de seguimiento y borradores para publicaciones comerciales, manteniendo el enfoque en orden, atención al cliente, citas y servicios para barberías.
-
-Regla obligatoria: el agente no publica automáticamente. Todo contenido debe pasar por revisión y aprobación humana antes de publicarse.
-
+Preparar publicación o mensaje para Facebook relacionado con BarberAI. No publicar. Devolver borrador y solicitar APROBAR o EDITAR.

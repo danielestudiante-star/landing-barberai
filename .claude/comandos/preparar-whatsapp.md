@@ -1,8 +1,22 @@
-# Preparar WhatsApp
+---
+comando: preparar-whatsapp
+tipo: borrador
+canal: WhatsApp
+requiere_aprobacion_humana: true
+entrada_requerida:
+  - prospecto
+  - ciudad
+  - prioridad
+  - observacion
+salida:
+  - resumen
+  - mensaje_preparado
+  - fecha_seguimiento
+  - estado
+bloqueos:
+  - no_enviar_automaticamente
+  - no_spam
+  - no_credenciales
+---
 
-El agente prepara mensajes de WhatsApp para prospectos de BarberAI.
-
-Debe ayudar a redactar mensajes iniciales, mensajes cortos, seguimientos y respuestas para prospectos interesados, manteniendo un tono profesional, claro, hondureño y respetuoso.
-
-Regla obligatoria: el agente no envía nada sin aprobación humana. Todo mensaje debe quedar como borrador para revisión antes de cualquier acción real.
-
+Preparar un mensaje de WhatsApp para un prospecto de BarberAI. No enviar nada. Devolver borrador y solicitar APROBAR o EDITAR.

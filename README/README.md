@@ -44,13 +44,3 @@ El formulario sigue documentado como limitacion tecnica. No esta integrado compl
 Estado: pendiente tecnico.
 
 Proximo paso recomendado: conectar formulario a backend, servicio de correo o base de datos segun alcance definido.
-
-## Agente OpenClaw + Codex
-
-Se agrego documentacion para preparar un agente comercial asistido con OpenClaw + Codex para BarberAI. El enfoque es apoyar la preparacion de mensajes, publicaciones y seguimientos para WhatsApp, Facebook e Instagram, siempre con aprobacion humana antes de enviar o publicar.
-
-La entrega queda en `docs/openclaw-codex/` y el prompt maestro queda en `prompts/openclaw/agente-comercial-barberai.md`. El flujo queda listo para revision y configuracion real posterior con cuentas oficiales autorizadas.
-
-## Configuración de agente
-
-Se agregó la carpeta `.claude/` con comandos y configuración JSON para el agente comercial BarberAI. Esta estructura deja preparado el flujo de OpenClaw + Codex para WhatsApp, Facebook e Instagram, manteniendo aprobación humana antes de cualquier acción real.
