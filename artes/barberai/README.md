@@ -10,7 +10,7 @@ Control de artes finales organizados para BarberAI.
 - Canales por dia: Facebook, Instagram y WhatsApp.
 - Total de piezas: 45.
 - Exportaciones disponibles: 90 archivos PNG, dos versiones por pieza.
-- Revisión técnica: normalizar dimensiones exactas a 1080x1080 o 1080x1920 si Allan lo exige como requisito final.
+- Revision tecnica: dimensiones normalizadas; 45 PNG en 1080x1080 y 45 PNG en 1080x1920.
 
 ## Validacion
 

@@ -12,4 +12,4 @@
 - Tipografía: Montserrat Bold para título y Montserrat Regular para texto de apoyo.
 - Logo: Simplexity blanco sobre fondo oscuro.
 - Regla de marca: tono directo y cercano, un mensaje, un CTA y escena realista.
-- Estado: Arte exportado / Revisar dimensiones finales / Pendiente de validación Allan.
+- Estado: Arte exportado / Dimensiones normalizadas / Pendiente de validación Allan.

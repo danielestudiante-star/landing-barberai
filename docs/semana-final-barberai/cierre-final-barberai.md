@@ -32,7 +32,7 @@ Dejar preparada la campaña de marketing de BarberAI para 15 días y 3 canales: 
 - Adjuntar evidencia real de validación con Allan si existe.
 - Probar OpenClaw con evidencia real si el entorno lo permite.
 - Agregar capturas reales a la carpeta de evidencias.
-- Normalizar dimensiones exactas 1080×1080 o 1080×1920 si Allan lo exige como requisito técnico final.
+- Dimensiones exactas normalizadas: 45 PNG en 1080x1080 y 45 PNG en 1080x1920.
 - Presentar el avance final y recibir retroalimentación.
 
 ## Recomendación para Allan

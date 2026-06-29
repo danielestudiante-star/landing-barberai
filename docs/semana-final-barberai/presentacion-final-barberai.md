@@ -59,7 +59,7 @@ No se debe reportar evidencia que todavía no exista en la carpeta correspondien
 
 - Validación Allan si existe evidencia.
 - Prueba real OpenClaw si aplica.
-- Normalización exacta de dimensiones si Allan exige 1080×1080 o 1080×1920 estrictos.
+- Dimensiones exactas normalizadas: 45 PNG en 1080x1080 y 45 PNG en 1080x1920.
 - Presentación y retroalimentación final.
 
 ## 12. Cierre

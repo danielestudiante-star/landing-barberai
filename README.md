@@ -50,7 +50,7 @@ Los artes finales exportados estan en `artes/barberai/`.
 
 - 45 piezas planificadas por dia y canal.
 - 90 PNG exportados.
-- Las medidas exactas finales quedan pendientes de normalizacion si Allan exige estrictamente 1080x1080 o 1080x1920.
+- Medidas normalizadas: 45 PNG en 1080x1080 y 45 PNG en 1080x1920.
 - Los artes no representan campania activa ni outreach real.
 
 Documentos relacionados:

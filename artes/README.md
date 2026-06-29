@@ -1,28 +1,27 @@
 # Artes BarberAI
 
-Esta carpeta organiza las piezas visuales de BarberAI y sus fuentes.
+Esta carpeta organiza las piezas visuales de BarberAI y sus briefs.
 
-## `artes/piloto/`
+## `artes/barberai/`
 
-Contiene los 3 artes piloto visuales para revision de Allan:
+Contiene los artes finales exportados para revision de Allan.
 
-| Canal | PNG final | Version editable |
-| --- | --- | --- |
-| Facebook | `artes/piloto/facebook-piloto-1080x1080.png` | `artes/piloto/facebook-piloto.html` |
-| Instagram | `artes/piloto/instagram-piloto-1080x1080.png` | `artes/piloto/instagram-piloto.html` |
-| WhatsApp | `artes/piloto/whatsapp-piloto-1080x1920.png` | `artes/piloto/whatsapp-piloto.html` |
+| Grupo | Contenido |
+| --- | --- |
+| Tanda 1 | Dias 1-5 |
+| Tanda 2 | Dias 6-10 |
+| Tanda 3 | Dias 11-15 |
+| Canales | Facebook, Instagram y WhatsApp |
+| Exportaciones | 90 PNG |
+| Medidas | 45 PNG en 1080x1080 y 45 PNG en 1080x1920 |
 
-Tambien incluye:
-
-- `artes/piloto/generar-artes-piloto.ps1`: script usado para exportar los PNG.
-- `artes/piloto/fuentes/`: foto base y nota de fuente visual.
-- `artes/piloto/*.md`: brief de cada arte piloto.
+Tambien incluye briefs por dia y canal dentro de `artes/barberai/`.
 
 ## Estado
 
 - Estado de campania: BORRADOR/PAUSA.
 - Validacion pendiente: Allan.
-- Produccion completa de 45 artes: pausada hasta aprobacion.
+- Produccion completa de 45 artes: exportada y normalizada.
 - Outreach real: no iniciado.
 
-No se contacta a prospectos reales desde estos artes piloto y no se usan datos de prospectos reales dentro de las piezas visuales.
+No se contacta a prospectos reales desde estos artes y no se usan datos de prospectos reales dentro de las piezas visuales.
